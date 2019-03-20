@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	      version="3.0">
+	      
+	<display-name>MasterWeb
+	</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>FrontController</display-name>
+		<servlet-name>FrontController</servlet-name>
+		<servlet-class>com.oneweb.j2ee.pattern.control.master.FrontController</servlet-class>
+		<init-param>
+			<description>
+			</description>
+			<param-name>PROFILE</param-name>
+			<param-value>com.profile.impl.UserProfileDAOImpl</param-value>
+		</init-param>
+		<init-param>
+			<description>
+			</description>
+			<param-name>NON_REMOVE_ATTR</param-name>
+			<!-- comma separated value, e.g. password,role -->
+			<param-value>.CSRF_TOKEN</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>PopupServlet</display-name>
+		<servlet-name>PopupServlet</servlet-name>
+		<servlet-class>com.master.popup.servlet.PopupServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>DependencyServlet</display-name>
+		<servlet-name>DependencyServlet</servlet-name>
+		<servlet-class>com.master.servlet.DependencyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadResultSearchServlet</display-name>
+		<servlet-name>LoadResultSearchServlet</servlet-name>
+		<servlet-class>com.master.servlet.LoadResultSearchServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>TranslateJspToInputStreamServlet</display-name>
+		<servlet-name>TranslateJspToInputStreamServlet</servlet-name>
+		<servlet-class>com.oneweb.j2ee.pattern.control.TranslateJspToInputStreamServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ProcessManyRowServlet</display-name>
+		<servlet-name>ProcessManyRowServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.ProcessManyRowServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SwitchCurrentFormServlet</display-name>
+		<servlet-name>SwitchCurrentFormServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.SwitchCurrentFormServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UploadServlet</display-name>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>com.avalant.utility.upload.UploadServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ProcessManyListServlet</display-name>
+		<servlet-name>ProcessManyListServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.ProcessManyListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>DrawComponentServlet</display-name>
+		<servlet-name>DrawComponentServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.DrawComponentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AjaxUpdateManyRowServlet</display-name>
+		<servlet-name>AjaxUpdateManyRowServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.AjaxUpdateManyRowServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description></description>
+		<display-name>Web2Controller</display-name>
+		<servlet-name>Web2Controller</servlet-name>
+		<servlet-class>com.oneweb.j2ee.pattern.control.Web2Controller</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ManualServlet</display-name>
+		<servlet-name>ManualServlet</servlet-name>
+		<servlet-class>com.master.servlet.ManualServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadRolepermissionMenu</display-name>
+		<servlet-name>LoadRolepermissionMenu</servlet-name>
+		<servlet-class>com.master.servlet.LoadRolepermissionMenu</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SavePermissionServlet</display-name>
+		<servlet-name>SavePermissionServlet</servlet-name>
+		<servlet-class>com.master.servlet.SavePermissionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadRolepermissionEntity</display-name>
+		<servlet-name>LoadRolepermissionEntity</servlet-name>
+		<servlet-class>com.master.servlet.LoadRolepermissionEntity</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadRolepermissionField</display-name>
+		<servlet-name>LoadRolepermissionField</servlet-name>
+		<servlet-class>com.master.servlet.LoadRolepermissionField</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadRolepermissionSubscreen</display-name>
+		<servlet-name>LoadRolepermissionSubscreen</servlet-name>
+		<servlet-class>com.master.servlet.LoadRolepermissionSubscreen</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadRolepermissionSetupButton</display-name>
+		<servlet-name>LoadRolepermissionSetupButton</servlet-name>
+		<servlet-class>com.master.servlet.LoadRolepermissionSetupButton</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoadRolepermissionMetab</display-name>
+		<servlet-name>LoadRolepermissionMetab</servlet-name>
+		<servlet-class>com.master.servlet.LoadRolepermissionMetab</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ProcessManyPermissionServlet</display-name>
+		<servlet-name>ProcessManyPermissionServlet</servlet-name>
+		<servlet-class>com.master.servlet.ProcessManyPermissionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SaveManyPermissionServlet</display-name>
+		<servlet-name>SaveManyPermissionServlet</servlet-name>
+		<servlet-class>com.master.servlet.SaveManyPermissionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SaveManySetupButtonPermissionServlet</display-name>
+		<servlet-name>SaveManySetupButtonPermissionServlet</servlet-name>
+		<servlet-class>com.master.servlet.SaveManySetupButtonPermissionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SaveManyMetabPermissionServlet</display-name>
+		<servlet-name>SaveManyMetabPermissionServlet</servlet-name>
+		<servlet-class>com.master.servlet.SaveManyMetabPermissionServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SaveFieldPermissionServlet</display-name>
+		<servlet-name>SaveFieldPermissionServlet</servlet-name>
+		<servlet-class>com.master.servlet.SaveFieldPermissionServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>SetCurrentEntityServlet</display-name>
+		<servlet-name>SetCurrentEntityServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.SetCurrentEntityServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>FilterCriteriaServlet</display-name>
+		<servlet-name>FilterCriteriaServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.FilterCriteriaServlet
+		</servlet-class>
+	</servlet>
+	
+<!-- 		<filter> -->
+<!-- 		<filter-name>CSRFFilter</filter-name> -->
+<!-- 		<filter-class>com.avalant.j2ee.filter.CSRFFilter</filter-class> -->
+<!-- 	</filter> -->
+<!-- 	<filter-mapping> -->
+<!-- 		<filter-name>CSRFFilter</filter-name> -->
+<!-- 		<url-pattern>/*</url-pattern> -->
+<!-- 	</filter-mapping> -->
+	<filter>
+		<filter-name>CsrfFilter</filter-name>
+		<filter-class>com.eaf40.security.CsrfFilter</filter-class>
+		<init-param>
+			<description>page for generate token (comma separated value, e.g. TEMPLATE,SEARCH_TEMPLATE)</description>
+			<param-name>GEN_TOKEN_PAGE</param-name>
+			<param-value></param-value>
+		</init-param>
+		<init-param>
+			<description>action for generate token (comma separated value, e.g. loadEntity,loadUpdateEntity)</description>
+			<param-name>GEN_TOKEN_ACTION</param-name>
+			<param-value>loadEntity,loadUpdateEntity</param-value>
+		</init-param>
+		<init-param>
+			<description>action for validate token (comma separated value, e.g. saveEntity,deleteEntity)</description>
+			<param-name>VALIDATE_TOKEN_ACTION</param-name>
+			<param-value>saveEntity,deleteEntity</param-value>
+		</init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>CsrfFilter</filter-name>
+		<url-pattern>/FrontController</url-pattern>
+	</filter-mapping>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>SetDynamicSchemaServlet</display-name>
+		<servlet-name>SetDynamicSchemaServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.SetDynamicSchemaServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>CheckBoxServlet</display-name>
+		<servlet-name>CheckBoxServlet</servlet-name>
+		<servlet-class>com.master.servlet.CheckBoxServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ProcessManyRowPagingServlet</display-name>
+		<servlet-name>ProcessManyRowPagingServlet</servlet-name>
+		<servlet-class>com.master.servlet.entity.ProcessManyRowPagingServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UploadExcel</display-name>
+		<servlet-name>UploadExcel</servlet-name>
+		<servlet-class>com.avalant.utility.upload.UploadExcel</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>UploadPicture</display-name>
+		<servlet-name>UploadPicture</servlet-name>
+		<servlet-class>com.avalant.utility.upload.UploadPicture
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ImageShowServlet</display-name>
+		<servlet-name>ImageShowServlet</servlet-name>
+		<servlet-class>com.avalant.utility.servlet.ImageShowServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>CloseApplicationServlet</display-name>
+		<servlet-name>CloseApplicationServlet</servlet-name>
+		<servlet-class>com.master.servlet.logon.CloseApplicationServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Web2Controller</servlet-name>
+		<url-pattern>/Web2Controller</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FrontController</servlet-name>
+		<url-pattern>/FrontController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PopupServlet</servlet-name>
+		<url-pattern>/PopupServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DependencyServlet</servlet-name>
+		<url-pattern>/DependencyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadResultSearchServlet</servlet-name>
+		<url-pattern>/LoadResultSearchServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TranslateJspToInputStreamServlet</servlet-name>
+		<url-pattern>/TranslateJspToInputStreamServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProcessManyRowServlet</servlet-name>
+		<url-pattern>/ProcessManyRowServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SwitchCurrentFormServlet</servlet-name>
+		<url-pattern>/SwitchCurrentFormServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/UploadServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ProcessManyListServlet</servlet-name>
+		<url-pattern>/ProcessManyListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DrawComponentServlet</servlet-name>
+		<url-pattern>/DrawComponentServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AjaxUpdateManyRowServlet</servlet-name>
+		<url-pattern>/AjaxUpdateManyRowServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManualServlet</servlet-name>
+		<url-pattern>/ManualServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadRolepermissionMenu</servlet-name>
+		<url-pattern>/LoadRolepermissionMenu</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SavePermissionServlet</servlet-name>
+		<url-pattern>/SavePermissionServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LoadRolepermissionEntity</servlet-name>
+		<url-pattern>/LoadRolepermissionEntity</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadRolepermissionField</servlet-name>
+		<url-pattern>/LoadRolepermissionField</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadRolepermissionSubscreen</servlet-name>
+		<url-pattern>/LoadRolepermissionSubscreen</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadRolepermissionSetupButton</servlet-name>
+		<url-pattern>/LoadRolepermissionSetupButton</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoadRolepermissionMetab</servlet-name>
+		<url-pattern>/LoadRolepermissionMetab</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProcessManyPermissionServlet</servlet-name>
+		<url-pattern>/ProcessManyPermissionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SaveManyPermissionServlet</servlet-name>
+		<url-pattern>/SaveManyPermissionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SaveManySetupButtonPermissionServlet</servlet-name>
+		<url-pattern>/SaveManySetupButtonPermissionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SaveManyMetabPermissionServlet</servlet-name>
+		<url-pattern>/SaveManyMetabPermissionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SaveFieldPermissionServlet</servlet-name>
+		<url-pattern>/SaveFieldPermissionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SetCurrentEntityServlet</servlet-name>
+		<url-pattern>/SetCurrentEntityServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FilterCriteriaServlet</servlet-name>
+		<url-pattern>/FilterCriteriaServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SetDynamicSchemaServlet</servlet-name>
+		<url-pattern>/SetDynamicSchemaServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CheckBoxServlet</servlet-name>
+		<url-pattern>/CheckBoxServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProcessManyRowPagingServlet</servlet-name>
+		<url-pattern>/ProcessManyRowPagingServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>UploadExcel</servlet-name>
+		<url-pattern>/UploadExcel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadPicture</servlet-name>
+		<url-pattern>/UploadPicture</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ImageShowServlet</servlet-name>
+		<url-pattern>/ImageShowServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CloseApplicationServlet</servlet-name>
+		<url-pattern>/CloseApplicationServlet</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mvc-dispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>app</web-resource-name>
+			<url-pattern>/CloseApplicationServlet</url-pattern>
+		</web-resource-collection>
+		<!-- OMIT auth-constraint -->
+	</security-constraint>
+	
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>All resource</web-resource-name>
+			<url-pattern>/deploy/*</url-pattern>
+		</web-resource-collection>
+		<!-- OMIT auth-constraint -->
+	</security-constraint>
+
+
+	<security-constraint>
+		<display-name>SecurityConst</display-name>
+		<web-resource-collection>
+			<web-resource-name>All resource</web-resource-name>
+			<url-pattern>/*</url-pattern>
+			<http-method>POST</http-method>
+			<http-method>GET</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>*</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<login-config>
+		<auth-method>BASIC</auth-method>
+		<realm-name>ONEWEB Realm Name</realm-name>
+	</login-config>
+	<!-- <login-config> <auth-method>FORM</auth-method> <realm-name>ONEWEB Realm 
+		Name</realm-name> <form-login-config> <form-login-page>/login.jsp</form-login-page> 
+		<form-error-page>/login.jsp</form-error-page> </form-login-config> </login-config> -->
+
+
+	<security-role>
+		<role-name>*</role-name>
+	</security-role>
+
+
+	<!-- Filter for solution Thai Problem -->
+	<filter>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<filter-class>com.avalant.j2ee.filter.CharacterEncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/blank.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/blank.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.NullPointerException</exception-type>
+		<location>/blank.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/blank.jsp</location>
+	</error-page>
+	<resource-ref id="ResourceRef_1313484653859">
+		<description>
+		</description>
+		<res-ref-name>jdbc/master</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+		<res-sharing-scope>Shareable</res-sharing-scope>
+	</resource-ref>
+	<resource-ref id="ResourceRef_1313484653875">
+		<description>
+		</description>
+		<res-ref-name>jdbc/application</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+		<res-sharing-scope>Shareable</res-sharing-scope>
+	</resource-ref>
+	<!-- <resource-ref id="ResourceRef_1313484653890"> <description> </description> 
+		<res-ref-name>jdbc/wf</res-ref-name> <res-type>javax.sql.DataSource</res-type> 
+		<res-auth>Container</res-auth> <res-sharing-scope>Shareable</res-sharing-scope> 
+		</resource-ref> <resource-ref id="ResourceRef_1313484653891"> <description> 
+		</description> <res-ref-name>jdbc/profile</res-ref-name> <res-type>javax.sql.DataSource</res-type> 
+		<res-auth>Container</res-auth> <res-sharing-scope>Shareable</res-sharing-scope> 
+		</resource-ref> -->
+		
+	<session-config> 
+		<session-timeout>30</session-timeout> 
+	</session-config> 
+</web-app>

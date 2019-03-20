@@ -1,0 +1,631 @@
+/*### start searchResult text-alignment style ###*/
+.md0907151146_E_FULL_NAME_col{
+	text-align: left;
+	padding-left: 10px;
+}
+/*### end searchResult text-alignment style ###*/
+
+.mdESP_AccountNo_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo_REQUEST_DATE__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo_DESCRIPTION__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo_NEW_EMAIL__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo_OLD_EMAIL__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo2_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo2_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo2_REQUEST_DATE__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo2_DESCRIPTION__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo3_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo3_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo3_REGISTER_DATE__DESC_col{
+	text-align:center;
+}
+.mdESP_AccountNo3_APPROVED_DATE__DESC_col{
+	text-align:center;
+}
+.mdESP_AccountNo3_APPROVED_BY__DESC_col{
+	text-align:left;
+
+}.mdESP_AccountNo3_EMAIL__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo4_PROCESS_DATE__DESC_col{
+	text-align:center;
+}
+.mdESP_AccountNo4_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo4_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo4_USERNAME_col{
+	text-align:left;
+}
+.mdESP_AccountNo4_REGISTER_TYPE__DESC_col{
+	text-align:left;
+}.mdESP_AccountNo4_ACTIVITY_TYPE__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo4_RECORD_STATUS__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo4_IP_ADDRESS_col{
+	text-align:left;
+}
+.mdESP_AccountNo5_PROCESS_DATE__DESC_col{
+	text-align:center;
+}
+.mdESP_AccountNo5_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo5_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo5_USERNAME_col{
+	text-align:left;
+}
+.mdESP_AccountNo5_ACCESS_TYPE__DESC_col{
+	text-align:left;
+}.mdESP_AccountNo5_DATAIL__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo5_RECORD_STATUS__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo5_IP_ADDRESS_col{
+	text-align:left;
+}.mdESP_AccountNo6V1_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo6V1_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo6V1_CUSTOMER_ID__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo6V1_PROCESS_DATE__DESC_col{
+	text-align:center;
+}.mdESP_AccountNo8_PROCESS_DATE__DESC_col{
+	text-align:center;
+	cursor:text;
+}
+.mdESP_AccountNo8_ACCOUNT_NO__DESC_col{
+	text-align:left;
+	cursor:text;
+}
+.mdESP_AccountNo8_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+	cursor:text;
+}
+.mdESP_AccountNo8_CUSTOMER_ID__DESC_col{
+	text-align:left;
+	cursor:text;
+}
+.mdESP_AccountNo8_ACTION_DESCRIPTION__DESC_col{
+	text-align:left;
+	cursor:text;
+}.mdESP_AccountNo8_REMARK_col{
+	text-align:left;
+	cursor:text;
+}
+.mdESP_AccountNo8_DESCRIPTION__DESC_col{
+	text-align:left;
+	cursor:text;
+}
+.mdESP_AccountNo8_IP_ADDRESS_col{
+	text-align:left;
+	cursor:text;
+}
+
+
+.mdESP_AccountNo9_PROCESS_DATE__DESC_col{
+	text-align:center;
+}
+.mdESP_AccountNo9_ACCOUNT_NO__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo9_CUSTOMER_NAME__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo9_CUSTOMER_ID__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo9_ACTION_DESCRIPTION__DESC_col{
+	text-align:left;
+}.mdESP_AccountNo9_REMARK_col{
+	text-align:left;
+}
+.mdESP_AccountNo9_DESCRIPTION__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo9_PROCESS_USER_ID__DESC_col{
+	text-align:left;
+}
+.mdESP_AccountNo9_IP_ADDRESS_col{
+
+    text-align:left; 
+}
+.MD_KING_TEST_USER_ID_col{
+
+    text-align:left !important; 
+}
+.MD_KING_TEST002_ROLE_NAME_col{
+
+    text-align:left; 
+}
+
+#entESP_AccMainLogIn_resultSearchContainer .manyRowDiv table tr a:hover{
+    cursor:text;
+}
+#entESP_AccSerLogIn_resultSearchContainer .manyRowDiv table tr a:hover{
+    cursor:text;
+}
+#entESP_AccLogIn_resultSearchContainer .manyRowDiv table tr a:hover{
+    cursor:text;
+}
+
+#mdESP_AccountNo_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo2_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo3_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo4_1_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo4_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo6_1_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo6_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo6V1_ModuleSection table tr{
+height:35 px;
+
+}
+#mdESP_AccountNo6V1_ModuleSection table{
+      width:50%;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-align: center;
+
+
+}
+#mdESP_AccountNo6V1_PROCESS_DATE__DESC_LabelField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V1_CUSTOMER_NAME__DESC_LabelField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V1_ACCOUNT_NO_LabelField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V1_CUSTOMER_ID_LabelField{
+
+text-align:left;
+}
+
+#mdESP_AccountNo6V1_PROCESS_DATE__DESC_InputField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V1_CUSTOMER_NAME__DESC_InputField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V1_ACCOUNT_NO_InputField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V1_CUSTOMER_ID_InputField{
+
+text-align:left;
+}
+#mdESP_AccountNo6V2Many table tr{
+height:35 px;
+}
+
+
+#mdESP_AccountNo1_1_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo1_2_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo1_3_ModuleSection table tr{
+height:35 px;
+}
+#mdESP_AccountNo1_4_ModuleSection table tr{
+height:35 px;
+}
+#entESP_ReqCEmailA_searchCriteria table tr{
+height:35 px;
+}
+#entESP_ReqCMailA_searchCriteria table tr{
+height:35 px;
+}
+#entESP_AccLogIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_AccMainLogIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_AccSerLogIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_AcLogIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_CRegistration_searchCriteria table tr{
+height:35 px;
+}
+#entESP_LONAIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_NoAcCusIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_RegisLogIn_searchCriteria table tr{
+height:35 px;
+}
+#entESP_RegisLogIn1_searchCriteria table tr{
+height:35 px;
+}
+
+#manyRowDivID table tr{
+
+height:35 px;
+}
+
+.bu2 {
+	/*FONT-SIZE: 9px; COLOR: #000063; FONT-FAMILY: "Tahoma";*/
+	/*font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;*/
+	font-family:Tahoma; font-size: 8pt; color: #003399;
+}
+
+DIV.manyRowDiv td, DIV.manyRowDiv span, DIV.manyRowDiv a, DIV.manyRowDiv a:link, DIV.manyRowDiv a:visited, DIV.manyRowDiv a:active , DIV.manyRowDiv a:hover{
+	/*font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;*/
+	font-family:Tahoma; font-size: 8pt; color: #003399;
+}
+/*
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+#mdESP_AccountNo8_IP_ADDRESS_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#mdESP_AccountNo8_DESCRIPTION__DESC_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#PROCESS_DATE__DESC_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#ACCOUNT_NO__DESC_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#CUSTOMER_NAME__DESC_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#CUSTOMER_ID__DESC_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#ACTION_DESCRIPTION__DESC_col A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#REMARK_0 A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#DESCRIPTION__DESC_0 A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+#IP_ADDRESS_0 A.HOVER{
+	cursor: text;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}/*
+
+
+/*### ESD ###*/
+#appOwnerEn01_searchCriteria table{
+	width: 50%;
+}
+
+#appOwnerMD01MG table{
+	width: 50%;
+}
+
+
+#docGPEn_searchCriteria table{
+	width: 50%;
+}
+
+#docGPMD01MG table{
+	width: 60%;
+}
+
+#docGPMD02MG table{
+	width: 60%;
+}
+
+#docGPMD03MG table{
+	width: 60%;
+}
+
+#docGPMD04MG table{
+	width: 60%;
+}
+
+#docGPMD01MG .componentNameDiv{
+		width: 200px;
+}
+
+#docGPMD01MG .componentDiv{
+	width: 300px;
+}
+
+#docGPMD02MG .componentNameDiv{
+		width: 200px;
+}
+#docGPMD02MG .componentDiv{
+	width: 300px;
+}
+
+#docGPMD03MG .componentNameDiv{
+		width: 200px;
+}
+#docGPMD03MG .componentDiv{
+	width: 300px;
+}
+
+#docGPMD04MG .componentNameDiv{
+		width: 200px;
+}
+#docGPMD04MG .componentDiv{
+	width: 300px;
+}
+
+#reportEn_searchCriteria table{
+	width: 50%;
+}
+
+#reportMD01MG table{
+	width: 60%;
+}
+
+#reportMD01MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD01MG .componentDiv{
+	width: 400px;
+}
+
+#reportMD02MG table{
+	width: 60%;
+}
+
+#reportMD02MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD02MG .componentDiv{
+	width: 300px;
+}
+
+#reportMD03MG table{
+	width: 60%;
+}
+
+#reportMD03MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD03MG .componentDiv{
+	width: 300px;
+}
+
+#reportMD06MG table{
+	width: 60%;
+}
+
+#reportMD06MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD06MG .componentDiv{
+	width: 300px;
+}
+
+#reportMD07MG table{
+	width: 60%;
+}
+
+#reportMD07MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD07MG .componentDiv{
+	width: 300px;
+}
+
+#reportMD08MG table{
+	width: 60%;
+}
+
+#reportMD08MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD08MG .componentDiv{
+	width: 300px;
+}
+
+#reportMD09MG table{
+	width: 60%;
+}
+
+#reportMD09MG .componentNameDiv{
+		width: 200px;
+}
+#reportMD09MG .componentDiv{
+	width: 300px;
+}
+
+
+#scheMD01MG table{
+	width: 60%;
+}
+
+#scheMD01MG .componentNameDiv{
+		width: 200px;
+}
+#scheMD01MG .componentDiv{
+	width: 300px;
+}
+
+#schedulerEn_searchCriteria table{
+	width: 50%;
+}
+
+
+#emailEn_searchCriteria table{
+	width: 50%;
+}
+
+#emailMD01MG table{
+	width: 60%;
+}
+
+#emailMD01MG .componentNameDiv{
+		width: 100px;
+}
+#emailMD01MG .componentDiv{
+	width: 200px;
+}
+
+
+#smMailEn_searchCriteria table{
+	width: 50%;
+}
+
+
+#smMailEn_searchCriteria table{
+	width: 50%;
+}
+
+#scheLogEn_searchCriteria table{
+	width: 50%;
+}
+
+#detailscheEn_searchCriteria table{
+	width: 50%;
+}
+
+#detailMailEn_searchCriteria table{
+	width: 80%;
+}
+
+#detailMailMD01MG table{
+	width: 50%;
+}
+
+
+#accessLogEn_searchCriteria table{
+	width: 50%;
+}
+
+#monthlyEn_searchCriteria table{
+	width: 50%;
+}
+
+/*### end ESD ###*/
+
+/*### end searchResult text-alignment style ###*/

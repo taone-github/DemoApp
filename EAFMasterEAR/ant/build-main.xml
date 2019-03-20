@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="EAFMasterEAR" default="all" basedir=".">
+
+	<import file="build-common.xml" />
+	
+	<target name="all" depends="init,build-front,build-master,build-ear" />
+	
+	<echo message="Start building..." />
+	<echo message="workspace.dir...${workspace.dir}" />
+	
+	<target name="init" description="Initial process">
+		<delete dir="${temp.dir}" />
+		<mkdir dir="${temp.dir}" />
+		<mkdir dir="${temp.build.dir}" />
+		<mkdir dir="${temp.workspace.dir}" />
+
+		<echo message="Cleaned ${temp.dir}" />
+	</target>
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build-front">
+		<ant antfile="build-front.xml" dir="." />
+	</target>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build-master">
+		<ant antfile="build-master.xml" dir="." />
+	</target>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Build EAR 
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build-ear">
+		<mkdir dir="${exported.dir}/${build.date}" />
+		
+		<ear destfile="${exported.dir}/${build.date}/ONEWEB.AR.${ear.name}.ear" appxml="${ear.dir}/EarContent/META-INF/application.xml">
+			<fileset dir="${temp.war.dir}/war/" includes="${front.war}" />
+			<fileset dir="${temp.war.dir}/war/" includes="${master.war}" />
+			<zipfileset dir="${ear.dir}/EarContent/lib" prefix="lib" >
+				<exclude name="**/*.jar__"/>
+				<exclude name="**/*.jar_"/>
+			</zipfileset>
+			<metainf dir="${ear.dir}/EarContent/META-INF" includes="*.xml" />  
+		</ear>
+		
+		<copy file="${exported.dir}/${build.date}/ONEWEB.AR.${ear.name}.ear" tofile="${zip.dir}/ONEWEB.AR.${ear.name}.ear" />
+	</target>
+	
+	
+
+</project>

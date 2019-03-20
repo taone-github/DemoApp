@@ -1,0 +1,568 @@
+/*jariny180309**/
+
+#Header{
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+BODY{
+	scrollbar-3dlight-color: d9d9d9;
+	scrollbar-arrow-color: d9d9d9;
+	scrollbar-base-color: FFFFFF;
+	scrollbar-darkshadow-color: d9d9d9;
+	scrollbar-face-color: FFFFFF;
+	scrollbar-highlight-color: d9d9d9;
+	scrollbar-shadow-color: d9d9d9;
+	scrollbar-track-color: d9d9d9;	
+}
+
+#frameTab TABLE.subframeTab{
+	border: 1px solid;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+	border-right-color: #666666;
+	font-family: tahoma;
+	font-size: 11px;
+	width: 734px;
+	height: 570px;
+}
+
+#frameTab showPageResult TABLE{
+	border: 0px;
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+#contentTableHeader TABLE{
+	border: 0px;
+	font-family: tahoma;
+	font-size: 11px;
+	padding: 5px;
+	width: 90%;
+	cellspacing: 10;
+}
+
+#contentTableHeader TD.title {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+
+#contentTableHeader TD{
+	padding-top: 0px;
+	padding-bottom: 2px;
+}
+
+#contentTableHeader TD .displayFieldName{
+	margin-bottom: 0.5px;
+}
+
+#contentTableHeader SELECT{
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+#contentTableHeader INPUT{
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+.underline{
+	text-align: center;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+/*HeaderlistofresultSearch**/
+#Headerlist TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+}
+
+#Headerlist TR.title{
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+#totalRecord TABLE{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+#totalRecord TD{
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	padding: 2px;
+}
+#totalRecord SELECT{
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+/*TableResult**/
+#contentResult TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+}
+
+#contentResultNoBorder TABLE{
+	border: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+
+#contentResultNoBorder TR.ROW{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#contentResultNoBorder TR.ROW1{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#contentResult .dataTableInnerBorder{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+}
+
+#contentResult .dataTableNoBorder{
+	border: none;
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+#popUpContentResult TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+	color: #666666;
+}
+
+#contentResult TR.title{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+}
+
+#popUpContentResult TR.title{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+}
+
+#contentResult TR.ROW{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#contentResult TR.ROW1{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW1{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+.ROW_HOVER{
+	cursor: hand;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+div.hr {
+	/*
+	height: 15px;
+	background: #fff url(images/hr1.gif) no-repeat scroll center;
+	*/
+}
+
+div.hr hr {
+	color: #d9d9d9;
+	height: 1px;
+}
+
+.entityButton{
+	text-align: right;
+	vertical-aligh: middle;
+}
+
+#contentResult a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+
+#popUpContentResult a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+
+.rowResult {
+	font-family: tahoma;
+	font-size: 11px;
+	border-width: 0px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+  
+
+.button_img {
+	cursor: hand;
+}
+
+.navigator {
+	FONT-SIZE: 11px;
+	COLOR: #0066a3;
+	FONT-FAMILY: "tahoma"; 
+}
+
+.whbold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY: "tahoma"; 
+}
+
+.submenu{
+	background-color: #FFFFFF;
+	font-family: tahoma;
+	font-size: 11px;
+}
+
+/*Tab module**/
+.moduleDiv .subformline{
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	color: #7dbc1f;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #d9d9d9;
+}
+
+.moduleDiv TD .moduleIcon{
+	/*
+	background: url(images/more.jpg) no-repeat 0 0;
+	float: left;
+	height: 20px;
+	width: 25px;
+	*/
+}
+
+.TableHeaderList {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: "MS Sans Serif", "Microsoft Sans Serif";
+	BACKGROUND-COLOR: #2058a0;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none;
+}
+
+.head-table-font {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.headfont {
+	font-family: tahoma;
+	font-size: 9px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.normalfont{
+	font-family: tahoma;
+	font-size: 8px;
+	color: #666666;
+	font-weight: normal;
+}
+
+.line{
+	width: 100%;
+	border: 2px solid #BABABA;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+}
+
+.innerLine{
+	width: 100%;
+	border: 2px solid #BABABA;
+	margin-bottom: 5px;
+	border-collapse: collapse;
+}
+
+.innerLine INPUT{
+	border: none;	
+}
+
+onmouseover {
+	cursor: hand;
+}
+
+onmouseover {
+	cursor: hand;
+}
+
+/*End jariny180309**/
+.TextWarningNormal{
+	MARGIN: 0px;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	COLOR: red;
+}
+
+.button_style {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	CURSOR: hand;
+	COLOR: #ffffff;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #CCCCCC;
+}
+
+.button_style_1 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	CURSOR: hand;
+	COLOR: #DDDDDD;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #FFFFFF;
+}
+
+.simpleFont{
+	font-family: tahoma;
+	text-align: left;
+	font-size: 11px;
+	color: #666666;
+}
+
+.boldFont{
+	font-weight: bold;
+}
+
+.underLine{
+	border-bottom: 1px solid #d9d9d9;	
+}
+
+SELECT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: tahoma;
+	
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+	
+    BORDER-TOP-COLOR: #d9d9d9;
+    BORDER-BOTTOM-COLOR: #d9d9d9;
+    BORDER-RIGHT-COLOR: #d9d9d9;
+    BORDER-LEFT-COLOR: #d9d9d9;
+    
+    BACKGROUND-COLOR: #ffffff;
+}
+
+TEXTAREA {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: tahoma;
+	
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+	
+    BORDER-TOP-COLOR: #d9d9d9;
+    BORDER-BOTTOM-COLOR: #d9d9d9;
+    BORDER-RIGHT-COLOR: #d9d9d9;
+    BORDER-LEFT-COLOR: #d9d9d9;
+    
+    BACKGROUND-COLOR: #ffffff;
+}
+
+INPUT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: tahoma;
+	
+	BORDER-TOP:  1px solid;;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT:  1px solid;
+	BORDER-LEFT: 1px solid;
+	
+    BORDER-TOP-COLOR: #d9d9d9;
+    BORDER-BOTTOM-COLOR: #d9d9d9;
+    BORDER-RIGHT-COLOR: #d9d9d9;
+    BORDER-LEFT-COLOR: #d9d9d9;
+    
+    BACKGROUND-COLOR: #ffffff;
+	SCROLLBAR-FACE-COLOR: #d9d9d9;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #ffffff;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	COLOR: #666666;
+	SCROLLBAR-ARROW-COLOR: #d9d9d9;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;	
+}
+
+/* start CSS for resultListMany.jsp */
+.bu2 {
+	color: #666666;
+	border: none;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+}
+
+/* end CSS for resultListMany.jsp */
+
+/*#####################################################################*/
+/*### start hi-light row style ###*/
+TR .ROW{
+	background-color: #FFFFFF;
+}
+
+TR .ROW_ALT{
+	background-color: #DFEFFF;
+}
+
+TR .ROW_HOVER{
+	cursor: hand;
+	background-color: #CCFFDD;
+}
+/*### end hi-light row style ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start div for each component ###*/
+.moduleDiv{
+	background-color: #FFFFFF;
+}
+
+.td_OneRelation{
+	vertical-align: top;
+}
+
+.td_AttachmentFile{
+	vertical-align: top;
+	text-align: center;
+}
+
+.componentNameDiv{
+	text-align: right;
+}
+
+.componentSpacerDiv{
+	width: 3px;	
+}
+
+.componentDiv{
+	text-align: left;
+	padding-right: 10px;
+}
+
+.manyRowDiv{
+	SCROLLBAR-FACE-COLOR: #d0d0d0;
+	SCROLLBAR-HIGHLIGHT-COLOR: #d0d0d0;
+	SCROLLBAR-SHADOW-COLOR: #CCCCCC;
+	SCROLLBAR-3DLIGHT-COLOR: #FAFAFA;
+	SCROLLBAR-ARROW-COLOR: black;
+	SCROLLBAR-DARKSHADOW-COLOR: #CCCCCC;
+	overflow: auto;
+	COLOR: #d0d0d0;	
+}
+
+/*### end div for each component ###*/
+/*#####################################################################*/
+
+#gridModuleContainer{
+	background-color: #FFFFFF;
+}
+
+#gridModuleContainer li {
+	width: 200px;
+	min-height: 250px;
+	border: 1px solid #D9D9D9;
+	border-collapse: collapse;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	zoom: 1;
+	*display: inline;
+	height: auto !important;
+	height: 250px;
+	overflow: hidden;
+}
+
+#moduleContainer li{
+	list-style: none;
+}

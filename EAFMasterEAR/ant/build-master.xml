@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build-core" default="all" basedir=".">
+
+	<import file="build-common.xml" />
+
+	<target name="all" depends="init, copy-resource, build-code" />
+
+	<echo message="Start build-masterweb version ${ear.name}-${build.date}..." />
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="init" description="Initial process">
+		<delete dir="${temp.build.dir}/MasterWeb" />
+		<mkdir dir="${temp.build.dir}/MasterWeb" />
+
+		<delete dir="${temp.workspace.dir}/MasterWeb" />
+		<mkdir dir="${temp.workspace.dir}/MasterWeb" />
+		
+		<delete dir="${temp.war.dir}/war/${master.war}" />
+	</target>
+
+	
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="copy-resource">
+		<copy includeemptydirs="false" todir="${temp.workspace.dir}/MasterWeb/WebContent">
+			<fileset refid="master.webcontent" />
+		</copy>
+		<copy includeemptydirs="false" todir="${temp.workspace.dir}/MasterWeb/src">
+			<fileset dir="${master.dir}/src">
+				<include name="**/AuthenObject.java" />
+				<include name="**/en_US/properties/**" />
+				<include name="**/th_TH/properties/**" />
+			</fileset>
+		</copy>
+		<copy todir="${temp.workspace.dir}/MasterWeb" >
+			<fileset dir="${master.dir}" >
+				<include name=".project" />
+				<include name=".settings/**" />
+				<include name=".classpath" />
+			</fileset>
+		</copy>
+	</target>
+
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build-code">
+		<javac srcdir="${temp.workspace.dir}/MasterWeb/src" destdir="${temp.build.dir}/MasterWeb" fork="yes" executable="${path.execute.dir}" compiler="${vesion.compiler}" optimize="on">
+			<classpath refid="classpath" />
+		</javac>
+
+		<war destfile="${temp.war.dir}/war/${master.war}" webxml="${master.dir}/WebContent/WEB-INF/web.xml">
+			<webinf dir="${master.dir}/WebContent/WEB-INF" includes="*.xml"  />
+			<classes dir="${temp.build.dir}/MasterWeb" />
+			<fileset dir="${temp.workspace.dir}/MasterWeb/WebContent" />
+		</war>
+	</target>
+	
+	
+</project>

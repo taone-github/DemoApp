@@ -1,0 +1,264 @@
+/*#####################################################################*/
+/*### start general tab menu style ###*/
+#GeneralNavigator {
+	float: left;
+	width: 100%;
+	background: #FFFFFF;
+	line-height: normal;
+	border-bottom: 1px solid #b8c7da;
+}
+
+#GeneralNavigator ul {
+	margin: 0;
+	padding-top: 10px;
+	float: left;
+	list-style: none;
+}
+
+#GeneralNavigator li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+/*
+#GeneralNavigator a {
+	float: left;
+	background: url("images/tab/tabLeft_withBlur.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 19px;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;
+	background-position: 0% -42px;
+}
+
+#GeneralNavigator a span {
+	float: left;
+	display: block;
+	background: url("images/tab/tabRight_withBlur.gif") no-repeat right top;
+	padding: 5px 19px 5px 0px;
+	color: #0950B0;
+	background-position: 0% -42px;
+}
+*/
+#GeneralNavigator a {
+	float: left;
+	background: url("images/tab/tab1.gif") repeat left top;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;
+	height: 20px;
+}
+
+#GeneralNavigator a span {
+	float: left;
+	display: block;
+	background: url("images/tab/tab2.gif") repeat right top;
+	padding: 2px 6px 0px 0px;
+	color: #0950B0;
+	background-position: 0px -20px;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#GeneralNavigator a span {
+	float: none;
+}
+/* End IE5-Mac hack */
+/*
+#GeneralNavigator a:hover span {
+	color: #0950B0;
+}
+
+#GeneralNavigator a:hover {
+	background-position: 0% -20px;
+}
+
+#GeneralNavigator a:hover span {
+	background-position: 100% -20px;
+}
+*/
+#GeneralNavigator .current a {
+/*	background-position: 0% -42px;*/
+	background-position: 0% 0px;
+}
+
+#GeneralNavigator .current a span {
+/*	background-position: 100% -42px;*/
+	background-position: 100% 0px;
+	color: #FFFFFF;
+}
+
+#GeneralNavigator .blur a {
+	background-position: 0px -20px;
+}
+
+#GeneralNavigator .blur a span {
+	background-position: 100% -20px;
+	color: #78A5C6;
+}
+
+#GeneralNavigator .blur a:hover {
+	float: left;
+	background: url("images/tab/tab1.gif") no-repeat left top;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;
+	height: 20px;
+}
+
+#GeneralNavigator .blur a:hover span {
+	float: left;
+	display: block;
+	background: url("images/tab/tab2.gif") repeat right top;
+	padding: 2px 6px 0px 0px;
+	color: white;
+	height: 20px;
+}
+
+/*### end general tab menu style ###*/
+/*#####################################################################*/
+/*#####################################################################*/
+/*#####################################################################*/
+/*#####################################################################*/
+/*#####################################################################*/
+/*### start tab menu style ###*/
+
+#subNavigator {
+/*	padding-top: 10px;*/
+	padding-bottom: 3px;
+	margin-left: 0;
+	border-bottom: 1px solid #7C7CD3;
+	float: left;
+
+	overflow: hidden;
+	position:relative;
+	height: 32px;
+	width: 816px;
+}
+
+#subNavigator ul{
+	display:block;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:15px 0 0 15px;
+	height: 35px;
+	width:1500px;
+}
+
+#subNavigator li {
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+#subNavigator li a {
+	/*padding: 1px;
+	margin-left: 1px;
+	border: 1px solid #91A3C9;
+	background: #F5F5F5;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;*/
+
+	float: left;
+	background: url("images/tab/tab1.gif") no-repeat left top;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;
+	background-position: 0px -20px;
+}
+
+#subNavigator li a span{
+	/*padding: 2px;*/
+
+	float: left;
+	display: block;
+	background: url("images/tab/tab2.gif") repeat right top;
+	padding: 2px 6px 0px 0px;
+	color: #78A5C6;
+	height: 20px;
+	background-position: 0px -20px;
+}
+
+#subNavigator li a:link {
+/*	color: #78A5C6;	*/
+}
+
+#subNavigator li a:hover {
+	/*color: #FFFFFF;
+	background: #FFFFFF;
+	border: 1px solid #91A3C9;
+	font-weight: bold;
+	border-bottom: #FFFFFF;*/
+
+	float: left;
+	background: url("images/tab/tab1.gif") no-repeat left top;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;
+	height: 20px;
+}
+
+#subNavigator li a:hover span {
+	/*padding: 2px;
+	background: #0950B0;
+	border-bottom: #FFFFFF;*/
+
+	float: left;
+	display: block;
+	background: url("images/tab/tab2.gif") repeat right top;
+	padding: 2px 6px 0px 0px;
+	color: white;
+	height: 20px;
+}
+
+#subNavigator .current a span {
+	/*padding: 2px;
+	background: #0950B0;
+	border-bottom: #FFFFFF;*/
+
+	float: left;
+	display: block;
+	background: url("images/tab/tab2.gif") repeat right top;
+	padding: 2px 6px 0px 0px;
+	color: white;
+	height: 20px;
+}
+
+#subNavigator .current a {
+	/*background: #FFFFFF;
+	border: 1px solid;
+	border-bottom: #FFFFFF;
+	color: #FFFFFF;
+	font-weight: bold;*/
+
+	float: left;
+	background: url("images/tab/tab1.gif") no-repeat left top;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+	text-decoration: none;
+	font: 11px tahoma;
+	font-weight: bold;
+	height: 20px;
+
+}
+/*
+#subNavigator a {
+	background: #FFFFFF;
+	border: 1px solid;
+	border-bottom: #FFFFFF;
+	color: #78A5C6;
+}
+*/
+
+/*### end tab menu style ###*/

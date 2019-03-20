@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () --> 
+<!-- <!DOCTYPE struts-config SYSTEM "struts-config_1_1.dtd"> -->
+<struts-config>
+	<action-mappings> 
+		<action path="LOAD_MENU" type="com.front.view.webaction.menu.LoadMenuWebAction" scope="request" name="" validate="true" input="" zForwardSuccess="INDEX_SCREEN" zForwardFailure="INDEX_SCREEN" />
+		<action path="SELECT_MENU" type="com.front.view.webaction.menu.SelectMenuWebAction" scope="request" name="" validate="true" input="" zForwardSuccess="INDEX_SCREEN" zForwardFailure="INDEX_SCREEN" />
+		<action path="INIT_SEARCH_LOG" type="com.front.view.webaction.accesslog.InitialSearchWebAction" scope="request" name="" validate="true" input="" zForwardSuccess="SEARCH_ACCESS_LOG_SCREEN" zForwardFailure="SEARCH_ACCESS_LOG_SCREEN" />
+		<action path="SEARCH_ACCESS_LOG" type="com.front.view.webaction.accesslog.SearchAccessLogWebAction" scope="request" name="" validate="true" input="" zForwardSuccess="SEARCH_ACCESS_LOG_SCREEN" zForwardFailure="SEARCH_ACCESS_LOG_SCREEN" />
+		<action path="SEARCH_MASTER_LOG" type="com.front.view.webaction.accesslog.SearchMasterSettingLogWebAction" scope="request" name="" validate="true" input="" zForwardSuccess="SEARCH_ACCESS_LOG_SCREEN" zForwardFailure="SEARCH_ACCESS_LOG_SCREEN" />
+		<action path="SEARCH_TRANSACTION_LOG" type="com.front.view.webaction.accesslog.SearchTransactionLogWebAction" scope="request" name="" validate="true" input="" zForwardSuccess="SEARCH_ACCESS_LOG_SCREEN" zForwardFailure="SEARCH_ACCESS_LOG_SCREEN" />
+	</action-mappings> 
+	<event-mappings>
+		<event name="FrontEvent" type="com.liberty.mps.control.action.front.FrontAction"/>	
+		<event name="UserEvent" type="com.ibs.control.action.UserAction"/>	
+		<event name="MarketingEvent" type="com.ibs.control.action.MarketingSourceAction"/>
+		<event name="CmiInventoryEvent" type="com.ibs.control.action.CmiInventoryAction"/>		
+	</event-mappings>
+	<screen-definitions>
+	  <screen zname="INDEX_SCREEN" htmlTitle="ONEWEB 4.0.0.18-1903051445" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/logon.jsp" BottomNav="/blank.jsp"> </screen>
+	  <screen zname="NEXT_SCREEN" htmlTitle="ONEWEB 4.0.0.18-1903051445" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/blank.jsp" BottomNav="/blank.jsp"> </screen>
+	  <screen zname="SEARCH_ACCESS_LOG_SCREEN" htmlTitle="ONEWEB 4.0.0.18-1903051445" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/log/accessLog.jsp" BottomNav="/blank.jsp"> </screen>
+	</screen-definitions>
+	<initial-aval>
+		<init-jsp id="1" itemPerPage="10" />
+		<init-jsp id="2" itemPerPage="20" />
+		<init-jsp id="3" itemPerPage="30" />
+		<init-jsp id="4" itemPerPage="50" />
+	</initial-aval>
+	
+	<connnecttion-param>
+		<conn-javaENV javaENV="java:/" />
+	</connnecttion-param>
+	
+	
+	<schema-config>
+<!-- 		<schema-name name="EAF_MASTER" /> -->
+		<schema-name name="" />
+	</schema-config>
+	
+</struts-config>
+

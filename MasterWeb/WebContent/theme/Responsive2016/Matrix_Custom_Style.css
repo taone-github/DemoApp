@@ -1,0 +1,70 @@
+.MDX000002-ui-matrix-table{
+	overflow-x: auto;
+	overflow-y: visible;
+	margin-left: 0px;
+}
+
+.MDX000003-ui-matrix-table{
+	overflow-x: auto;
+	overflow-y: visible;
+	margin-left: 744px;
+}
+
+.MDX000003-height{
+	height: 48px;
+}
+
+.MDX000003-matrix-button{
+	display:none;
+}
+
+.MDX000003-one-freeze{
+	position: absolute;
+	left: 0px;
+	width: 744px;
+	height : 30px;
+}
+
+.MDX000003-row-head-freeze-1{
+	position: absolute;
+	left: 0px;
+	width: 99px;
+	height: 48px;
+}
+
+.MDX000003-row-head-freeze-2{
+	position: absolute;
+	left: 99px;
+	width: 99px;
+	height: 48px;
+}
+.MDX000003-row-head-freeze-3{
+	position: absolute;
+	left: 198px;
+	width: 99px;
+	height: 48px;
+}
+.MDX000003-row-head-freeze-4{
+	position: absolute;
+	left: 297px;
+	width: 99px;
+	height: 48px;
+}
+.MDX000003-row-head-freeze-5{
+	position: absolute;
+	left: 396px;
+	width: 99px;
+	height: 48px;
+}
+.MDX000003-row-head-freeze-6{
+	position: absolute;
+	left: 495px;
+	width: 99px;
+	height: 48px;
+}
+.MDX000003-row-head-freeze-7{
+	position: absolute;
+	left: 594px;
+	width: 150px;
+	height: 48px;
+}

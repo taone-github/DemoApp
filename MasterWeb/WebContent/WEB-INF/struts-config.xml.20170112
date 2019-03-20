@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
+<!DOCTYPE struts-config SYSTEM "struts-config_1_1.dtd">
+<struts-config> 
+	<form-beans>
+		<form-bean name="loginForm" type="com.oreilly.struts.banking.form.LoginForm" />
+		<form-bean name="accountInformationForm" dynamic="true" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="accounts" type="java.util.ArrayList" />
+		</form-bean> 
+		<form-bean name="accountDetailForm" dynamic="true" type="org.apache.struts.action.DynaActionForm">
+			<form-property name="view" type="com.oreilly.struts.banking.view.AccountDetailView" />
+		</form-bean>  
+	</form-beans> 
+	<global-exceptions>
+		<exception key="global.error.invalidlogin" path="/login.jsp" scope="request" type="com.oreilly.struts.banking.service.InvalidLoginException" />
+	</global-exceptions>
+	<global-forwards>
+		<forward name="SystemFailure" path="/systemerror.jsp" />
+		<forward name="SessionTimeOut" path="/sessiontimeout.jsp" />
+	</global-forwards>
+
+	<action-mappings>
+		<action path="VALUE_LIST_UTIL_WEB_ACTION" type="com.avalant.utility.valuelist.webaction.ValueListUtilWebAction" scope="request" name="SearchCA" validate="true" input=""></action>
+		<action path="VALUELIST_WEBACTION" type="com.ge.naos.view.webaction.valuelist.ValueListWebAction" scope="request" name="LoadCompletedForm" validate="true" input=""></action>
+
+		<action path="loadMaster" type="com.master.webaction.LoadMasterWebAction" scope="request" name="loadMaster" validate="true" input="" zForwardSuccess="TEMPLATE_SCREEN"></action>
+		<action path="saveMaster" type="com.master.webaction.SaveMasterWebAction" scope="request" name="saveMaster" validate="true" input="" ></action>
+		<action path="loadSearchMaster" type="com.master.webaction.LoadSearchWebAction" scope="request" name="loadSearchMaster" validate="true" input="" zForwardSuccess="TEMPLATE_SCREEN"></action>
+		<action path="searchMaster" type="com.master.webaction.SearchWebAction" scope="request" name="searchMaster" validate="true" input="" zForwardSuccess="TEMPLATE_SCREEN" zForwardFailure="TEMPLATE_SCREEN"></action>
+		<action path="loadUpdateMaster" type="com.master.webaction.LoadUpdateWebAction" scope="request" name="loadUpdateMaster" validate="true" input="" zForwardSuccess="TEMPLATE_SCREEN"></action>
+		<action path="deleteMaster" type="com.master.webaction.DeleteMasterWebAction" scope="request" name="deleteMaster" validate="true" input="" zForwardFailure="TEMPLATE_SCREEN" ></action>
+		<action path="loadProcessMenu" type="com.master.webaction.menu.LoadProcessMenuWebAction" scope="request" name="loadProcessMenu" validate="true" input="" zForwardSuccess="START_SCREEN"></action>
+		<action path="cancelUpdate" type="com.master.webaction.CancelUpdateWebAction" scope="request" name="cancelUpdate" validate="true" input="" zForwardSuccess="TEMPLATE_SCREEN"></action>
+		<action path="loadManyEntity" type="com.master.webaction.entity.LoadManyEntityWebAction" scope="request" name="resultEntitySearch" validate="true" input="" zForwardSuccess="MANY_SCREEN"></action>	  		
+		<action path="loadOneEntity" type="com.master.webaction.entity.LoadOneEntityWebAction" scope="request" name="resultEntitySearch" validate="true" input="" zForwardSuccess="ONE_SCREEN"></action>	  				
+		<action path="loadTemplate" type="com.master.webaction.entity.LoadTemplateTabWebAction" scope="request" name="loadTemplate" validate="true" input="" zForwardSuccess="TEMPLATETAB_SCREEN"></action>	  				
+		<action path="loadInsertMany" type="com.master.webaction.entity.LoadInsertManyWebAction" scope="request" name="loadInsertMany" validate="true" input="" zForwardSuccess="MANY_TEMPLATE_SCREEN"></action>
+		<action path="loadUpdateMany" type="com.master.webaction.entity.LoadUpdateManyWebAction" scope="request" name="loadUpdateMany" validate="true" input="" zForwardSuccess="MANY_TEMPLATE_SCREEN"></action>
+		<action path="insertMany" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="insertMany" validate="true" input="" zForwardSuccess="POPUP_CLOSE_SCREEN"></action>
+		<action path="loadEntity" type="com.master.webaction.entity.LoadEntityWebAction" scope="request" name="loadEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN"></action>
+		<action path="loadUpdateEntity" type="com.master.webaction.entity.LoadUpdateEntityWebAction" scope="request" name="loadEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN"></action>
+		<action path="saveEntity" type="com.master.webaction.entity.SaveEntityWebAction" scope="request" name="loadEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN" zForwardFailure="ENTITY_TEMPLATE_SCREEN"></action>	
+		<action path="deleteEntity" type="com.master.webaction.entity.DeleteEntityWebAction" scope="request" name="deleteEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN" zForwardFailure="ENTITY_TEMPLATE_SCREEN"></action>
+		<action path="switchTab" type="com.master.webaction.entity.SwitchTabWebAction" scope="request" name="switchTab" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN"></action>
+		<action path="conditionTab" type="com.master.webaction.entity.ConditionTabWebAction" scope="request" name="conditionTab" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN"></action>
+		<action path="loadSearchEntity" type="com.master.webaction.entity.LoadSearchEntityWebAction" scope="request" name="loadSearchEntity" validate="true" input="" zForwardSuccess="SEARCHENTITY_SCREEN"></action>				
+		<action path="searchEntity" type="com.master.webaction.entity.SearchEntityWebAction" scope="request" name="searchEntity" validate="true" input="" zForwardSuccess="SEARCHENTITY_SCREEN"></action>				
+		<action path="cancelEntity" type="com.master.webaction.entity.CancelEntityWebAction" scope="request" name="cancelEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN" zForwardFailure="ENTITY_TEMPLATE_SCREEN"></action>	
+		
+		<action path="loadMyTaskList" type="com.avalant.asset.master.webaction.LoadMyTaskList" scope="request" name="loadMyTaskList" validate="true" input="" zForwardSuccess="MY_TASK_LIST"></action>
+
+		<action path="insertManyPermission" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="insertManyPermission" validate="true" input="" zForwardSuccess="SET_PERMISSION_SCREEN"></action>
+		<action path="updateManyPermission" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="updateManyPermission" validate="true" input="" zForwardSuccess="SET_PERMISSION_SCREEN"></action>
+		<action path="insertManySetupButtonPermission" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="insertManySetupButtonPermission" validate="true" input="" zForwardSuccess="SET_PERMISSION_SETUP_BUTTON"></action>
+		<action path="updateManySetupButtonPermission" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="insertManySetupButtonPermission" validate="true" input="" zForwardSuccess="SET_PERMISSION_SETUP_BUTTON"></action>
+		<action path="insertManyMetabPermission" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="insertManyMetabPermission" validate="true" input="" zForwardSuccess="SET_PERMISSION_METAB"></action>
+		<action path="updateManyMetabPermission" type="com.master.webaction.entity.InsertManyWebAction" scope="request" name="insertManyMetabPermission" validate="true" input="" zForwardSuccess="SET_PERMISSION_METAB"></action>
+		
+		
+		<action path="cancelToSearch" type="com.master.webaction.entity.CancelToSearchWebAction" scope="request" name="cancelToSearch" validate="true" input="" zForwardSuccess="SEARCHENTITY_SCREEN"></action>						
+		<action path="loadListMany" type="com.master.webaction.entity.LoadListManyWebAction" scope="request" name="loadListMany" validate="true" input="" zForwardSuccess="LISTMANYTEMPLATE_SCREEN"></action>		
+		<action path="loadListExistData" type="com.master.webaction.entity.LoadListExistDataWebAction" scope="request" name="loadListExist" validate="true" input="" zForwardSuccess="LISTEXISTDATATEMPLATE_SCREEN" zForwardFailure="LISTEXISTDATATEMPLATE_SCREEN"></action>
+		<action path="copyExistDataToMain" type="com.master.webaction.entity.CopyExistDataToMainWebAction" scope="request" name="loadEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN"></action>					
+
+		<action path="submitURL" type="com.master.webaction.entity.SubmitURLWebAction" scope="request" name="loadEntity" validate="true" input="" zForwardSuccess="ENTITY_SUBMIT_SCREEN"></action>
+		
+		<action path="createOpp" type="com.master.webaction.manual.CreateOppWebAction" scope="request" name="crerateOpp" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN" zForwardFailure="ENTITY_TEMPLATE_SCREEN"></action>						
+		<action path="viewHistoryData" type="com.master.webaction.entity.ViewHistoryDataWebAction" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="VIEW_HISTORY_DATA_SCREEN"></action>
+		<action path="openFulfillmentPopup" type="com.manual.fulfillment.view.webaction.FulfillmentWebAction" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="FULFILLMENT_SCREEN"></action>
+		<action path="openSupplierPopup" type="com.manual.supplier.view.webaction.SupplierWebAction" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="SUPPLIER_QUOTE_SCREEN"></action>
+		<action path="savesupplierqoute" type="com.manual.supplier.view.webaction.SaveSupplierQuote" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="SUPPLIER_QUOTE_SCREEN"></action>
+		<action path="openReceiptPopup" type="com.manual.receipt.view.webaction.ReceiptWebAction" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="RECEIPTPOPUP_SCREEN"></action>
+		<action path="ReceiptFromInv" type="com.manual.receipt.view.webaction.ReceiptFromInv" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="RECEIPTPOPUP_SCREEN"></action>
+		<action path="openPackingItemPopup" type="com.manual.packingitems.view.webaction.PackingWebAction" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="PACKINGPOPUP_SCREEN"></action>
+		<action path="PackingItems" type="com.manual.packingitems.view.webaction.PackingItems" scope="request" name="viewHistoryData" validate="true" input="" zForwardSuccess="PACKINGPOPUP_SCREEN"></action>
+		
+
+		<!-- start manual webaction for SRT by tiw - 29/06/2011 -->
+		<action path="manualDeleteEntity" type="manual.ktaxa.srt.webaction.ManualDeleteEntityWebAction" scope="request" name="deleteEntity" validate="true" input="" zForwardSuccess="ENTITY_TEMPLATE_SCREEN" zForwardFailure="ENTITY_TEMPLATE_SCREEN"></action>
+		<action path="manualLoadSearchEntityForWQ" type="manual.ktaxa.srt.webaction.ManualLoadSearchEntityForWQWebAction" scope="request" name="loadSearchEntity" validate="true" input="" zForwardSuccess="SEARCHENTITY_SCREEN"></action>				
+		<action path="loadConfirmAllocate" type="manual.ktaxa.srt.webaction.LoadConfirmAllocateWebAction" scope="request" name="loadConfirmAllocate" validate="true" input="" zForwardSuccess="CONFIRM_ALLOCATE_PAGE"></action>				
+		
+		<action path="managetaxAction" type="com.manual.managetax.view.webaction.ManageTaxWebAction" scope="request" name="loadConfirmAllocate" validate="true" input="" zForwardSuccess="MANAGE_TAX_SCREEN"></action>
+		<action path="SaveManageTax" type="com.manual.managetax.view.webaction.SaveManageTaxWebAction" scope="request" name="loadConfirmAllocate" validate="true" input="" zForwardSuccess="SEARCHENTITY_SCREEN"></action>
+		<action path="LoadEditManageTax" type="com.manual.managetax.view.webaction.LoadEditWebAction" scope="request" name="loadConfirmAllocate" validate="true" input="" zForwardSuccess="MANAGE_TAX_EDIT_SCREEN"></action>
+		<action path="loadReport" type="com.manual.report.view.webaction.LoadReportWebAction" scope="request" name="LoadReport" validate="true" input="" zForwardSuccess="REPORT_SCREEN"></action>
+		
+		<!-- end manual webaction for SRT by tiw - 29/06/2011 -->
+		
+		<action path="loadMainReceive" type="com.manual.finance.webaction.LoadMainReceiveWebAction" scope="request" name="loadMainReceive" validate="true" input="" zForwardSuccess="FINANCE_MAIN_RECEIVE"></action>
+		<action path="savePopupReceiveCash" type="com.manual.finance.webaction.SavePopupReceiveCashWebAction" scope="request" name="savePopupReceiveCash" validate="true" input="" zForwardSuccess="FILTER_MAIN_RECEIVE_SCREEN"></action>
+		<action path="savePopupReceiveCheque" type="com.manual.finance.webaction.SavePopupReceiveChequeWebAction" scope="request" name="savePopupReceiveCheque" validate="true" input="" zForwardSuccess="FILTER_MAIN_RECEIVE_SCREEN"></action>
+		<action path="savePopupReceiveHireRecognizance" type="com.manual.finance.webaction.SavePopupReceiveHireRecognizanceWebAction" scope="request" name="savePopupReceiveHireRecognizance" validate="true" input="" zForwardSuccess="FILTER_MAIN_RECEIVE_SCREEN"></action>
+		<action path="deletePaidDetailServlet" type="com.manual.finance.servlet.DeletePaidDetailServlet" scope="request" name="deletePaidDetailServlet" validate="true" input="" zForwardSuccess="FILTER_MAIN_RECEIVE_SCREEN"></action>
+		<action path="searchDebtList" type="com.manual.finance.webaction.SearchDebtListWebAction" scope="request" name="searchDebtList" validate="true" input="" zForwardSuccess="SEARCH_DEBT_LIST_SCREEN"></action>
+		<action path="saveDebtListWebAction" type="com.manual.finance.webaction.SaveDebtListWebAction" scope="request" name="saveDebtListWebAction" validate="true" input="" zForwardSuccess="FINANCE_MAIN_RECEIVE"></action>
+		<action path="savePopupPaidList" type="com.manual.finance.webaction.SavePopupPaidListWebAction" scope="request" name="saveDebtListWebAction" validate="true" input="" zForwardSuccess="FILTER_MAIN_RECEIVE_SCREEN"></action>
+		<action path="manageCounterWebaction" type="com.manual.finance.webaction.ManageCounterWebaction" scope="request" name="saveDebtListWebAction" validate="true" input="" zForwardSuccess="FINANCE_MAIN_RECEIVE"></action>
+		<action path="saveMainReceiveWebAction" type="com.manual.finance.webaction.SaveMainReceiveWebAction" scope="request" name="saveMainReceiveWebAction" validate="true" input="" zForwardSuccess="FINANCE_MAIN_RECEIVE"></action>
+		<!-- Service servey  Add By Sarayut-->
+		<action path="LoadSendOtherDeptAction" type="com.avalant.pcms.service.manual.LoadSendOtherDeptWebAction" scope="request" name="LoadSendOtherDeptAction" validate="true" input="" zForwardSuccess="SEND_OTHER_DEPT_POPUP_SCREEN"></action>
+		<action path="LoadServiceAssignmentAction" type="com.avalant.pcms.service.manual.LoadServiceAssignmentWebAction" scope="request" name="LoadServiceAssignmentAction" validate="true" input="" zForwardSuccess="SEND_SERVICE_ASSIGN_POPUP_SCREEN"></action>
+		<action path="LoadSendSendVerifyAction" type="com.avalant.pcms.service.manual.LoadSendVerifyWebAction" scope="request" name="LoadSendSendVerifyAction" validate="true" input="" zForwardSuccess="SEND_VERIFY_POPUP_SCREEN"></action>
+		<action path="LoadSendJobAgenciesAction" type="com.avalant.pcms.service.manual.LoadSendJobAgenciesWebAction" scope="request" name="LoadSendJobAgenciesAction" validate="true" input="" zForwardSuccess="SEND_JOB_AGENCIES_POPUP_SCREEN"></action>
+		<action path="LoadSendAnAgencyAction" type="com.avalant.pcms.service.manual.LoadSendAnAgencyWebAction" scope="request" name="LoadSendAnAgencyAction" validate="true" input="" zForwardSuccess="SEND_AN_AGENCY_POPUP_SCREEN"></action>
+		<action path="LoadFollowUpAssigmentAction" type="com.avalant.pcms.service.manual.LoadFollowUpAssigmentWebAction" scope="request" name="LoadSendAnAgencyAction" validate="true" input="" zForwardSuccess="FOLLOW_UP_ASSIGNMENT_POPUP_SCREEN"></action>
+		<action path="LoadApproveRejectAction" type="com.avalant.pcms.service.manual.LoadApproveRejectWebAction" scope="request" name="LoadApproveRejectAction" validate="true" input="" zForwardSuccess="APPROVE_REJECT_POPUP_SCREEN"/>
+		<action path="loadCustomerReceiveDetailWebAction" type="com.avalant.pcms.service.manual.LoadCustomerReceiveDetailWebAction" scope="request" name="loadCustomerReceiveDetailWebAction" validate="true" input="" zForwardSuccess="CUS_PAID_DETAIL_POPUP_SCREEN"></action>
+		<action path="LoadUserAssigment" type="com.avalant.pcms.service.manual.LoadUserAssignmentWebAction" scope="request" name="LoadUserAssigment" validate="true" input="" zForwardSuccess="USER_ASSIGNMENTS_POPUP_SCREEN"></action>
+		
+	</action-mappings>
+
+	<event-mappings>
+	 <event name="MasterEvent" type="com.master.action.MasterAction" />
+	</event-mappings>
+
+
+	<screen-definitions>		 
+		<screen zname="START_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="blank.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="MANY_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/manyRelation.jsp" BottomNav="blank.jsp"></screen>			
+		<screen zname="ONE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/oneRelation.jsp" BottomNav="blank.jsp"></screen>			
+		<screen zname="TEMPLATE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="master/template.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="MANY_TEMPLATE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="blank.jsp" SubHeader="blank.jsp" LeftNav="blank.jsp" HtmlBody="master/template.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="POPUP_CLOSE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="blank.jsp" SubHeader="blank.jsp" LeftNav="blank.jsp" HtmlBody="entity/popupClose.jsp" BottomNav="blank.jsp"></screen>		
+		
+		
+		<screen zname="SET_PERMISSION_SCREEN" HtmlTitle="GE CAPITAL" TopNav="blank.jsp" SubHeader="blank.jsp" LeftNav="blank.jsp" HtmlBody="manual/jsp/config/permissionSubscreen.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SET_PERMISSION_SETUP_BUTTON" HtmlTitle="GE CAPITAL" TopNav="blank.jsp" SubHeader="blank.jsp" LeftNav="blank.jsp" HtmlBody="manual/jsp/config/permissionSetupButton.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SET_PERMISSION_METAB" HtmlTitle="GE CAPITAL" TopNav="blank.jsp" SubHeader="blank.jsp" LeftNav="blank.jsp" HtmlBody="manual/jsp/config/permissionMetab.jsp" BottomNav="blank.jsp"></screen>
+		
+		<screen zname="MY_TASK_LIST" HtmlTitle="GE CAPITAL" TopNav="blank.jsp" SubHeader="blank.jsp" LeftNav="blank.jsp" HtmlBody="manual/jsp/manual/myTaskList.jsp" BottomNav="blank.jsp"></screen>
+		
+		<screen zname="TEMPLATETAB_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="template_tab/templateOneToTab.jsp" BottomNav="blank.jsp"></screen>		
+		<screen zname="ENTITY_TEMPLATE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/template.jsp" BottomNav="blank.jsp"></screen>		
+		<screen zname="TEMPLATE01_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/template01.jsp" BottomNav="blank.jsp"></screen>		
+		<screen zname="SEARCHENTITY_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/searchTemplate.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="LISTMANYTEMPLATE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/listManyTemplate.jsp" BottomNav="blank.jsp"></screen>			
+		<screen zname="LISTEXISTDATATEMPLATE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/listExistDataTemplate.jsp" BottomNav="blank.jsp"></screen>			
+		<screen zname="ENTITY_SUBMIT_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/submitURL.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="VIEW_HISTORY_DATA_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="entity/viewHistoryDataTemplate.jsp" BottomNav="blank.jsp"></screen>
+		
+		<screen zname="FULFILLMENT_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/js/entity/popupFulfillment.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="RECEIPTPOPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/js/entity/popupReceipt.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SUPPLIER_QUOTE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/js/entity/popupRFQ.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="MANAGE_TAX_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manage_tax.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="MANAGE_TAX_EDIT_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manage_tax_EDIT.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="PACKINGPOPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/js/entity/popupPacking.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="REPORT_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="report.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="FINANCE_MAIN_RECEIVE" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/financeMainReceive.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="ADD_CASH_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/addCashPopup.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="ADD_CHEQUE_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/addChequePopup.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="ADD_HIRE_REQ_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/addHireRecognizancePopup.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="FILTER_MAIN_RECEIVE_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/filterMainReceiveScreen.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SEARCH_DEBT_LIST_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/searchDebtList.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="ADD_PAID_LIST_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/addPaidListPopup.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="CONFIRM_PASSWORD_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/finance/confirmPasswordPopup.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="PCMS_CONFIRM_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsConfirmActionPopup.jsp" BottomNav="blank.jsp"></screen>
+		<!-- Service servey  Add By Sarayut-->
+		<screen zname="SEND_OTHER_DEPT_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/sendOtherDept.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SEND_SERVICE_ASSIGN_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/serviceAssignment.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SEND_VERIFY_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/sendVerify.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SEND_JOB_AGENCIES_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/sendjobAgencies.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="SEND_AN_AGENCY_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/sendAnAgency.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="FOLLOW_UP_ASSIGNMENT_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/followUpAssignment.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="APPROVE_REJECT_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/approveRejectScreen.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="TODO_LIST_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/totoList/main.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="TODO_LIST_REDIR_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/totoList/redirect.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="CUS_PAID_DETAIL_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/customerPaidDetailPopup.jsp" BottomNav="blank.jsp"></screen>
+		<screen zname="USER_ASSIGNMENTS_POPUP_SCREEN" HtmlTitle="GE CAPITAL" TopNav="header.jsp" SubHeader="blank.jsp" LeftNav="leftmenu.jsp" HtmlBody="manual/jsp/manual/pcmsService/userAssignment.jsp" BottomNav="blank.jsp"></screen>
+		
+	</screen-definitions>
+
+	<value-list-impl-mapping v-web-action-path="VALUE_LIST_UTIL_WEB_ACTION">
+		<!-- Example Define ValueList Impl -->
+		<!--value-list-impl vname="firstValueList" vtype="com.ge.naos.view.valuelist.workflow.ApplicationValueListImpl" /-->
+		<!--value-list-impl vname="testWkValueList" vtype="com.ge.naos.view.valuelist.workflow.CCPendingValueListImpl_V2" /-->
+		<!-- End Example Define ValueList Impl -->
+
+		<value-list-impl vname="VALUE_LIST_IMPL_CAPENDING" vtype="com.ge.naos.view.valuelist.workflow.CCPendingValueListImpl" />
+	</value-list-impl-mapping>
+	
+	<initial-dbtype>
+	<!--init-db db-name="DB2"--><!-- for DB2 -->
+	<init-db db-name="MYSQL" /><!-- for Oracle -->
+	</initial-dbtype>
+	
+	<initial-ejblookupflag>
+	<init-lookup ejb-lookup="N"/><!-- Y == Yes || N == No -->
+	</initial-ejblookupflag>
+	
+	<!-- New option about value list from cgu -->
+	<initial-aval>
+		
+		<init-jsp id="1" itemPerPage="20" />
+		<init-jsp id="2" itemPerPage="50" />
+		<init-jsp id="3" itemPerPage="100" />
+		<init-jsp id="4" itemPerPage="200" />
+		<init-jsp id="5" itemPerPage="500" />
+	</initial-aval>
+	<printconsole>
+		<printout switch="on" />
+	</printconsole>
+	
+	<connecttion-param>
+		<conn-javaENV javaENV="java:/" />
+	</connecttion-param>
+
+	<schema-config>  
+		<schema-name name="EAF_MASTER" />
+	</schema-config> 
+	
+	<start-up-entity>  
+		<start-up-entity start-up="N" />
+	</start-up-entity>
+ 
+
+
+	<!-- End option  -->
+
+	<init-EJBLOOKUP LOOKUPEJB="ejb/ControlManageHome" PROVIDERURL="corbaloc:iiop:localhost:2809" />	
+
+	<controller contentType="text/html;charset=windows-874" debug="3" locale="true" nocache="true" />
+	<message-resources parameter="BankingMessageResources" null="false" />
+</struts-config>
+
+

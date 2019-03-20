@@ -1,0 +1,393 @@
+/*-----------------------*/
+/* Default styles */
+body {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; background-color: #FFFFFF; margin: 0px; }
+hr.homepage {color: #F51C30}
+.header {background-color: #5F7BA4; color: white; font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; }
+
+/* style for logon page */
+table.wholePage {width: 100%;height: 90%;}
+td.centered {vertical-align: middle;text-align: center;}
+td.bannerGreeting{background-color: #EEEEEE; padding: 10px;border-bottom: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;padding:10px;}
+div.container {position: relative;text-align: center;margin-left: auto; margin-right: auto; width: 650px; height: 300px;}
+.headerTitle { font-family:Arial, MS sans-serif, Helvetica,Verdana; font-size:12pt; font-weight:bold; color:#636384;}
+.title{ font-family:Arial, MS sans-serif, Helvetica,Verdana; font-size:9pt; font-weight:bold; color:#636384;}
+.list {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; }
+.listReadOnly {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; color: #808080;}
+.listReadOnlyStrong {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; font-weight: bold; color: #808080;}
+.listReadOnlySpecial { font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; font-style: italic; color: #808080;}
+.bannerLeft {height: 31px; background-repeat:  repeat-x; }
+.bannerLogo {height:31px;width:126px;background-repeat:no-repeat;}
+.bannerCenter {height:31px;width:590px;background-repeat:  no-repeat;}
+.bannerRight {height:31px;background-repeat:  repeat-x;color:#3E63B1;font-family:Arial, MS sans-serif, Helvetica,Verdana;font-size:9pt;font-weight:    bold;text-align:right;}
+.bannerCustomLeft {height:31px;color:#3E63B1;background-color:#FFFFFF;}
+.bannerCustomRight {height:31px;color:#3E63B1;background-color:#FFFFFF;font-family:Arial, MS sans-serif, Helvetica,Verdana;font-size:9pt;font-weight:  bold;text-align:right;}
+.panelFrame {border:1px solid #636384;}
+.panelTitlebar {background-color:#9FB5DE;background-repeat:repeat-x;height:15px;}
+.panelFooterbar {background-color:#DDE8FC;background-repeat:repeat-x;height:15px;}
+table.centeredPanel { margin-left:auto; margin-right: auto; border: 1px solid #636384; width: 100% }
+.panelText { color: #375487; font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; font-weight: bold; }
+hr {color:  #BEBED1;background-color: #BEBED1;height: 1px;}
+.button {BORDER-RIGHT: #003C74 1px solid; BORDER-LEFT: #003C74 1px solid; BORDER-TOP: #003C74 1px solid; BORDER-BOTTOM: #003C74 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: Black; FONT-FAMILY: verdana, arial; BACKGROUND-COLOR: #D2D1E4 }
+
+a:link.orange {color:#000000;}
+a:link.orangenoline {color:#FFFFFF}
+a:link.sidemenu {color:#FFFFCC}
+a:link.standardmenu {color:#FFCC66}
+.adisable{color:#CC9966}
+
+a:visited.orange {color:#000000}
+a:visited.orangenoline {color:#FFFFFF}
+a:visited.sidemenu {color:#FFFFCC}
+a:visited.standardmenu {color:#FFCC66}
+
+a:hover.orange {color: #000000}
+a:hover.orangenoline {color: #FFFFFF}
+a:hover.sidemenu {color: #FFFFCC}
+a:visited.standardmenu {color:#FFCC66}
+.select_box {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487; cursor:hand;}
+.text {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;}
+.td_OneRelation {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;}
+.textTop { color: #375487; font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; font-weight: bold; }
+.textDisplay {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #650000;}
+.textDesc {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 10pt;color: #990000;}
+.textError { font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 10pt;color: #FF0hh000; font-weight: bold; }
+.blueheader {color:#3F89C3;font-size:13px;font-weight:bold;}
+.textbox {  border: #6D90B0;border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-family: Verdana; font-size: 9pt;text-align: left}
+.numbox {  border: #6D90B0;border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-family: Verdana; font-size: 9pt;text-align: right}
+.displaybox {  border: #6D90B0; background-color: #FFFFCC; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-family: Verdana; font-size: 10pt;text-align: left}
+.selectstyle { font-family:Arial, Tahoma, Verdana; font-size:9pt; color:#333333; border-style:solid; border-width:1px; border-color:#6D90B0;}
+.disable_input {font-family:Tahoma, Verdana, Arial;font-size:9pt;color:#555555;background-color:#EEEEEE;border-style:solid;border-width:1px;border-color:#6D90B0;}
+.texttable{font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;background-color:#FFFFAA;}
+.texttotal{font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;background-color:#FFFFAA; font-weight: bold;}
+.textdate{font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487; vertical-align:bottom;}
+
+.tableHeader {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; font-weight:bold;color: #000000;background-color: #9FB5DE;TEXT-ALIGN: center;vertical-align:middle;}
+.tableLine {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; font-weight:bold;color: #000000;background-color: #9FB5DE;}
+.tableRow {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; color: #003399;background-color: #EEEEEB;height:35px; cursor: hand;}
+.tableRow2 {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; color: #003399; background-color: #FFFFFF;height:35px; cursor: hand;}
+
+/*---------------------------------------------------------------------*/
+/* style for search result */
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+	text-align: right;
+}
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	display:block;
+	border-top: none;
+	margin-bottom: 2px;
+	text-align: right;
+}
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0 10px 0;
+	width: 99%;
+}
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+	text-align: right;
+}
+span.excel {
+	background-image: url(images/ico_file_excel.png);
+}
+span.csv {
+	background-image: url(images/ico_file_csv.png);
+}
+span.xml {
+	background-image: url(images/ico_file_xml.png);
+}
+span.pdf {
+	background-image: url(images/ico_file_pdf.png);
+}
+span.red {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt; color: #FF0000;}
+span.green {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt; color: #009900;}
+
+
+A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #9999ff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A { 
+	TEXT-DECORATION: none 
+}
+.bubold2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000063; FONT-FAMILY: "Tahoma";
+} 
+
+.whbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: "Tahoma";
+}
+
+
+SELECT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #c6d3e7;
+    BORDER-BOTTOM-COLOR: #c6d3e7;
+    BORDER-RIGHT-COLOR: #c6d3e7;
+    BORDER-LEFT-COLOR: #c6d3e7;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+TEXTAREA {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #c6d3e7;
+    BORDER-BOTTOM-COLOR: #c6d3e7;
+    BORDER-RIGHT-COLOR: #c6d3e7;
+    BORDER-LEFT-COLOR: #c6d3e7;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+INPUT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP:  1px solid;;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT:  1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #c6d3e7;
+    BORDER-BOTTOM-COLOR: #c6d3e7;
+    BORDER-RIGHT-COLOR: #c6d3e7;
+    BORDER-LEFT-COLOR: #c6d3e7;
+    BACKGROUND-COLOR: #ffffff;
+	SCROLLBAR-FACE-COLOR: #cccccc;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #ffffff;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	COLOR: #4f4f4f;
+	SCROLLBAR-ARROW-COLOR: #000000;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;	
+}
+
+.TextWarningNormal{
+	MARGIN: 0px;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	COLOR: red;
+}
+.button_style {
+	 BORDER-RIGHT: #003C74 1px solid; BORDER-LEFT: #003C74 1px solid; BORDER-TOP: #003C74 1px solid; BORDER-BOTTOM: #003C74 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: Black; FONT-FAMILY: verdana, arial; BACKGROUND-COLOR: #D2D1E4;
+}
+
+.button_style_1 {
+	 FONT-WEIGHT: bold; FONT-SIZE: 9px; CURSOR: hand; COLOR: #ffffff; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #0f2f60;
+}
+
+
+.TableHeaderList {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #2058a0;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none
+}
+
+.bu2 {
+	FONT-SIZE: 9px;
+	COLOR: #000063;
+	FONT-FAMILY: "Tahoma";
+}
+
+DIV.manyRowDiv THEAD TABLE {
+	border: none;
+}
+
+DIV.manyRowDiv THEAD DIV TABLE TR TD{
+	height:25px;
+}
+
+DIV.manyRowDiv td, DIV.manyRowDiv span, DIV.manyRowDiv a, DIV.manyRowDiv a:link, DIV.manyRowDiv a:visited, DIV.manyRowDiv a:active , DIV.manyRowDiv a:hover{
+	FONT-SIZE: 9px;
+	COLOR: #000063;
+	FONT-FAMILY: "Tahoma";
+}
+
+div.hr {
+	/*
+	height: 15px;
+	background: #fff url(images/hr1.gif) no-repeat scroll center;
+	*/
+}
+
+div.hr hr {
+	color: #d9d9d9;
+	height: 1px;
+}
+
+/*#####################################################################*/
+/*### start popUp style ###*/
+#popUpContentResult TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+	color: #666666;
+}
+
+#popUpContentResult TR.title{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+}
+
+#popUpContentResult TR.ROW_HOVER{
+	cursor: hand;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW_ALT{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+/*### end popUp style ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start hi-light row style ###*/
+TR .ROW{
+	background-color: #EEEEEB;
+	font-family: Arial, MS sans-serif, Helvetica,Verdana ; 
+	font-size: 9pt; 
+	color: #003399;
+}
+
+TR .ROW_ALT{
+	background-color: #FFFFFF;
+	font-family: Arial, MS sans-serif, Helvetica,Verdana ; 
+	font-size: 9pt; 
+	color: #003399;
+}
+
+TR .ROW_HOVER{	
+	cursor: hand;
+	background-color: lightblue;
+	font-family: Arial, MS sans-serif, Helvetica,Verdana ; 
+	font-size: 9pt; 
+	color: #003399;
+}
+/*### end hi-light row style ###*/
+/*#####################################################################*/
+/*#####################################################################*/
+/*### start order column cursor ###*/
+.orderColumnDiv{
+	cursor:pointer;
+}
+
+.orderDivArea{
+	width: 10px;
+}
+
+.orderASCDiv{
+	background:url(images/arrow_up_2.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+}
+
+.orderDESCDiv{
+	background:url(images/arrow_down_2.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+	margin-right:2px;
+	margin-top:2px;
+}
+
+.orderASCDivAlt{
+	background:url(images/arrow_up_1.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+}
+
+.orderDESCDivAlt{
+	background:url(images/arrow_down_1.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+	margin-right:2px;
+	margin-top:2px;
+}
+/*### end order column cursor ###*/
+
+/*### for manage screen ###*/
+.componentNameDiv{
+	text-align: left;
+	height: 35px;
+}
+
+.componentSpacerDiv{
+	width: 5px;
+	height: 35px;
+}
+
+.componentDiv{
+	text-align: left;
+	padding-right: 10px;
+	height: 35px;
+}
+
+.radioGroupTD {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;}
+
+
+/*### end for manage screen ###*/

@@ -1,0 +1,397 @@
+BODY{
+	scrollbar-3dlight-color: #EFEFEF;
+	scrollbar-arrow-color: #EFEFEF;
+	scrollbar-base-color: #FFFFFF;
+	scrollbar-darkshadow-color: #EFEFEF;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: #EFEFEF;
+	scrollbar-shadow-color: #EFEFEF;
+	scrollbar-track-color: #EFEFEF;	
+}
+
+A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #9999ff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A { 
+	TEXT-DECORATION: none 
+}
+.bubold2 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #000063;
+	FONT-FAMILY: "Tahoma";
+} 
+
+.whbold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #ffffff;
+	FONT-FAMILY: "Tahoma";
+}
+
+TABLE,TR,TD {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #000063;
+	FONT-FAMILY: Tahoma;
+}
+
+SELECT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #c6d3e7;
+    BORDER-BOTTOM-COLOR: #c6d3e7;
+    BORDER-RIGHT-COLOR: #c6d3e7;
+    BORDER-LEFT-COLOR: #c6d3e7;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+TEXTAREA {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #c6d3e7;
+    BORDER-BOTTOM-COLOR: #c6d3e7;
+    BORDER-RIGHT-COLOR: #c6d3e7;
+    BORDER-LEFT-COLOR: #c6d3e7;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+INPUT {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP:  1px solid;;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT:  1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #c6d3e7;
+    BORDER-BOTTOM-COLOR: #c6d3e7;
+    BORDER-RIGHT-COLOR: #c6d3e7;
+    BORDER-LEFT-COLOR: #c6d3e7;
+    BACKGROUND-COLOR: #ffffff;
+	COLOR: #4f4f4f;
+}
+.TextWarningNormal{
+	MARGIN: 0px;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	COLOR: red;
+}
+.button_style {
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 9px;
+	 CURSOR: hand;
+	 COLOR: #ffffff;
+	 FONT-FAMILY: Tahoma;
+	 BACKGROUND-COLOR: #CCCCCC;
+}
+
+.button_style_1 {
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 9px;
+	 CURSOR: hand;
+	 COLOR: #ffffff;
+	 FONT-FAMILY: Tahoma;
+	 BACKGROUND-COLOR: #0f2f60;
+}
+
+
+.TableHeaderList {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9px;
+	COLOR: #ffffff;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #2058a0;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none
+}
+
+.bu2 {
+	FONT-SIZE: 9px;
+	COLOR: #000063;
+	FONT-FAMILY: "Tahoma";
+}
+
+div.hr {
+	/*
+	height: 15px;
+	background: #fff url(images/hr1.gif) no-repeat scroll center;
+	*/
+}
+
+div.hr hr {
+	color: #D9D9D9;
+	height: 1px;
+}
+
+.entityButton{
+	text-align: left;
+	vertical-aligh: middle;
+}
+
+#topAreaSearchEntity{
+	height: 20px;
+}
+
+/*#####################################################################*/
+/*### start popUp style ###*/
+#popUpContentResult TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+	color: #666666;
+}
+
+#popUpContentResult TR.title{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+}
+
+#popUpContentResult TR.ROW_HOVER{
+	cursor: hand;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW_ALT{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+/*### end popUp style ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start order column cursor ###*/
+.orderColumnDiv{
+	cursor:pointer;
+}
+
+.orderDivArea{
+	width: 10px;
+}
+
+.orderASCDiv{
+	background:url(images/arrow_up_1.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+}
+
+.orderDESCDiv{
+	background:url(images/arrow_down_1.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+	margin-right:2px;
+	margin-top:2px;
+}
+
+.orderASCDivAlt{
+	background:url(images/arrow_up_2.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+}
+
+.orderDESCDivAlt{
+	background:url(images/arrow_down_2.gif) no-repeat scroll center center;
+	height:10px;
+	width:10px;
+	margin-right:2px;
+	margin-top:2px;
+}
+/*### end order column cursor ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start hi-light row style ###*/
+TR .ROW{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+TR .ROW_ALT{
+	background-color: #FAFAFA;
+	text-align: center;
+}
+
+TR .ROW_HOVER{
+	cursor: hand;
+	background-color: #CCFFDD;
+	text-align: center;
+}
+/*### end hi-light row style ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start div for each component ###*/
+.moduleDiv{
+	background-color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+.td_OneRelation{
+	vertical-align: top;
+}
+
+.td_AttachmentFile{
+	vertical-align: top;
+	text-align: center;
+}
+
+.componentNameDiv{
+	text-align: right;
+}
+
+.componentSpacerDiv{
+	width: 3px;	
+}
+
+.componentDiv{
+	text-align: left;
+	padding-right: 10px;
+}
+
+
+DIV.manyRowDiv{
+	scrollbar-3dlight-color: d9d9d9;
+	scrollbar-arrow-color: d9d9d9;
+	scrollbar-base-color: FFFFFF;
+	scrollbar-darkshadow-color: d9d9d9;
+	scrollbar-face-color: FFFFFF;
+	scrollbar-highlight-color: d9d9d9;
+	scrollbar-shadow-color: d9d9d9;
+	scrollbar-track-color: d9d9d9;
+}
+
+DIV.manyRowDiv {
+	MARGIN: 0px auto;
+	OVERFLOW: auto;
+	WIDTH: 100%;
+	HEIGHT: 223px;
+}
+
+DIV.manyRowDiv THEAD TR {
+	POSITION: relative;
+	TOP: expression(offsetParent.scrollTop-2);
+}
+
+DIV.manyRowDiv table {
+	border: 1px solid #d9d9d9;
+	border-collapse: collapse;
+}
+
+DIV.manyRowDiv THEAD table {
+	border: none;
+}
+
+DIV.manyRowDiv table tbody tr{
+	height: 19px;
+}
+
+DIV.manyRowDiv td, DIV.manyRowDiv span, DIV.manyRowDiv a, DIV.manyRowDiv a:link, DIV.manyRowDiv a:visited, DIV.manyRowDiv a:active , DIV.manyRowDiv a:hover{
+	text-decoration: none;
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: Tahoma;
+}
+
+/*### end div for each component ###*/
+/*#####################################################################*/
+
+.gridModuleContainer{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.gridModuleContainer li {
+/*	
+	width: 150px !important;
+	min-height: 250px;	
+	border: 1px solid #D9D9D9;
+	border-collapse: collapse;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	zoom: 1;
+	*display: inline;
+	height: auto !important;
+	height: 240px;	
+	overflow-x: auto;	
+*/
+	list-style: none;
+}
+
+.moduleContainer{
+	width: 98%;
+}
+
+.moduleContainer .moduleDiv{
+	padding: 7px;
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+
+.moduleContainer table{
+	width: 100%
+}
+
+.moduleContainer table.radioGroupTable, .moduleContainer td.radioGroupTD,
+.moduleContainer table.checkboxGroupTable, .moduleContainer td.checkboxGroupTD{
+	width:auto;
+}
+
+.moduleContainer li{
+	list-style: none;
+}
+
+.moduleHeader {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #D9D9D9;
+}

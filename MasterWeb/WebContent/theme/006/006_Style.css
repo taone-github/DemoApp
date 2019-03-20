@@ -1,0 +1,447 @@
+BODY{
+	/*scrollbar-3dlight-color: #EFEFEF;
+	scrollbar-arrow-color: #EFEFEF;
+	scrollbar-base-color: #FFFFFF;
+	scrollbar-darkshadow-color: #EFEFEF;
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: #EFEFEF;
+	scrollbar-shadow-color: #EFEFEF;
+	scrollbar-track-color: #EFEFEF;	*/
+	BACKGROUND-COLOR: #FFFFFF;
+}
+
+A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #9999ff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+A { 
+	TEXT-DECORATION: none 
+}
+.bubold2 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #0950B0;
+	FONT-FAMILY: Tahoma;
+} 
+
+.whbold {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Tahoma;
+}
+
+TABLE, TR, TD {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma;
+}
+
+SELECT {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #D9D9D9;
+    BORDER-BOTTOM-COLOR: #D9D9D9;
+    BORDER-RIGHT-COLOR: #D9D9D9;
+    BORDER-LEFT-COLOR: #D9D9D9;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+TEXTAREA {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP: 1px solid;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT: 1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #D9D9D9;
+    BORDER-BOTTOM-COLOR: #D9D9D9;
+    BORDER-RIGHT-COLOR: #D9D9D9;
+    BORDER-LEFT-COLOR: #D9D9D9;
+    BACKGROUND-COLOR: #ffffff;
+	COLOR: #000000;
+}
+
+INPUT {
+	vertical-align: top;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma;
+	BORDER-TOP:  1px solid;;
+	BORDER-BOTTOM: 1px solid;
+	BORDER-RIGHT:  1px solid;
+	BORDER-LEFT: 1px solid;
+    BORDER-TOP-COLOR: #D9D9D9;
+    BORDER-BOTTOM-COLOR: #D9D9D9;
+    BORDER-RIGHT-COLOR: #D9D9D9;
+    BORDER-LEFT-COLOR: #D9D9D9;
+    BACKGROUND-COLOR: #ffffff;
+	COLOR: #666666;
+}
+.TextWarningNormal{
+	MARGIN: 0px;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma;
+	COLOR: red;
+}
+
+.button_style {
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 12px;
+	 FONT-FAMILY: Tahoma;
+	 CURSOR: hand;
+	 COLOR: #000000;
+	 BACKGROUND-COLOR: #fafaf9;
+	 border: 1px solid #c8dafe;
+	 border-collapse: collapse;
+}
+
+.button_style_1 {
+	 FONT-WEIGHT: bold;
+	 FONT-SIZE: 12px;
+	 FONT-FAMILY: Tahoma;
+	 CURSOR: hand;
+	 COLOR: #000000;
+	 border: none;
+	 border-collapse: collapse;
+}
+
+.TableHeaderList {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #2aa646;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: none
+}
+
+.bu2 {
+	FONT-SIZE: 12px;
+	COLOR: #666666;
+	FONT-FAMILY: "Tahoma";
+}
+
+div.hr {
+	/*
+	height: 15px;
+	background: #fff url(images/hr1.gif) no-repeat scroll center;
+	*/
+}
+
+div.hr hr {
+	color: #D9D9D9;
+	height: 1px;
+}
+
+.entityButton{
+	text-align: left;
+	VERTICAL-ALIGN: middle;
+	background-color:#FFFFFF;
+}
+
+.entityButton td{
+	padding: 0;
+	/*padding-left: 2px;*/
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.moduleDiv .entityButton td{
+	background: #ffffff;
+	padding: 0;
+	padding-bottom: 2px;
+}
+
+#topAreaSearchEntity{
+	
+}
+
+/*#####################################################################*/
+/*### start popUp style ###*/
+#popUpContentResult TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 12px;
+	border-collapse: collapse;
+	color: #666666;
+}
+
+#popUpContentResult TR.title{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+}
+
+#popUpContentResult TR.ROW_HOVER{
+	cursor: hand;
+	font-family: tahoma;
+	font-size: 12px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW{
+	font-family: tahoma;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW_ALT{
+	font-family: tahoma;
+	font-size: 12px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 12px;
+	color: #666666;
+}
+/*### end popUp style ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start order column cursor ###*/
+.orderColumnDiv{
+}
+
+.orderDivArea{
+	width: 5px;
+	height: 7px;
+	cursor:pointer;
+}
+
+.orderASCDiv{
+	background:url(images/arrow/arrow_up_1.gif) no-repeat scroll center center;
+	height:5px;
+	width:5px;
+	margin-top:2px;
+}
+
+.orderDESCDiv{
+	background:url(images/arrow/arrow_down_1.gif) no-repeat scroll center center;
+	height:5px;
+	width:5px;
+	margin-right:10px;
+}
+
+.orderASCDivAlt{
+	background:url(images/arrow/arrow_up_2.gif) no-repeat scroll center center;
+	height:5px;
+	width:5px;
+	margin-top:2px;
+}
+
+.orderDESCDivAlt{
+	background:url(images/arrow/arrow_down_2.gif) no-repeat scroll center center;
+	height:5px;
+	width:5px;
+	margin-right:10px;
+
+}
+/*### end order column cursor ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start hi-light row style ###*/
+TR .ROW{
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+TR .ROW_ALT{
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+TR .ROW_HOVER{
+	cursor: hand;
+	background-color: #cccccc;
+	text-align: center;
+}
+/*### end hi-light row style ###*/
+/*#####################################################################*/
+
+/*#####################################################################*/
+/*### start div for each component ###*/
+.moduleDiv{
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+
+.td_OneRelation{
+	vertical-align: top;
+	padding: 1px 1px 1px 1px;
+	
+	border-bottom: 1px;
+	border-bottom-style:dashed;
+	border-bottom-color:#DFDFDF;
+}
+
+.td_AttachmentFile{
+	vertical-align: top;
+	text-align: center;
+}
+
+.componentNameDiv{
+	text-align: left;
+	padding-top: 1px;
+	padding-left: 3px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	color: #4d4d4d;
+	background-color: #E6EDC9;
+	height: 20px;
+}
+
+.componentSpacerDiv{
+	width: 3px;	
+	height: 20px;
+}
+
+.componentDiv{
+	text-align: left;
+	padding-right: 10px;
+	height: 20px;
+}
+
+
+DIV.manyRowDiv{
+	/*scrollbar-3dlight-color: d9d9d9;
+	scrollbar-arrow-color: d9d9d9;
+	scrollbar-base-color: FFFFFF;
+	scrollbar-darkshadow-color: d9d9d9;
+	scrollbar-face-color: FFFFFF;
+	scrollbar-highlight-color: d9d9d9;
+	scrollbar-shadow-color: d9d9d9;
+	scrollbar-track-color: d9d9d9;*/
+}
+
+DIV.manyRowDiv {
+	MARGIN: 0px auto;
+	OVERFLOW: auto;
+	WIDTH: 100%;
+	HEIGHT: 223px;
+}
+
+DIV.manyRowDiv THEAD TR {
+	POSITION: relative;
+	TOP: expression(offsetParent.scrollTop-2);
+}
+
+DIV.manyRowDiv table {
+	border: 1px solid #d9d9d9;
+	border-collapse: collapse;
+}
+
+DIV.manyRowDiv THEAD table {
+	border: none;
+}
+
+DIV.manyRowDiv table tbody tr{
+	height: 19px;
+}
+
+DIV.manyRowDiv td, DIV.manyRowDiv a, DIV.manyRowDiv a:link, DIV.manyRowDiv a:visited, DIV.manyRowDiv a:active , DIV.manyRowDiv a:hover{
+	text-decoration: none;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma;
+}
+
+/*### end div for each component ###*/
+/*#####################################################################*/
+
+.gridModuleContainer{
+/*	padding-top: 10px;	*/
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.gridModuleContainer li {
+	width: 135px !important;
+/*	min-height: 250px;	*/
+	border: 0px solid #D9D9D9;
+	border-collapse: collapse;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1px;
+	margin-top: 0;
+	margin-bottom: 0;
+	zoom: 1;
+	*display: inline;
+	height: auto !important;
+	height: 215px;	
+/*	overflow-x: auto;	*/
+	
+	list-style: none;
+}
+
+.moduleContainer{
+	width: 98%;
+}
+
+.moduleContainer .moduleDiv{
+	padding: 7px;
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+
+.moduleContainer table{
+	width: 100%
+}
+
+.moduleContainer table.radioGroupTable, .moduleContainer td.radioGroupTD,
+.moduleContainer table.checkboxGroupTable, .moduleContainer td.checkboxGroupTD{
+	width:auto;
+}
+
+.moduleContainer li{
+	list-style: none;
+}
+
+.moduleHeader {
+	border-bottom-style: solid ;
+	border-bottom-color: #935332;
+	border-bottom-width: 1px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	font: Palatino Linotype;
+	font-size: 14px;
+	font-weight: bold;
+	color: #f77c19;
+}
+
+.moduleIcon{
+	font: Palatino Linotype;
+	font-size: 14px;
+	font-weight: bold;
+	color: #f77c19;
+}
+

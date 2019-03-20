@@ -1,0 +1,72 @@
+.font1 {
+	color: #363636;
+	font-size: 11px;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.font2 {
+	color: #363636;
+	font-size: 11px;
+	font-family: Tahoma;
+}
+.font3 {
+	color: black;
+	font-size: 20px;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.font4 {
+	color: white;
+	font-size: 12px;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.font5 {
+	color: white;
+	font-size: 12px;
+	font-family: Tahoma;
+}
+.textbox1{
+	color: black;
+	font-size: 12px;
+	font-family: Tahoma;
+	font-weight: bold;
+	border : ''; 
+	text-align : center;
+	vertical-align: middle;
+}
+.textbox2{
+	color: white;
+	font-size: 14px;
+	font-family: Tahoma;
+	font-weight: bold;
+	border : ''; 
+	text-align : right;
+	width: 70%;
+	background-color: #595959;
+}
+.textbox3{
+	color: black;
+	font-size: 20px;
+	font-family: Tahoma;
+	font-weight: bold;
+	border : ''; 
+	text-align : right;
+	width: 70%; 
+	background-color: #e2e2e2;
+}
+.button1{
+	color: black;
+	font-size: 16px;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align : center;
+	background-color : #e2e2e2;
+}
+.button2{
+	color: #E7FF7F;
+	font-size: 14px;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align : center;
+}

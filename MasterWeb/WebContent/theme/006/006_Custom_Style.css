@@ -1,0 +1,14 @@
+/*### Add special custom style ###*/
+#module_cont_001_ModuleSection table{
+	width: 800px;
+}
+
+#module_cus_001_ModuleSection table{
+	width: 800px;
+}
+
+input[type="text"][disabled="disabled"]{
+	color: red; 
+}
+
+

@@ -1,0 +1,81 @@
+
+/*-=== Navbar search ==-*/
+.stylish-input-group .input-group-addon{  
+    background: #e0e0e0 !important;    
+    border: 0px solid;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.stylish-input-group .form-control{
+    border-left: 0;
+    box-shadow: 0 0 0;
+    background: #e0e0e0;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.stylish-input-group button{
+    border: 0;
+    background: transparent;
+}
+#navSearch:focus,
+input[type="text"]:focus {   
+  border-color: #ffffff;
+}
+.btn-white{
+	background-color: #e0e0e0;
+	color:#2b3036;
+}
+.btn-white:hover,
+.btn-white:active,
+.btn-white.hover{
+	border: 0px;
+}
+.label-white{
+	background-color: #ffffff!important;
+	color: #49515e !important;
+	font-weight: bold;
+}
+
+/*-=== Navbar responsive ==-*/
+@media(max-width:767px) {
+    .navbar .navbar-form {
+        width: 200px;
+        padding-left:0;
+        padding-right:0;
+    }
+}
+@media(min-width:768px) {
+    .navbar .navbar-form {
+        width: 300px;
+    }
+}
+.navbar .navbar-form {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*-==== User Image ====-*/
+.navbar-nav>.user-menu .user-img-rounded{
+	float:right;
+	width:30px;
+	height:30px;
+	border-radius:20%;
+	margin-right:10px;
+	margin-top:-5px;
+	margin-left: 5px;
+}
+@media (max-width:767px){
+	.navbar-nav>.user-menu .user-img-rounded{
+		float:none;
+		margin-right:0;
+		margin-top:-8px;
+		line-height:10px;
+	}
+}

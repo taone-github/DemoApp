@@ -1,0 +1,60 @@
+.ygtvtn {
+	BACKGROUND: url(../../../../img/folders/tn.gif) no-repeat 0px 0px; WIDTH: 17px; HEIGHT: 22px
+}
+.ygtvtm {
+	BACKGROUND: url(../../../../img/folders/tm.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvtmh {
+	BACKGROUND: url(../../../../img/folders/tmh.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvtp {
+	BACKGROUND: url(../../../../img/folders/tp.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvtph {
+	BACKGROUND: url(../../../../img/folders/tph.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvln {
+	BACKGROUND: url(../../../../img/folders/ln.gif) no-repeat 0px 0px; WIDTH: 17px; HEIGHT: 22px
+}
+.ygtvlm {
+	BACKGROUND: url(../../../../img/folders/lm.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvlmh {
+	BACKGROUND: url(../../../../img/folders/lmh.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvlp {
+	BACKGROUND: url(../../../../img/folders/lp.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvlph {
+	BACKGROUND: url(../../../../img/folders/lph.gif) no-repeat 0px 0px; WIDTH: 34px; CURSOR: pointer; HEIGHT: 22px
+}
+.ygtvloading {
+	BACKGROUND: url(../../../../img/folders/loading.gif) no-repeat 0px 0px; WIDTH: 16px; HEIGHT: 22px
+}
+.ygtvdepthcell {
+	BACKGROUND: url(../../../../img/folders/vline.gif) no-repeat 0px 0px; WIDTH: 17px; HEIGHT: 22px
+}
+.ygtvblankdepthcell {
+	WIDTH: 17px; HEIGHT: 22px
+}
+.ygtvitem {
+	
+}
+.ygtvchildren {
+	
+}
+* HTML .ygtvchildren {
+	HEIGHT: 1%
+}
+.ygtvlabel {
+	MARGIN-LEFT: 2px; TEXT-DECORATION: none
+}
+.ygtvlabel:link {
+	MARGIN-LEFT: 2px; TEXT-DECORATION: none
+}
+.ygtvlabel:visited {
+	MARGIN-LEFT: 2px; TEXT-DECORATION: none
+}
+.ygtvlabel:hover {
+	MARGIN-LEFT: 2px; TEXT-DECORATION: none
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+   <resource-ref>
+       <res-ref-name>jdbc/master</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>java:/jdbc/master</jndi-name>
+   </resource-ref>
+   <resource-ref>
+       <res-ref-name>jdbc/application</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>java:/jdbc/application</jndi-name>
+   </resource-ref>
+<!--    OPEN WHEN ENABLE SECURITY -->
+ <security-domain>java:/jaas/LDAPAuth</security-domain> 
+ 
+<!--    <resource-ref>
+       <res-ref-name>jdbc/wf</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>java:/jdbc/wf</jndi-name>
+   </resource-ref>   
+   <resource-ref>
+       <res-ref-name>jdbc/profile</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>java:/jdbc/profile</jndi-name>
+   </resource-ref>  -->
+
+	<!-- loader-repository>
+	DefaultDomain:loader=AdditionalClassLoader
+	</loader-repository-->
+</jboss-web>

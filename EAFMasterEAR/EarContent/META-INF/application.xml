@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" id="Application_ID" version="5">
+  <display-name>EAFMasterEAR</display-name>
+  <module>
+    <web>
+      <web-uri>FrontWeb.war</web-uri>
+      <context-root>FrontWeb</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>MasterWeb.war</web-uri>
+      <context-root>MasterWeb</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+
+</application>

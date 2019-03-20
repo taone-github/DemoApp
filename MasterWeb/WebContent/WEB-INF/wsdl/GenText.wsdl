@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="http://sap" xmlns:impl="http://sap" xmlns:intf="http://sap" xmlns:tns2="http://model" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsi="http://ws-i.org/profiles/basic/1.1/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <wsdl:types>
+  <schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://model" xmlns="http://www.w3.org/2001/XMLSchema">
+   <complexType name="PaymentVo">
+    <sequence>
+     <element name="rentalVoList" nillable="true" type="tns2:ArrayOfRentalVo"/>
+     <element name="depositReceiveVoList" nillable="true" type="tns2:ArrayOfDepositReceiveVo"/>
+     <element name="expenseVoList" nillable="true" type="tns2:ArrayOfExpenseVo"/>
+     <element name="receiptVo" nillable="true" type="tns2:ReceiptVo"/>
+     <element name="chequeVo" nillable="true" type="tns2:ChequeVo"/>
+     <element name="paymentVo" nillable="true" type="tns2:PaymentHeaderVo"/>
+    </sequence>
+   </complexType>
+   <complexType name="RentalVo">
+    <sequence>
+     <element name="dueDate" nillable="true" type="xsd:string"/>
+     <element name="billAmount" nillable="true" type="xsd:string"/>
+     <element name="discount" nillable="true" type="xsd:string"/>
+     <element name="paidAmount" nillable="true" type="xsd:string"/>
+     <element name="remainAmount" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfRentalVo">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="RentalVo" nillable="true" type="tns2:RentalVo"/>
+    </sequence>
+   </complexType>
+   <complexType name="DepositReceiveVo">
+    <sequence>
+     <element name="depositReceiveDate" nillable="true" type="xsd:string"/>
+     <element name="depositReceiveFor" nillable="true" type="xsd:string"/>
+     <element name="depositReceiveAmount" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfDepositReceiveVo">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="DepositReceiveVo" nillable="true" type="tns2:DepositReceiveVo"/>
+    </sequence>
+   </complexType>
+   <complexType name="ExpenseVo">
+    <sequence>
+     <element name="expenseDate" nillable="true" type="xsd:string"/>
+     <element name="expenseFor" nillable="true" type="xsd:string"/>
+     <element name="expenseAmount" nillable="true" type="xsd:string"/>
+     <element name="discount" nillable="true" type="xsd:string"/>
+     <element name="paidAmount" nillable="true" type="xsd:string"/>
+     <element name="remainAmount" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfExpenseVo">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="ExpenseVo" nillable="true" type="tns2:ExpenseVo"/>
+    </sequence>
+   </complexType>
+   <complexType name="ReceiptVo">
+    <sequence>
+     <element name="receiptNo" nillable="true" type="xsd:string"/>
+     <element name="receiptDate" nillable="true" type="xsd:string"/>
+     <element name="receiptAmount" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ChequeVo">
+    <sequence>
+     <element name="chequeNo" nillable="true" type="xsd:string"/>
+     <element name="bankId" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="PaymentHeaderVo">
+    <sequence>
+     <element name="contractNo" nillable="true" type="xsd:string"/>
+     <element name="paymentType" nillable="true" type="xsd:string"/>
+     <element name="paymentMethod" nillable="true" type="xsd:string"/>
+     <element name="paymentAmount" nillable="true" type="xsd:string"/>
+     <element name="branchId" nillable="true" type="xsd:string"/>
+     <element name="identificationNo" nillable="true" type="xsd:string"/>
+     <element name="personType" nillable="true" type="xsd:string"/>
+     <element name="propertyType" nillable="true" type="xsd:string"/>
+     <element name="propertyNo" nillable="true" type="xsd:string"/>
+     <element name="departmentName" nillable="true" type="xsd:string"/>
+     <element name="projectNo" nillable="true" type="xsd:string"/>
+     <element name="ContractNo" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="UpdatePaymentResultVo">
+    <sequence>
+     <element name="resultFlag" nillable="true" type="xsd:string"/>
+     <element name="errorMsg" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+  <schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://sap" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://model"/>
+   <element name="updatePaymentResponse">
+    <complexType>
+     <sequence>
+      <element name="updatePaymentReturn" nillable="true" type="tns2:UpdatePaymentResultVo"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updatePayment">
+    <complexType>
+     <sequence>
+      <element name="pv" nillable="true" type="tns2:PaymentVo"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="updatePaymentRequest">
+     <wsdl:part element="impl:updatePayment" name="parameters">
+    </wsdl:part>
+
+  </wsdl:message>
+
+   <wsdl:message name="updatePaymentResponse">
+     <wsdl:part element="impl:updatePaymentResponse" name="parameters">
+    </wsdl:part>
+
+  </wsdl:message>
+
+   <wsdl:portType name="GenText">
+     <wsdl:operation name="updatePayment">
+       <wsdl:input message="impl:updatePaymentRequest" name="updatePaymentRequest">
+    </wsdl:input>
+
+       <wsdl:output message="impl:updatePaymentResponse" name="updatePaymentResponse">
+    </wsdl:output>
+
+    </wsdl:operation>
+
+  </wsdl:portType>
+
+   <wsdl:binding name="GenTextSoapBinding" type="impl:GenText">
+ <wsaw:UsingAddressing wsdl:required="false" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"/>
+
+     <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+     <wsdl:operation name="updatePayment">
+       <wsdlsoap:operation soapAction="updatePayment"/>
+
+       <wsdl:input name="updatePaymentRequest">
+         <wsdlsoap:body use="literal"/>
+
+      </wsdl:input>
+
+       <wsdl:output name="updatePaymentResponse">
+         <wsdlsoap:body use="literal"/>
+
+      </wsdl:output>
+
+    </wsdl:operation>
+
+  </wsdl:binding>
+
+   <wsdl:service name="GenTextService">
+     <wsdl:port binding="impl:GenTextSoapBinding" name="GenText">
+       <wsdlsoap:address location="http://pmswebservice:9082/PSMWebSap/services/GenText"/>
+
+    </wsdl:port>
+
+  </wsdl:service>
+
+</wsdl:definitions>

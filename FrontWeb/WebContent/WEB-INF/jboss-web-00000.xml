@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+   <resource-ref>
+       <res-ref-name>jdbc/master</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>jdbc/master</jndi-name>
+   </resource-ref> 
+   <resource-ref>
+       <res-ref-name>jdbc/application</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>jdbc/application</jndi-name>
+   </resource-ref>
+   <resource-ref>
+       <res-ref-name>jdbc/profile</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <jndi-name>jdbc/profile</jndi-name>
+   </resource-ref> 
+   
+   <!-- security-domain flushOnSessionInvalidation="false">jaas/UsersCollection</security-domain>
+   <context-root>/UsersCollection</context-root-->
+   
+</jboss-web>

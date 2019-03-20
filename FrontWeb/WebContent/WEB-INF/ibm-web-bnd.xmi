@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webappbnd:WebAppBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappbnd="webappbnd.xmi" xmi:id="WebAppBinding_1313483807140" virtualHostName="default_host">
+  <webapp href="WEB-INF/web.xml#WebApp_ID"/>
+  <resRefBindings xmi:id="ResourceRefBinding_1313485612218" jndiName="jdbc/master">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1313485612218"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1313485612219" jndiName="jdbc/application">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1313485612219"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1313485612220" jndiName="jdbc/application">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1313485612220"/>
+  </resRefBindings>
+  <resRefBindings xmi:id="ResourceRefBinding_1364629661099" jndiName="jdbc/A2M">
+    <bindingResourceRef href="WEB-INF/web.xml#ResourceRef_1364629661099"/>
+  </resRefBindings>
+</webappbnd:WebAppBinding>

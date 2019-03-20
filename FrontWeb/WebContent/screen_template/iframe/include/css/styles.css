@@ -1,0 +1,108 @@
+/*-----------------------*/
+/* Default styles */
+body {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; background-color: #FFFFFF; margin: 0px; }
+hr.homepage {color: #F51C30}
+.header {background-color: #5F7BA4; color: white; font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; }
+
+/* style for logon page */
+table.wholePage {width: 100%;height: 90%;}
+td.centered {vertical-align: middle;text-align: center;}
+td.bannerGreeting{background-color: #EEEEEE; padding: 10px;border-bottom: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;padding:10px;}
+div.container {position: relative;text-align: center;margin-left: auto; margin-right: auto; width: 650px; height: 300px;}
+.headerTitle { font-family:Arial, MS sans-serif, Helvetica,Verdana; font-size:12pt; font-weight:bold; color:#636384;}
+.list {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; }
+.listReadOnly {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; color: #808080;}
+.listReadOnlyStrong {font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; font-weight: bold; color: #808080;}
+.listReadOnlySpecial { font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; font-style: italic; color: #808080;}
+.bannerLeft {height: 31px; background-repeat:  repeat-x; }
+.bannerLogo {height:31px;width:126px;background-repeat:no-repeat;}
+.bannerCenter {height:31px;width:590px;background-repeat:  no-repeat;}
+.bannerRight {height:31px;background-repeat:  repeat-x;color:#3E63B1;font-family:Arial, MS sans-serif, Helvetica,Verdana;font-size:9pt;font-weight:    bold;text-align:right;}
+.bannerCustomLeft {height:31px;color:#3E63B1;background-color:#FFFFFF;}
+.bannerCustomRight {height:31px;color:#3E63B1;background-color:#FFFFFF;font-family:Arial, MS sans-serif, Helvetica,Verdana;font-size:9pt;font-weight:  bold;text-align:right;}
+.panelFrame {border:1px solid #636384;}
+.panelTitlebar {background-color:#9FB5DE;background-repeat:repeat-x;height:15px;}
+.panelFooterbar {background-color:#DDE8FC;background-repeat:repeat-x;height:15px;}
+table.centeredPanel { margin-left:auto; margin-right: auto; border: 1px solid #636384; width: 100% }
+.panelText { color: #375487; font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 9pt; font-weight: bold; }
+hr {color:  #BEBED1;background-color: #BEBED1;height: 1px;}
+.button {BORDER-RIGHT: #003C74 1px solid; BORDER-LEFT: #003C74 1px solid; BORDER-TOP: #003C74 1px solid; BORDER-BOTTOM: #003C74 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 8pt; CURSOR: hand; COLOR: Black; FONT-FAMILY: verdana, arial; BACKGROUND-COLOR: #D2D1E4 }
+a:link.orange {color:#000000}
+a:link.orangenoline {color:#FFFFFF}
+a:link.sidemenu {color:#FFFFCC}
+a:link.standardmenu {color:#FFCC66}
+.adisable{color:#CC9966}
+
+a:visited.orange {color:#000000}
+a:visited.orangenoline {color:#FFFFFF}
+a:visited.sidemenu {color:#FFFFCC}
+a:visited.standardmenu {color:#FFCC66}
+
+a:hover.orange {color: #000000}
+a:hover.orangenoline {color: #FFFFFF}
+a:hover.sidemenu {color: #FFFFCC}
+a:visited.standardmenu {color:#FFCC66}
+
+.text {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 9pt;color: #375487;}
+.textTop { color: #375487; font-family: Arial, MS sans-serif, Helvetica,Verdana; font-size: 8pt; font-weight: bold; }
+.textDisplay {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 10pt;color: #650000;}
+.textDesc {font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 10pt;color: #990000;}
+.textError { font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 10pt;color: #FF0000; font-weight: bold; }
+.blueheader {color:#3F89C3;font-size:13px;font-weight:bold;}
+.textbox {  border: #6D90B0;border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-family: Verdana; font-size: 9pt;text-align: left}
+.numbox {  border: #6D90B0;border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-family: Verdana; font-size: 9pt;text-align: right}
+.displaybox {  border: #6D90B0; background-color: #FFFFCC; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; font-family: Verdana; font-size: 10pt;text-align: left}
+.selectstyle { font-family:Arial, Tahoma, Verdana; font-size:9pt; color:#333333; border-style:solid; border-width:1px; border-color:#6D90B0;}
+.disable_input {font-family:Tahoma, Verdana, Arial;font-size:9pt;color:#555555;background-color:#EEEEEE;border-style:solid;border-width:1px;border-color:#6D90B0;}
+
+
+.tableHeader {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; font-weight:bold;color: #000000;background-color: #9FB5DE;height:35px;}
+.tableLine {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; font-weight:bold;color: #000000;background-color: #9FB5DE;}
+.tableRow {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; color: #003399;background-color: #EEEEEB;height:35px;}
+.tableRow2 {  font-family: Arial, MS sans-serif, Helvetica,Verdana ; font-size: 9pt; color: #003399; background-color: #FFFFFF;height:35px;}
+
+/* style for search result */
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+	text-align: right;
+}
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	display:block;
+	border-top: none;
+	margin-bottom: 2px;
+	text-align: right;
+}
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0 10px 0;
+	width: 100%;
+}
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+}
+span.excel {
+	background-image: url(../../../001/include/css/images/ico_file_excel.png);
+}
+span.csv {
+	background-image: url(../../../001/include/css/images/ico_file_csv.png);
+}
+span.xml {
+	background-image: url(../../../001/include/css/images/ico_file_xml.png);
+}
+span.pdf {
+	background-image: url(../../../001/include/css/images/ico_file_pdf.png);
+}

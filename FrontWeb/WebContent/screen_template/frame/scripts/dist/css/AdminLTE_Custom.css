@@ -1,0 +1,10 @@
+.sidebar-menu,.main-sidebar .user-panel,.sidebar-menu>li.header{overflow-y:auto}
+.sidebar-menu:hover{overflow:auto}
+
+.sidebar-menu::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.sidebar-menu::-webkit-scrollbar-thumb {
+    background: #aaa;
+}

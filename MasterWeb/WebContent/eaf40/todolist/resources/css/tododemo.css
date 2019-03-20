@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #5d6169;
+	margin: auto;
+	background: #ebeff8;
+}
+
+table {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.textbox {
+	margin: 0px;
+	border: 1px solid #cbd7f0;
+	height: 23px;
+	line-height: 5mm;
+	color: #5d6169;
+	padding: 0px 7px 2px;
+	font-size: 12px;
+	/* 	width: 80%; */
+}
+
+.titleapp h2 {
+	height: 30px;
+}
+
+.btn_search {
+	background: url(../images/searchtheme16.png) no-repeat;
+	border: none;
+	margin: 2px 0px 0px 5px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.btn_search:hover, .btn_search:hover {
+	background: url(../images/searchtheme16hover.png) no-repeat;
+}
+
+.titleapp h2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 13px 0px 0px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+
+.titleapp img {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	margin-bottom: 0px;
+}
+
+.searchBox {
+	white-space: nowrap;
+	display: inline-block;
+	/* float: left; */
+	padding-top: 15px;
+	text-align: right;
+	margin-left: 10px;
+}
+
+.bodytodolist {
+	width: 100%;
+	float: left;
+    /* display: flex; */
+}
+
+.todoads_right {
+	/* 	float:left; */
+	width: 98%;
+	border: solid 1px #cbd7f0;
+	background: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+	/*height:668px;*/
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.sortby {
+	width: 100%;
+	/* border-bottom: 1px solid #cbd7f0; */
+	color: #5d6169;
+	padding: 12px 0px 2px 0px;
+	/* 	float: left; */
+}
+
+.sortby td {
+	border-bottom: 1px solid #cbd7f0;
+	padding: 20px 10px;
+}
+
+.sortby p {
+	/* 	padding: 15px; */
+	
+}
+
+.sortby a {
+	color: #5d6169;
+	text-decoration: none;
+}
+
+.sortby_line2 {
+	background: #f7f8fd;
+}
+
+.todo1 {
+	/* 	width: 40%; */
+	/* 	float: left; */
+	margin: 0px !important;
+}
+
+.todo2 {
+	/* 	width: 50%; */
+	/* 	float: left; */
+	margin: 0px 15px 0px 0px;
+	word-wrap: break-word;
+}
+
+.todo2 .blue, .todo1 .blue {
+	font-size: 12px;
+	color: #1662bf;
+	font-weight: 400;
+	width: 100%;
+	margin: 0px;
+	line-height: 1.4
+}
+
+.todo2 h2, .todo1 h2 {
+	font-size: 12px;
+	color: #1662bf;
+	font-weight: 400;
+	width: 100%;
+	margin: 0px;
+	line-height: 1.4;
+	font-weight: bold !important;
+}
+
+.ui-icon {
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/ui-icons_222222_256x240.png);
+	background-repeat: no-repeat;
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+}
+
+.ui-icon-info {
+	background-position: -16px -144px;
+}

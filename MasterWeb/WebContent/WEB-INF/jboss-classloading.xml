@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classloading xmlns="urn:jboss:classloading:1.0"
+name="MasterWeb.war"
+domain="DefaultDomain"
+top-level-classloader="true"
+export-all="NON_EMPTY"
+import-all="true"
+parent-domain="EAFMasterEAR.ear"
+parent-first="true"
+>
+
+</classloading>

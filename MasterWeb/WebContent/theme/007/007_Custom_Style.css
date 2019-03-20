@@ -1,0 +1,49 @@
+/*### start grid style (General Tab) ###*/
+
+.TAB0907240001_grid li {
+	height: auto !important;
+	height: 240px;
+}
+
+.tab0907311442_grid li{
+	height: auto !important;
+	height: 285px;
+	margin: 7px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*### end grid style (General Tab) ###*/
+
+/*### start header module style ###*/
+
+#md200900056_ModuleSection table tbody tr td.moduleHeader{
+	display: none;
+}
+
+#md0907271719_ModuleSection_li {
+	border: none;
+	width: 80%;
+	height: 20px;
+}
+
+#md0907271719_ModuleSection{
+	padding: 0;
+	text-align: center;
+	width: 800px;
+}
+/*### end header module style ###*/
+
+/*### start searchResult text-alignment style ###*/
+.md0907151146_E_FULL_NAME_col{
+	text-align: left;
+	padding-left: 10px
+}
+/*### end searchResult text-alignment style ###*/
+
+
+.hrefbold{
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #9999ff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}
+.href{
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; VERTICAL-ALIGN: baseline; CURSOR: hand; COLOR: #9999ff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma"; TEXT-DECORATION: none
+}

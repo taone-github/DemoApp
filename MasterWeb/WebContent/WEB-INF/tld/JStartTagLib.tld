@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+	"http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<!-- a tag library descriptor -->
+
+<taglib>
+  <!-- after this the default space is
+	"http://java.sun.com/j2ee/dtds/jsptaglibrary_1_2.dtd"
+   -->
+
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>jstart</shortname>
+  <uri>http://www.jstart.com</uri>
+  <info>
+	JStart taglib
+  </info>
+  
+    
+  <!-- foreach tag --> 
+  <tag>
+    <name>forEach</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.ForEachTag</tagclass>
+    <teiclass>com.oneweb.j2ee.jsp.taglib.ForEachTEI</teiclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		ForEachTag used for Array iteration
+    </info>    
+    <attribute>
+      <name>array</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  
+  <!-- nested tags -->
+  <!-- switch tag -->
+  <tag>
+    <name>switch</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.SwitchTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		Switch in Java
+    </info>    
+     <attribute>
+      <name>value</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>   
+  </tag>
+  
+   <!-- case in Switch Tag  -->
+  <tag>
+    <name>case</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.CaseTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		Case in SwitchTag
+    </info>
+    <attribute>
+      <name>value</name>
+      <required>true</required>
+	  <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  
+  <!-- if tag -->
+  <tag>
+    <name>if</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.IfTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		if in Java, if trye , reder the body
+    </info>    
+    <attribute>
+      <name>value</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>   
+  </tag>
+  
+ 
+  
+    <!-- if not tag -->
+  <tag>
+    <name>ifNot</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.IfNotTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		if in Java, if false , reder the body
+    </info>    
+     <attribute>
+      <name>value</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>   
+  </tag>
+
+   <!-- insert(include) page -->
+  <tag>
+    <name>insert</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.InsertTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		Insert Page depending on parameters in the request
+    </info>
+    <attribute>
+      <name>parameter</name>
+      <required>true</required>
+    </attribute>
+    <attribute>
+      <name>direct</name>
+      <required>true</required>
+    </attribute>
+  </tag>
+  
+  <!-- set parameter tag -->
+  <tag>
+    <name>parameter</name>
+    <tagclass>com.oneweb.j2ee.jsp.taglib.ParameterTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>
+		Set Parameter Tag in request
+    </info>
+    <attribute>
+      <name>parameter</name>
+      <required>true</required>
+    </attribute>
+    <attribute>
+      <name>value</name>
+      <required>true</required>
+    </attribute>
+  </tag>
+  
+  
+</taglib>

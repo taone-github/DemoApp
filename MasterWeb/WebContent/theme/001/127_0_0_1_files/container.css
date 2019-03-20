@@ -1,0 +1,129 @@
+.overlay {
+	DISPLAY: block; POSITION: absolute
+}
+.tt {
+	BORDER-RIGHT: #fcc90d 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fcc90d 1px solid; PADDING-LEFT: 2px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; FONT: 100% sans-serif; BORDER-LEFT: #fcc90d 1px solid; WIDTH: auto; COLOR: #333; PADDING-TOP: 2px; BORDER-BOTTOM: #fcc90d 1px solid; POSITION: absolute; BACKGROUND-COLOR: #fdffb4
+}
+* HTML BODY.masked SELECT {
+	VISIBILITY: hidden
+}
+* HTML DIV.panel-container SELECT {
+	VISIBILITY: inherit
+}
+* HTML DIV.drag SELECT {
+	VISIBILITY: hidden
+}
+* HTML DIV.hide-select SELECT {
+	VISIBILITY: hidden
+}
+.mask {
+	DISPLAY: none; FILTER: alpha(opacity=50); LEFT: 0px; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #ccc; -moz-opacity: 0.5; opacity: .50
+}
+[id].mask {
+	POSITION: fixed
+}
+.hide-scrollbars * {
+	OVERFLOW: hidden
+}
+.hide-scrollbars TEXTAREA {
+	DISPLAY: none; OVERFLOW: hidden
+}
+.hide-scrollbars SELECT {
+	DISPLAY: none; OVERFLOW: hidden
+}
+.show-scrollbars TEXTAREA {
+	OVERFLOW: visible
+}
+.show-scrollbars SELECT {
+	OVERFLOW: visible
+}
+.panel-container {
+	Z-INDEX: 6; VISIBILITY: hidden; OVERFLOW: visible; WIDTH: auto; POSITION: absolute; BACKGROUND-COLOR: transparent
+}
+.matte {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #fff
+}
+.matte .underlay {
+	DISPLAY: none
+}
+.shadow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.shadow .underlay {
+	FILTER: alpha(opacity=70); LEFT: 3px; VISIBILITY: inherit; WIDTH: 100%; POSITION: absolute; TOP: 3px; HEIGHT: 100%; BACKGROUND-COLOR: #ccc; -moz-opacity: 0.7; opacity: .70
+}
+.panel {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; Z-INDEX: 1; LEFT: 0px; VISIBILITY: hidden; FONT: 12px Arial; OVERFLOW: auto; BORDER-LEFT: #000 1px solid; COLOR: #000; BORDER-BOTTOM: #000 1px solid; POSITION: relative; TOP: 0px; BORDER-COLLAPSE: separate; BACKGROUND-COLOR: #fff
+}
+UL#dashletCategories LI A:link {
+	BACKGROUND: #eee; COLOR: #444
+}
+UL#dashletCategories LI A:visited {
+	BACKGROUND: #eee; COLOR: #444
+}
+UL#dashletCategories LI A.current {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444
+}
+UL#dashletCategories LI A.current:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #444
+}
+.panel .hd {
+	PADDING-RIGHT: 4px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 13px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; COLOR: #444; PADDING-TOP: 4px; BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #ddd
+}
+.panel .bd {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; COLOR: #444; PADDING-TOP: 6px; BACKGROUND-COLOR: #fff
+}
+UNKNOWN {
+	BACKGROUND: #fff; COLOR: #000
+}
+.panel .tabForm {
+	MARGIN: 0px
+}
+.panel .bd P {
+	MARGIN: 0px
+}
+.panel .close {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: right center; PADDING-LEFT: 0px; Z-INDEX: 6; RIGHT: 4px; VISIBILITY: inherit; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 12px; CURSOR: pointer; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 5px; HEIGHT: 12px
+}
+.panel .nonsecure {
+	BACKGROUND-IMAGE: url(close12_1.gif)
+}
+.panel .secure {
+	BACKGROUND-IMAGE: url(close12_1.gif)
+}
+.panel .ft {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.simple-dialog .bd .icon {
+	FLOAT: left; WIDTH: 16px; MARGIN-RIGHT: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px
+}
+.dialog .ft {
+	PADDING-RIGHT: 5px; PADDING-BOTTOM: 5px; TEXT-ALIGN: right
+}
+.simple-dialog .ft {
+	PADDING-RIGHT: 5px; PADDING-BOTTOM: 5px; TEXT-ALIGN: right
+}
+.dialog FORM {
+	MARGIN: 0px
+}
+.simple-dialog FORM {
+	MARGIN: 0px
+}
+.button-group BUTTON {
+	
+}
+.button-group BUTTON.default {
+	FONT-WEIGHT: bold; COLOR: #444
+}
+.button-group BUTTON:hover {
+	
+}
+.button-group BUTTON.hover {
+	
+}
+.button-group BUTTON:active {
+	
+}
+.panel INPUT {
+	BACKGROUND: #fff; COLOR: #000
+}

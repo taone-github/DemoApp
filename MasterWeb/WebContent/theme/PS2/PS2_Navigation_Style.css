@@ -1,0 +1,353 @@
+.left-white-10px{
+	padding-left:10px;
+	height: 100%;
+}
+
+.searchCriteriaContainer{
+	width:100%;
+}
+
+.whiteboxResultSearch{
+	width:880px;
+	background-color:#ffffff;
+	position:relative;
+	border-right:1px solid #bfbfbf;
+	border-left:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+}
+.searchResultTable{
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.miniBlock{
+float:left;
+	position:absolute;
+	padding-left:10px;
+	padding-top:10px;
+	left:15px;
+	
+}
+.grey-block{
+	width:100%;
+	background-color:#f1f1f1;
+	float:left;
+	/*height:470px;*/
+	height: 84%;
+	/*border-top:1px solid #bfbfbf;*/
+	border-right:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+}
+.grey-block-search{
+	width:100%;
+	background-color:#f1f1f1;
+	float:left;
+	height:100%;
+	border-top:1px solid #bfbfbf;
+	border-right:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	height: 500px;
+}
+.left-line{
+	width:14px;
+	background-image:url(images/leftdown.jpg);
+	background-repeat:repeat-y;
+	float:left;
+	height:100%;
+	z-index:100;
+	position:absolute;
+	border-bottom:#bfbfbf 1px solid;
+}
+
+.moduleDiv{
+	width:880px;
+	background-color:#FFFFFF;
+	/*height:185px;*/
+	position:relative;
+	border-right:1px solid #bfbfbf;
+	border-left:1px solid #bfbfbf;
+	border-top:1px solid #bfbfbf;
+	padding-bottom: 10px;
+	}
+	
+.text-pagging{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #6b6b6b;
+}
+
+.entityButton-noGeneral{
+	width:880px;
+	background-color:#FFFFFF;
+	padding-bottom:10px;
+	position:relative;
+	border-right:1px solid #bfbfbf;
+	border-left:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	border-top:1px solid #bfbfbf;
+}
+
+.padding-button{
+	width:850px;
+	padding-right:0px;
+	padding-left:10px;
+	padding-bottom:0px;
+	padding-top:10px;
+	background-color:none;
+}
+
+
+.generalTab{
+	display:block;
+	background-color:none;
+	cursor:pointer;
+	border-bottom: #ececee 1px solid;
+	/*float: left;*/
+}
+
+.gridModuleContainer{
+	height:180px;
+	position:relative;
+	border-bottom:1px solid #bfbfbf;
+}
+
+.padding-module{
+	width:880px;
+	padding:13px 13px 0px 13px;
+	background-color:none;
+}
+
+.componentDiv{
+	/*border: 0px solid #ececee;
+	background-color:transparent;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:145px;
+	top:7px;
+	padding-right:10px;
+	float:left;*/
+}
+.boxsearch{
+	width:145px;
+	height:30px;
+	background-color:#f7f7f7;
+	display:block;
+	float:left;
+}
+.datatable-many{
+	/*background-image:url(images/tablebg2.jpg);*/
+	background-color : #f7f7f7;
+	height:22px;
+	border-left:1px solid #c7c5c5;
+	border-right:1px solid #f7f7f7;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #000000;
+	text-align:center;
+	border-bottom:1px solid #c7c5c5;
+}
+
+.bgtabtop{
+height:44px;
+padding-right:10px;
+padding-left:10px;
+}
+.bgtabrightmenu2{
+	position: relative;
+	background-color : #f1f1f1;
+	height: 35px;
+}
+.boxbold2{
+	width:431px;
+	/*height:154px;*/
+	border: 2px solid #ececee;
+	border-bottom:1px solid #ececee;
+	float:left;
+}
+.textbox1search{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid #ececee;
+	background-color:#ffffff;
+	display:block;
+	position:relative;
+}
+.componentNameDiv{
+	width:130px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:10px;
+	top:7px;
+	float:left;
+}
+
+.calendarEN{
+	border: 0px solid #ececee;
+	background-color:transparent;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:145px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+
+.calendarTH{
+	border: 0px solid #ececee;
+	background-color:transparent;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:145px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+
+.calendarEN_TO{
+	border: 0px solid #ececee;
+	background-color:transparent;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:300px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+
+.calendarTH_TO{
+	border: 0px solid #ececee;
+	background-color:transparent;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:300px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+.ui-datepicker-trigger{
+	position:absolute;
+	top:4px;
+	left:260px;
+	display:block;
+	z-index:100;
+	cursor:pointer;
+}
+
+.newbtn-many{
+	width:39px;
+	height:33px;
+	background-image:url(images/new.jpg);
+	display:block;
+	float:right;
+	cursor:pointer;
+}
+
+.addicon-many{
+	background-image:url(images/editMini.jpg);
+	width:18px;
+	height:16px;
+	cursor:pointer;
+	margin:auto;
+}
+/*#####################################################################*/
+/*### start popUp style ###*/
+#popUpContentResult TABLE{
+	border: 1px solid #d9d9d9;
+	font-family: tahoma;
+	font-size: 11px;
+	border-collapse: collapse;
+	color: #666666;
+}
+
+#popUpContentResult TR.title{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #e3eff1;
+	padding: 5px;
+}
+
+#popUpContentResult TR.ROW_HOVER{
+	cursor: hand;
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #CCFFDD;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #FFFFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult TR.ROW_ALT{
+	font-family: tahoma;
+	font-size: 11px;
+	background-color: #DFEFFF;
+	color:#666666;
+	text-align: center;
+	height: 19px;
+}
+
+#popUpContentResult a{
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #666666;
+}
+/*### end popUp style ###*/
+
+.insertScreen{
+	height:100%;
+}
+
+.dateTo{
+	left :280px;
+	width:130px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	top:7px;
+	float:left;
+}

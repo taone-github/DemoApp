@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build-common">
+
+	<property file="${basedir}\build.config" />
+
+	<tstamp>
+		<format property="build.date" pattern="yyMMddHHmm" />
+	</tstamp>
+
+	<path id="classpath">
+		<fileset dir="${ear.dir}/EarContent/lib">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+
+	<fileset id="front.webcontent" dir="${front.dir}/WebContent">
+		<exclude name="**/WEB-INF/classes/" />
+		<exclude name="**/*.jar_" />
+		<exclude name="**/*.jar__" />
+		<exclude name="**/*.jsp.*" />
+		<exclude name="**/*.jsp_*" />
+		<exclude name="**/DELETED-*" />
+		<exclude name="**/Thumbs.db" />
+	</fileset>
+
+
+	<fileset id="master.webcontent" dir="${master.dir}/WebContent">
+		<exclude name="**/WEB-INF/classes/" />
+		<exclude name="**/*.jar_" />
+		<exclude name="**/*.jar__" />
+		<exclude name="**/*.jar_" />
+		<exclude name="**/*.jar__" />
+		<exclude name="**/*.jsp.*" />
+		<exclude name="**/*.jsp_*" />
+		<exclude name="**/DELETED-*" />
+		<exclude name="**/theme/ProSilver/backup/" />
+		<exclude name="**/theme/ProSilver/backup_on_21oct2013/" />
+		<exclude name="**/theme/ProSilver/images_backup/" />
+		<exclude name="**/theme/ProSilver/images_old/" />
+		<exclude name="**/theme/ER2/backup/" />
+		<exclude name="**/theme/ER2/backup2/" />
+		<exclude name="**/CPB-Theme.jpg" />
+		<exclude name="**/everyfield2.jpg" />
+		<exclude name="**/graphic1.jpg" />
+		<exclude name="**/Thumbs.db" />
+		<exclude name="**/viewcalendar.jpg" />
+		<exclude name="**/Thumbs.db" />
+	</fileset>
+	
+
+</project>

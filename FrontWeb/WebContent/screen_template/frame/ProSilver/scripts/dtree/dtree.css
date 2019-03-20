@@ -1,0 +1,72 @@
+/*--------------------------------------------------|
+| dTree 2.05 | www.destroydrop.com/javascript/tree/ |
+|---------------------------------------------------|
+| Copyright (c) 2002-2003 Geir Landr�               |
+|--------------------------------------------------*/
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	white-space: nowrap;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#d5e2ff;
+	text-decoration:none;
+	list-style:none;
+	font-size:12px;
+	color:#505153;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.dtree a.nodeSel {
+	/*background-color: #c0d2ec;*/
+}
+.dtree .clip {
+	overflow: hidden;
+}
+
+.dTreeNode{
+	/*width:190px;*/
+	height:32px;
+	background:url(img/submenu.jpg);
+	list-style:none;
+	list-style:none;
+	cursor: pointer;
+}
+.dTreeNodeActive{
+	/*width:190px;*/
+	height:32px;
+	background:url(img/submenuactive2.jpg);
+	list-style:none;
+	list-style:none;
+	cursor:pointer;
+}
+
+.dTreeFolder{
+	/*width:190px;*/
+	height:32px;
+	background:url(img/mainmenu.jpg);
+	list-style:none;
+	cursor: pointer;
+}
+
+.dTreeFolder a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#d5e2ff;
+	text-decoration:none;
+	list-style:none;
+}

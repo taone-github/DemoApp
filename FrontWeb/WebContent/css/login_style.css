@@ -1,0 +1,145 @@
+/* @charset "utf-8";body{font-family:Tahoma,Geneva,sans-serif;font-size:12px;color:#5d6169;margin:auto;background:#2a4ea0;} */
+/* .warplogin{width:261px;margin:auto;background:url(../images/pcms_logo1.png) no-repeat;height:240px;margin-top:150px;padding:59px 75px 0;font-size:10px;color:#bdcbe7;text-align:center} */
+/* .textboxlogin{text-align:center;line-height:6mm;float:left;width:160px;height:17px;border:none;color:#5d6169;font-size:14px;margin:10px 0px 0px 34px;padding:10px 20px;} */
+/* .warplogin button,input[type=submit]{margin:10px 0px 15px -5px;background:#1c4093;float:left;width:262px;height:46px;border:0;cursor:pointer;font-size:16px !important;border-radius:2px;color:#bdcbe7;padding:0 10px;margin-right:7px} */
+/* .warplogin button:active,input[type=submit]:active{ border:1px solid #bdcbe7; border:1px solid #b8d6ef; color:#bdcbe7;} */
+/* .warplogin button:active,input[type=submit]:hover{color:#bdcbe7 !important;} */
+
+
+/* @charset "utf-8";body{font-family:Tahoma,Geneva,sans-serif;font-size:12px;color:#5d6169;margin:auto;background:#2a4ea0;}
+.warplogin{width:261px;margin:auto;background:url(../images/pcms_logo1.png) no-repeat;height:240px;margin-top:150px;padding:59px 75px 0;font-size:10px;color:#bdcbe7;text-align:center}
+.textboxlogin{text-align:center;line-height:6mm;float:left;width:160px;height:17px;border:none;color:#5d6169;font-size:14px;margin:10px 0px 0px 34px;padding:10px 20px;}
+.warplogin button,input[type=submit]{margin:10px 0px 15px -5px;background:#1c4093;float:left;width:262px;height:46px;border:0;cursor:pointer;font-size:16px !important;border-radius:2px;color:#bdcbe7;padding:0 10px;margin-right:7px}
+.warplogin button:active,input[type=submit]:active{ border:1px solid #bdcbe7; border:1px solid #b8d6ef; color:#bdcbe7;}
+.warplogin button:active,input[type=submit]:hover{color:#bdcbe7 !important; border:1px solid #bdcbe7;background:#2a4ea0;}
+ */
+
+@charset "utf-8";
+figure, h2{
+	padding:0;
+	margin:0;}
+header, footer, section, aside, nav, article, {
+ display:block;
+ }
+
+body{
+	background:#e8f0fa;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#c5e5ff !important;
+	font-size:1em;
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+	font-size:16px => font-size:1em;
+	margin:auto;
+	width:408px;}
+	
+.login p{
+	font-size:0.9em;
+	width:100%;
+	float:left;}
+.continue{
+	width:100%;
+	float:left;
+	font-size:1.09em;}
+.warplogin h2, .login h2{
+	color:#fff;
+	font-weight:400;
+	width:100%;
+	float:left;}
+.warpfatal{
+	float:left;
+	margin:1.4em 0 0 2.4em;
+	}
+.fatal{
+	background:url(../images/fatal.png) no-repeat;
+	width:77px;
+	height:79px;
+	margin:0 auto 0 0.5em;
+	cursor:pointer;
+	float:left;}
+.fatal:hover{
+	background:url(../images/fatalhover.png) no-repeat;}
+
+/*--Login--*/
+.logo_icon{
+	margin:0px auto 10px;
+	margin-bottom:25px;
+	width:184px;
+	height:43px;
+	background:url(../images/avalogologin.png) no-repeat;
+	}
+.logo_oneweblogin{
+	margin-top:10px;
+}
+
+.login{
+	width:348px;
+	background:#27aae1;
+	box-shadow: 0 1px 5px rgba(000, 000, 000, 0.1);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding:30px;
+	font-size:0.9em;
+	margin:10em auto auto;
+	text-align:center;
+	float:left;}
+.info{
+	width:100%;
+	float:left;
+	margin:0.5em 0 1.2em;
+	font-size:0.9em;}
+.warptext_user, .textbox_password{
+	margin:0px 43px 10px 0px;
+	background:url(../images/loginuser.png) no-repeat;
+	padding:3px 10px 3px 45px;
+	height:31px;
+	width:205px;
+	float:right;
+	}
+.textbox_password{
+	background:url(../images/loginpassword.png) no-repeat !important;}
+.textboxlogin {
+	border:none;
+	height:31px;
+	width:201px;
+	font-size:1em;
+	line-height:6mm;
+	color:#818181;
+	text-align:center;
+	padding:3px 10px;
+	margin:-3px -9px 1px 1px;
+	float:right;
+	}
+
+.btn_login{
+	height:45px;
+	width:262px;
+	background:#04709f;
+	border-radius:5px;
+	margin:0px 43px 0;
+	border:none;
+	font-size:1em;
+	color:#c5e5ff;
+	cursor:pointer;
+	float:right;}
+.btn_login:hover{
+	background:#0579ab;
+	color:#fff;
+	}
+.copyright{
+	font-size:11px;
+	float:left;
+	text-align:center;
+	width:100%;
+	margin:10px 0 5px;
+	}
+	
+	
+.textError { font-family: Arial, MS sans-serif, Helvetica,Verdana;font-size: 10pt;color: #F0C02A; font-weight: bold; }
+	
+	
+	

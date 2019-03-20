@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions name="SRSWebServiceAccessPoint" targetNamespace="http://www.darkerwhite.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.darkerwhite.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+
+<wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.darkerwhite.com/">
+        <s:element name="getSRSDetailsRequest">
+            <s:complexType>
+          <s:sequence>
+                <s:element maxOccurs="1" minOccurs="1" name="SRSNumber" type="s:string"/>
+            </s:sequence>
+        </s:complexType>
+        </s:element>
+        <s:element name="getSRSDetailsResponse">
+            <s:complexType>
+          <s:sequence>
+                <s:element maxOccurs="1" minOccurs="1" name="RequesterID" type="s:string"/>
+                <s:element maxOccurs="1" minOccurs="1" name="Subject" type="s:string"/>
+                <s:element maxOccurs="1" minOccurs="1" name="Description" type="s:string"/>
+            </s:sequence>
+        </s:complexType>
+        </s:element>
+        <s:element name="setSRSCommentsRequest">
+            <s:complexType>
+          <s:sequence>
+                <s:element maxOccurs="1" minOccurs="1" name="SRSNumber" type="s:string"/>
+                <s:element maxOccurs="1" minOccurs="1" name="Comments" type="s:string"/>
+            </s:sequence>
+        </s:complexType>
+        </s:element>
+        <s:element name="setSRSCommentsResponse">
+            <s:complexType>
+          <s:sequence>
+                <s:element maxOccurs="1" minOccurs="1" name="Success" type="s:boolean"/>
+            </s:sequence>
+        </s:complexType>
+        </s:element>
+    </s:schema>
+</wsdl:types>
+
+<wsdl:message name="getSRSDetailsRequest">
+    <wsdl:part element="tns:getSRSDetailsRequest" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="getSRSDetailsResponse">
+    <wsdl:part element="tns:getSRSDetailsResponse" name="parameters"/>
+</wsdl:message>
+
+<wsdl:message name="setSRSCommentsRequest">
+    <wsdl:part element="tns:setSRSCommentsRequest" name="parameters"/>
+</wsdl:message>
+<wsdl:message name="setSRSCommentsResponse">
+    <wsdl:part element="tns:setSRSCommentsResponse" name="parameters"/>
+</wsdl:message>
+
+<wsdl:portType name="getSRSDetailsPortType">
+    <wsdl:operation name="getSRSDetails">
+        <wsdl:input message="tns:getSRSDetailsRequest"/>
+        <wsdl:output message="tns:getSRSDetailsResponse"/>
+    </wsdl:operation>
+</wsdl:portType>
+
+<wsdl:portType name="setSRSCommentsPortType">
+    <wsdl:operation name="setSRSComments">
+        <wsdl:input message="tns:setSRSCommentsRequest"/>
+        <wsdl:output message="tns:setSRSCommentsResponse"/>
+    </wsdl:operation>
+</wsdl:portType>
+
+<wsdl:binding name="getSRSDetailsBinding" type="tns:getSRSDetailsPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getSRSDetails">
+        <soap:operation soapAction="http://10.4.9.217/webservice/soap-service.php#getSRSDetails" style="document"/>
+        <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+        <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+</wsdl:binding>
+
+<wsdl:binding name="setSRSCommentsBinding" type="tns:setSRSCommentsPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="setSRSComments">
+        <soap:operation soapAction="http://10.4.9.217/webservice/soap-service.php#setSRSComments" style="document"/>
+        <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+        <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+</wsdl:binding>
+
+<wsdl:service name="SRSWebServiceAccessPoint">
+    <wsdl:port binding="tns:getSRSDetailsBinding" name="getSRSDetailsPort">
+        <soap:address location="http://10.4.9.217/webservice/soap-service.php"/>
+    </wsdl:port>
+    <wsdl:port binding="tns:setSRSCommentsBinding" name="setSRSCommentsPort">
+        <soap:address location="http://10.4.9.217/webservice/soap-service.php"/>
+    </wsdl:port>
+</wsdl:service>
+
+</wsdl:definitions>

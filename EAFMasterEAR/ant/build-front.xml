@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build-core" default="all" basedir=".">
+
+	<import file="build-common.xml" />
+
+	<target name="all" depends="init, copy-resource, build-code" />
+
+	<echo message="Start build-frontweb version ${ear.name}-${build.date}..." />
+
+	
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="init" description="Initial process">
+		<delete dir="${temp.build.dir}/FrontWeb" />
+		<mkdir dir="${temp.build.dir}/FrontWeb" />
+
+		<delete dir="${temp.workspace.dir}/FrontWeb" />
+		<mkdir dir="${temp.workspace.dir}/FrontWeb" />
+		
+		<delete dir="${temp.war.dir}/war/${front.war}" />
+		<mkdir dir="${temp.war.dir}/war" />
+
+	</target>
+
+	
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="copy-resource">
+		<copy includeemptydirs="false" todir="${temp.workspace.dir}/FrontWeb/WebContent">
+			<fileset refid="front.webcontent" />
+		</copy>
+		<copy includeemptydirs="false" todir="${temp.workspace.dir}/FrontWeb/src">
+			<fileset dir="${front.dir}/src" />
+		</copy>
+		<copy todir="${temp.workspace.dir}/FrontWeb" >
+			<fileset dir="${front.dir}" >
+				<include name=".project" />
+				<include name=".settings/**" />
+				<include name=".classpath" />
+			</fileset>
+		</copy>
+
+		<replace file="${exported.dir}/temp/workspace/FrontWeb/WebContent/WEB-INF/struts-config.xml" token="@VERSION@" value="${ear.name}-${build.date}" />
+	</target>
+
+	
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build-code">
+		<javac srcdir="${temp.workspace.dir}/FrontWeb/src" destdir="${temp.build.dir}/FrontWeb" fork="yes" executable="${path.execute.dir}" compiler="${vesion.compiler}" optimize="on">
+			<classpath refid="classpath" />
+		</javac>
+		<war destfile="${temp.war.dir}/war/${front.war}" webxml="${front.dir}/WebContent/WEB-INF/web.xml">
+			<classes dir="${temp.build.dir}/FrontWeb" />
+			<fileset dir="${temp.workspace.dir}/FrontWeb/WebContent" />
+		</war>
+	</target>
+	
+	
+
+</project>

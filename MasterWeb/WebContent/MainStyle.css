@@ -1,0 +1,241 @@
+body {  margin: 0px  0px; padding: 0px  0px; background-color: #FFFFFF;scrollbar-shadow-color:#FFFFFF;scrollbar-face-color:#D3D3D3;scrollbar-highlight-color:#CCCCCC;scrollbar-darkshadow-color:#CCCCCC;scrollbar-3dlight-color:#FFFFFF; SCROLLBAR-ARROW-COLOR: #000099; SCROLLBAR-TRACK-COLOR: #E6E6E6; }
+a:link {color: #000000;  text-decoration: none; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal;vertical-align:baseline;cursor:hand;}
+a:visited { color: #000000; text-decoration: none; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal;vertical-align:baseline;cursor:hand;}
+a:active {	color: #9999ff;	text-decoration: none;	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;vertical-align:baseline;cursor:hand;}
+a:hover { color: #000000; text-decoration: none; font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal;vertical-align:baseline;cursor:hand;}
+a { text-decoration: none; }
+
+.textbox {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle;}
+.textboxCurrency { font-family: "Tahoma"; font-size: 9px; font-style: normal; font-weight: normal; color: #000000; background-color: #FFFFFF; border: 1px #999999 ridge; text-align: right;vertical-align:middle; }
+.TextAreaBox {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none; text-align: left; background-color: ##FFFFFF; border: 1px #888888 solid; vertical-align: middle; height: auto; width: auto;scrollbar-shadow-color:#FFFFFF;scrollbar-face-color:#CCCCCC;scrollbar-highlight-color:#CCCCCC;scrollbar-darkshadow-color:#999999;scrollbar-3dlight-color:#FFFFFF; }
+.ComboBox {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none; background-color: #FFFFFF; line-height: normal; border: 0.5px #888888 solid; vertical-align:middle;}
+.ComboBox2 {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none; background-color: #FFFFFF; line-height: normal; border: 0.5px #888888 solid; vertical-align:middle; width:150px;}
+.RadioButton {}
+ .CheckBox {}
+.textboxWarning {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #FF0000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: none;vertical-align:middle;}
+ .textAreaYellow {	font-family: "MS Sans Serif ","Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #003399;	background-color: #FF9900;	border: 1px #999999 ridge;	text-align: left;	vertical-align:middle;	scrollbar-shadow-color:#FFFFFF;	scrollbar-face-color:#CCCCCC;	scrollbar-highlight-color:#CCCCCC;	scrollbar-darkshadow-color:#999999;	scrollbar-3dlight-color:#FFFFFF;}
+.ComboBoxYellow {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #003399;	text-decoration: none;	background-color: #FF9900;	line-height: normal;	border: 0.5px #888888 solid;	vertical-align:middle;}
+.textboxYellow {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #003399;	text-decoration: none;	text-align: left;	background-color: #FF9900;	border: 1px #888888 solid;vertical-align:middle;}
+.textboxCurrencyYellow { font-family: "MS Sans Serif ","Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #003399; background-color: #FF9900; border: 1px #999999 ridge; text-align: right;vertical-align:middle;}
+.RadioButtonYellow {	background : #FF9900;}
+ .CheckBoxYellow {	background : #FF9900;}
+ .textboxYellow {
+	font-family: "MS Sans Serif ","Microsoft Sans Serif";
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	background-color: #FF9900;
+	border: 1px #999999 ridge;
+	text-align: left;
+	vertical-align:middle;
+	scrollbar-shadow-color:#FFFFFF;
+	scrollbar-face-color:#CCCCCC;
+	scrollbar-highlight-color:#CCCCCC;
+	scrollbar-darkshadow-color:#999999;
+	scrollbar-3dlight-color:#FFFFFF;
+}
+
+.TableMenuHeader{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	background-color: #006699;	text-align: center;	vertical-align: middle}        
+.TableHeaderList {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	background-color: #2058a0;	text-align: center;	vertical-align: center}
+.TableHeaderList2 {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	background-color: #006BB5;	text-align: center;	vertical-align: top}
+.TableLabelData0 {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #e6e6e6;}
+.TableLabelData1 {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #F4F4F4}
+.TableLabelHeaderBox{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	background-color: #2058a0;	text-align: left;	vertical-align: middle}        
+.TableLabelHeaderBox1{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	background-color: #2058a0;	text-align: right;	vertical-align: middle}        
+
+.TextLabelHeader0{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000066;	text-decoration: none;	text-align: left;}
+.TextLabelHeader1{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000000;	text-decoration: none;	text-align: left;}
+.TextLabelNormal{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;}
+.TextLabelBlueNormal{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000066;	text-decoration: none;	text-align: left;}
+.TextLabelBold{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000000;	text-decoration: none;	text-align: center;}
+.TextLabelNormalCenter{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;}
+.TextLabelUnderLine{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000000;	text-decoration: underline;	text-align: left;}
+.TextLabelRightNormal{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;background-color:#F4F4F4}
+.TextLabelRightNormal1{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: right;background-color:#F4F4F4}
+.TextLabelCurrency0{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: right;	background-color : #E6E6E6;}
+.TextLabelCurrency1{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: right;	background-color : #F4F4F4;}
+.TextLabelDate0{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;	background-color : #E6E6E6;}
+.TextLabelDateRed{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: black;	text-decoration: none;	text-align: center;	background-color : #F5A9A7;}
+.TextLabelDate1{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;	background-color : #F4F4F4;}
+.TextLabelDate2{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color : #E6E6E6;}
+.TextLabelDate3{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;	background-color : #ff8484;}
+.TextLabelDate4{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;	background-color : #aeffae;}
+.TextLabelPage{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;	background-color : #c1d5e8;}
+
+.TextLabelSubMenu{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #0F2F60;	text-decoration: none;	text-align: right; height:15;vertical-align:middle;}
+.TextLabelSubMenu1{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #ffffff;	text-decoration: none;	text-align: right; ;height:15;vertical-align:middle;}
+.TextLabelSubMenuLeft{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #CCCCCC;	text-decoration: none;	text-align: left;	background-color : #336699;height:15;vertical-align:middle;}
+.TextLabelSubMenuActive{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	text-align: right;	background-color : #336699;height:15;vertical-align:middle;}
+
+.TextMenuTabNormal{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 8px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: center;	vertical-align: baseline;}
+.TextMenuTabActive{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 8px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	text-align: center;	vertical-align: baseline;}
+.TextLabelTotal{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000066;	text-align: right;	text-decoration: underline;}
+.TextLabelTotalBlack{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000000;	text-align: right;	text-decoration: underline;}
+.TextWarningHeader{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #CC3333;	text-decoration: none;	text-align: left;}
+.TextWarningNormal{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #CC3333;	text-decoration: none;	text-align: left;}
+.TextAbNormal0{	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 16px;	font-style: normal;	font-weight: bold;	color: #000000;	text-decoration: none;	text-align: left;}
+
+.TextMenuBold {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #000000;	text-decoration: none;	text-align: left;}
+.TextMenuNormal {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;}
+
+
+.bgMenu{	background-color : #E6E6E6;}
+.bgLight{background-color:#F4F4F4;}
+.bgTableLeft{	background-color : #E6E6E6;	font-family : "MS Sans Serif", "Microsoft Sans Serif";	font-size : 10;	font-style : normal;	font-weight : bold;color:#000000;text-decoration:none;text-align:left;}
+.bgTableLeft1{background-color : #E6E6E6;	font-family : "MS Sans Serif", "Microsoft Sans Serif";	font-size : 10;	font-style : normal;	font-weight : normal;color:#000000;text-decoration:none;}
+.bgTableLeft2{background-color : #F4F4F4;	font-family : "MS Sans Serif", "Microsoft Sans Serif";	font-size : 10;	font-style : normal;	font-weight : normal;color:#000000;text-decoration:none;}
+.bgTableHeader{	background-color : #CCCCCC;	font-family : "MS Sans Serif", "Microsoft Sans Serif";	font-size : 10;	font-style : normal;	font-weight : bold;color:#000000;text-decoration:none;}
+.bgTableRight{background-color : #F4F4F4;font-family : "MS Sans Serif", "Microsoft Sans Serif";	font-size : 10;	font-style : normal;	font-weight : bold;color:#000000;text-decoration:none;text-align:left;}
+.bgTableCenter{background-color : #E6E6E6;font-family : "MS Sans Serif", "Microsoft Sans Serif";	font-size : 10;	font-style : normal;	font-weight : bold;color:#000000;text-decoration:none;text-align:center;}
+
+.button_green {
+	background-color: #00B046;
+	color:#ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	cursor:hand;
+	width: 40px;
+}
+.button_next {  background-color:#006BB5; color:#ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:9px;cursor:hand;}
+.button_previous {  font-family: "MS Sans Serif"; font-size: 9px; font-weight: normal; color: #000066; background-color: #CCCCCC; border: 1px #999999 outset; cursor: hand;vertical-align:baseline}
+.button_add {  background-color:#006BB5; color:#ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:9px;cursor:hand;}
+.button_blue{background-color:#034d8f; color:#ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size:9px;cursor:hand;}
+.button_text { font-family: "tahoma"; font-size:9px;cursor:hand;}
+.button{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:5px;cursor:hand;}
+.hr {  background-color: #999999; height: 0.3px; background-position: left}
+
+div.menuBar,
+div.menuBar a.menuButton,
+div.menu,
+div.menu a.menuItem {  font-family: "MS Sans Serif", Arial, sans-serif;  font-size: 9pt;  font-style: normal;  font-weight: normal;  color: #000000;}
+div.menuBar {  background-color: #2058a0;  border: 0px solid;  padding: 4px 2px 4px 2px;  text-align: left;}
+div.menuBar a.menuButton {  background-color: transparent;  border: 0px solid;  color: #FFFFFF;  cursor: default;  left: 0px;  margin: 1px;  padding: 2px 6px 2px 6px;  position: relative;  text-decoration: none;  top: 0px;  z-index: 100;}
+div.menuBar a.menuButton:hover {  background-color: #C1D5E8;  border-color: #f0f0f0 #909090 #909090 #f0f0f0;  color: #000000;}
+div.menuBar a.menuButtonActive,
+div.menuBar a.menuButtonActive:hover {  background-color: #FFFFFF;  border-color: #909090 #f0f0f0 #f0f0f0 #909090;  color: #000000;  left: 1px;  top: 1px;}
+div.menu {  background-color: #C1D5E8;  border: 1px solid;  border-color: #f0f0f0 #909090 #909090 #f0f0f0;  left: 0px;  padding: 0px 1px 1px 0px;  position: absolute;  top: 0px;  visibility: hidden;  z-index: 101;}
+div.menu a.menuItem {  color: #000000;  cursor: default;  display: block;  padding: 3px 1em;  text-decoration: none;  white-space: nowrap;}
+div.menu a.menuItem:hover, div.menu a.menuItemHighlight {  background-color: #000080;  color: #ffffff;}
+div.menu a.menuItem span.menuItemText {}
+div.menu a.menuItem span.menuItemArrow {  margin-right: -.75em;}
+div.menu div.menuItemSep {  border-top: 1px solid #909090;  border-bottom: 1px solid #f0f0f0;  margin: 4px 2px;}
+
+
+
+
+.TableLabelLink0 {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: Blue;	text-decoration: none;	text-align: left;}
+.TableLabelLink1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: Blue; text-decoration: none; text-align: left}
+.TextLabelRed0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelRed1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: center; background-color : #F4F4F4; }
+.TextLabelRedNormal0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: left; background-color : #E6E6E6; }
+.TextLabelRedNormal1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: left; background-color : #F4F4F4; }
+.TextLabelRedCurrency0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: right; background-color : #E6E6E6; }
+.TextLabelRedCurrency1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: right; background-color : #F4F4F4; }
+.TextLabelGreenCurrency { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #009900; text-decoration: none; text-align: right; background-color : #E6E6E6; }
+.TextLabelBlueDate { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #0000FF; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelBlueCurrency { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #0000FF; text-decoration: none; text-align: right; background-color : #E6E6E6; }
+.TextLabelBlue { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #0000FF; text-decoration: none; text-align: right; }
+.TextLabelGreen { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #009900; text-decoration: none; text-align: center; background-color : #E6E6E6;}
+.TextLabelWhiteCurrency { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none; text-align: right; background-color : #999999; }
+.TextLabelWhiteDate { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none; text-align: center; background-color : #999999; }
+.TableLabelWhiteData { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FFFFFF; text-decoration: none; text-align: left; background-color: #999999; }
+.TableLabelGreenData { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #009900; text-decoration: none; text-align: left; background-color: #e6e6e6; }
+.TextLabelGreenDate { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #009900; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelGreenDate0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #009900; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelGreenDate1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #009900; text-decoration: none; text-align: center; background-color : #F4F4F4; }
+.TextLabelBlueDate0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #0000FF; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelBlueDate1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #0000FF; text-decoration: none; text-align: center; background-color : #F4F4F4; }
+.TextLabelBlackDate0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelBlackDate1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none; text-align: center; background-color : #F4F4F4; }
+.TextLabelRedDate0 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: center; background-color : #E6E6E6; }
+.TextLabelRedDate1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: center; background-color : #F4F4F4; }
+.TextLabelRedComment { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #FF0000; text-decoration: none; text-align: left; background-color : #FFFFFF; font-weight: bold;}
+.TextLabelBlueComment { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #0000FF; text-decoration: none; text-align: left; background-color : #FFFFFF; font-weight: bold;}
+.TextSubHeader1 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #006699; text-decoration: none; text-align: left; background-color : #FFFFFF; font-weight: bold;}
+.TextSubHeader2 { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #006699; text-decoration: none; text-align: left; background-color : #FFFFFF;}
+
+.ComboBoxMulti {  font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-weight: normal; color: #000000; width: 150px; font-style: normal; line-height: normal; background-color: #FFFFFF}
+.ComboBoxMultiOver { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-weight: normal; color: #000000; width: 200px; font-style: normal; line-height: normal; background-color: #FFFFFF }
+.TextLabelGrayNormal { font-family: "MS Sans Serif", "Microsoft Sans Serif"; font-size: 9px; font-style: normal; font-weight: normal; color: #666666; text-decoration: none; text-align: left; }
+.button_green {	background-color: #00B046;	color:#ffffff;	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size:9px;	cursor:hand;	width: 40px;}
+.body_3 {FONT-SIZE: 8pt; COLOR: white; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial}
+.sub {FONT-SIZE: 7pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial}
+.menuSelected { background-color : #FFFFFF; }
+.bkhead { font-family: "MS Sans Serif"; font-size: 10pt; font-weight: bold; color: #000000}
+
+.atbold { font-family: "MS Sans Serif"; font-size: 9pt; font-weight: bold; color: #1B1464}
+.bubold { font-family: "MS Sans Serif"; font-size: 9pt; font-weight: bold; color: #002C6D}
+.greybold { font-family: "MS Sans Serif"; font-size: 9pt; font-weight: bold; color: #B1AFAF}
+.big { font-family: "MS Sans Serif"; font-size: 12pt; font-weight: bold; color: #330000}
+.bu { font-family: "MS Sans Serif"; font-size: 9pt; color: #002C6D}
+.bkbold { font-family: "MS Sans Serif"; font-size: 9pt; font-weight: bold; color: #000000}
+.rdbold { font-family: "MS Sans Serif"; font-size: 9pt; font-weight: bold; color: #ff0000}
+.whbold { font-family: "MS Sans Serif"; font-size: 9pt; font-weight: bold; color: #FFFFFF}
+.wh { font-family: "MS Sans Serif"; font-size: 9pt; color: #FFFFFF}
+.bk { font-family: "MS Sans Serif"; font-size: 9pt; color: #000000}
+.bkmenu { font-family: "MS Sans Serif"; font-size: 7pt; fcolor: #000000}
+.bk1 { font-family: "MS Sans Serif"; font-size: 10pt; color: #000000}
+.bigbubold { font-family: "MS Sans Serif"; font-size: 10pt; font-weight: bold; color: #002C6D}
+.bigbk { font-family: "MS Sans Serif"; font-size: 10pt; font-weight: bold; color: #000000}
+
+
+.font1 { font-family: "MS Sans Serif", "DB ThaiText", "AngsanaUPC","Thonburi"; font-size: 9pt; color: #000063; font-weight:bold}
+.font2 { font-family: "tahoma"; font-size: 9pt; color: #0066B3; }
+.font3 { font-family: "MS Sans Serif", "DB ThaiText", "AngsanaUPC","Thonburi"; font-size: 9pt; color: #FFFFFF; font-weight:bold}
+.font4 { font-family: "tahoma"; font-size: 9pt}
+.font5 { font-family: "MS Sans Serif", "DB ThaiText", "AngsanaUPC","Thonburi"; font-size: 5pt;  color: #FFFFFF; font-weight:bold}
+
+td {  font-family:  "MS Sans Serif","Arial", "Helvetica"; font-size: 10px}
+.box {background: transparent; background-color: C6D3E7; border: 1px solid #0F40A5; color: #4F4F4F; font-family: Verdana,Arial,Helvetica; font-size: 10px ; text-align: left; scrollbar-face-color: #CCCCCC; scrollbar-shadow-color: #FFFFFF; scrollbar-highlight-color: #FFFFFF; scrollbar-3dlight-color: #FFFFFF; scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #FFFFFF; scrollbar-arrow-color: #000000 }
+
+TR.tabOff {
+	PADDING-RIGHT: 6px; 
+	PADDING-LEFT: 6px; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-TOP: 2px; 
+	WHITE-SPACE: nowrap; 
+	TEXT-ALIGN: center;
+	BORDER-LEFT: solid #000033 1px;
+	BORDER-TOP: solid #000033 1px;
+	BORDER-RIGHT: solid #000033 1px;
+	BORDER-BOTTOM: solid #000033 1px;
+	BACKGROUND-COLOR: #f5f5f5 ;
+	CURSOR:pointer;
+}
+
+TR.tabOn {
+	PADDING-RIGHT: 6px; 
+	PADDING-LEFT: 6px; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-TOP: 2px; 
+	WHITE-SPACE: nowrap; 
+	TEXT-ALIGN: center;
+	BORDER-LEFT: solid #000033 1px;
+	BORDER-TOP: solid #000033 1px;
+	BORDER-RIGHT: solid #000033 1px;
+	BACKGROUND-COLOR: #000099;
+	CURSOR:pointer;
+}
+<!-- Begin Disburse Style -->
+.TableHeader {	font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: bold;	color: #FFFFFF;	text-decoration: none;	background-color: #0065B0;	text-align: center;	vertical-align: top}
+.TableDataFraud {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FAC893}
+.TableDataAReceive {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #05B6FC}
+.TableDataNormal {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #D9E5FC}
+.TableDataInstant {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #C3D6FA}
+.TableDataRepurchase {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #7CA7F7}
+.TableDataSelected {font-family: "MS Sans Serif", "Microsoft Sans Serif";	font-size: 9px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #CCFFDD}
+.textboxNumber1 {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 40px;}
+.textboxNumber2 {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 60px;}
+.textboxNumber3 {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 60px;}
+.textboxYN {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 14px;}
+.textboxNumber4 {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: right;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 80px;}
+.textboxDate{	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 65px;}
+.textboxTime{	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 60px;}
+.textboxLong {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 220px;}
+.textboxSlip {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 100px;}
+.textboxShort {	font-family: "Tahoma";	font-size: 11px;	font-style: normal;	font-weight: normal;	color: #000000;	text-decoration: none;	text-align: left;	background-color: #FFFFFF;	border: 1px #888888 solid;vertical-align:middle; width: 160px;}
+
+.font4white { font-family: "tahoma"; font-size: 9pt; color: #FFFFFF; }
+
+<!-- End Disburse Style -->

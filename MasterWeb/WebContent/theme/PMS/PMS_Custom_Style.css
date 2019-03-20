@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/s-BiyweUPV0v-yRb-cjciFQlYEbsez9cZjKsNMjLOwM.eot);
+  src: local('Droid Sans'), local('DroidSans'), url(font/s-BiyweUPV0v-yRb-cjciFQlYEbsez9cZjKsNMjLOwM.eot) format('embedded-opentype'), url(font/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+.tabno1Current{
+	width:10px;
+	height:44px;
+	background-image:url(images/tabno1-1.jpg);
+	top:0px;
+}
+.tabno2Current{
+	/* width:120px; */
+	height:44px;
+	background-image:url(images/tabno1-2.jpg);
+	top:0px;
+}
+.tabno3Current{
+	width:10px;
+	height:44px;
+	background-image:url(images/tabno1-3.jpg);
+	top:0px;
+}
+.tabno1{
+	width:10px;
+	height:44px;
+	background-image:url(images/tabno2-1.jpg);
+	top:0px;
+}
+.tabno2{
+	/* width:120px; */
+	height:44px;
+	background-image:url(images/tabno2-2.jpg);
+	top:0px;
+}
+.tabno3{
+	width:10px;
+	height:44px;
+	background-image:url(images/tabno2-3.jpg);
+	top:0px;
+}
+
+.downtab1{
+	width:10px;
+	height:34px;
+	background-image:url(images/downtab1-1.jpg);
+}
+.downtab2{
+	width:120px;
+	height:34px;
+	background-image:url(images/downtab1-2.jpg);
+}
+.downtab3{
+	width:10px;
+	height:34px;
+	background-image:url(images/downtab1-3.jpg);
+}
+
+.downtab1Current{
+	width:10px;
+	height:34px;
+	background-image:url(images/downtab2-1.jpg);
+}
+.downtab2Current{
+	width:120px;
+	height:34px;
+	background-image:url(images/downtab2-2.jpg);
+}
+.downtab3Current{
+	width:10px;
+	height:34px;
+	background-image:url(images/downtab2-3.jpg);
+}
+
+
+/*Start right zone*/
+.rightcontent{
+width:100%;
+/*height:500px;*/
+height:100%;
+/*background-color:#6633FF;*/
+}
+.content-center-search{
+width:100%;
+background-color:#ffffff;
+float:left;
+height:220px;
+border:2px #d8d8d8 solid;
+/* border:1px #d8d8d8 solid; */
+}
+
+.content-center-normalTab{
+width:100%;
+background-color:#ffffff;
+float:left;
+height:100%;
+border:2px #d8d8d8 solid;
+}
+
+.radiotype{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	display:block;
+	position:relative;
+	left:145px;
+	top:5px;
+	float:left;
+}
+/*List Many Search Theme*/
+.listcontent{
+width:100%;
+height:400px;
+/*background-color:#6633FF;*/
+}
+.content-center-search-many{
+width:100%;
+background-color:#ffffff;
+float:left;
+height:120px;
+}
+.content-down-many{
+height:300px;
+position:relative;
+
+}
+.TextWarningNormal{
+	MARGIN: 0px;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma;
+	COLOR: red;
+}
+
+.listboxtext{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000000;
+	display:block;
+	position:relative;
+	padding-right:10px;
+	padding-left:5px;
+	float:left;
+}
+
+.listboxtype{
+	display:block;
+	position:relative;
+	left:180px; 
+	float:left;
+	width:250px;
+	border: 1px solid #c5a818;
+	
+	height:28px;
+	line-height:28px;
+}
+/*
+ul{
+	padding:0px 0px;
+	margin:0px;
+	list-style:none;
+	display:block;
+}
+li{
+	float:left;
+}
+*/
+.textbox1{
+	width:100%;
+	height:30px;
+	border-bottom:0px solid #ececee;
+	background-color:#ffffff;
+	display:block;
+	position:relative;
+}
+
+.button_style_layer{
+	padding:1px;
+}
+
+.button_style_left{
+	height:26px;
+	float:left;
+	width:5px;
+	background-image:url('images/btn_left.png');
+}
+.button_style_right{
+	height:26px;
+	float:left;
+	width:5px;
+	background-image:url('images/btn_right.png');
+}
+.button_style{
+	height:26px;
+	min-width:80px;
+	color:#4A2B16;
+	display:block;
+	float:left;
+	cursor:pointer;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	line-height:23px;
+	font-weight: bold;
+	background-image:url(images/btn.png);
+	border:0px;
+	
+
+}
+
+.textinbox-many{
+	border: 0px solid #ececee;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	display:block;
+	left:145px;
+	top:7px;
+	padding-right:10px;
+	float:center;
+}
+
+.textbox-1{
+	border: 0px solid #ececee;
+	width:50px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:145px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+
+.textbox-2{
+	border: 0px solid #ececee;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:205px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+
+.textbox-3{
+	border: 0px solid #ececee;
+	width:140px;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #6b6b6b;
+	display:block;
+	position:absolute;
+	left:355px;
+	top:7px;
+	padding-right:10px;
+	float:left;
+}
+
+.spacegrid{
+	width:850px;
+	height:10px;
+	float:left;
+}
+
+.clear { clear: both; }
+
+.multiselect_button{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+#map_canvas { height: 200px; width : 100% }
+
+.radioGroupTable{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	display:block;
+	position:relative;
+	left:180px;
+	top:5px;
+	float:left;
+}
+
+.zoneLeftButtonMany{
+	width:80%;
+}
+
+.pre_search_button{
+	WIDTH: 30%; FLOAT: left
+}
+
+.viewmode #module-many-button {display:none;}
+.viewmode .datatable2 {display:none;}
+.viewmode .header1.view {display:none;}

@@ -1,0 +1,1069 @@
+#main {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 12px; PADDING-BOTTOM: 20px; VERTICAL-ALIGN: top; WIDTH: 100%; PADDING-TOP: 13px; BORDER-BOTTOM: #ddd 2px solid
+}
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+.body {
+	FONT-SIZE: 12px
+}
+TABLE {
+	FONT-SIZE: 11px
+}
+TD {
+	FONT-SIZE: 11px
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+FORM {
+	MARGIN: 0px
+}
+H2 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H1 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; MARGIN-BOTTOM: 0px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 3px; PADDING-TOP: 3px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+.monthHeaderH3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 3px; PADDING-TOP: 3px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+.schedulerTopDateCell {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 3px; PADDING-TOP: 3px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+.h3Row {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% top; MARGIN-TOP: 10px; PADDING-LEFT: 3px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 6px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #fff
+}
+.monthHeader {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% top; MARGIN-TOP: 10px; PADDING-LEFT: 3px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 6px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #fff
+}
+.schedulerTopDateCell {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% top; MARGIN-TOP: 10px; PADDING-LEFT: 3px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 6px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #fff
+}
+H4 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H4.dataLabel {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H5 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H5.listViewSubHeadS1 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+H4.dataLabel {
+	MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-TOP: 0px
+}
+LI {
+	MARGIN-BOTTOM: 2px; MARGIN-LEFT: 6px; LIST-STYLE-TYPE: square
+}
+UL {
+	MARGIN-TOP: 2px
+}
+HR {
+	HEIGHT: 1px
+}
+A:link {
+	TEXT-DECORATION: underline
+}
+A:visited {
+	TEXT-DECORATION: underline
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.button {
+	BORDER-RIGHT: 1px solid; BACKGROUND-POSITION: 50% top; BORDER-TOP: 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: middle; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-REPEAT: repeat-x
+}
+.buttonOn {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: none; BORDER-LEFT: 1px solid; CURSOR: pointer; COLOR: #fff; BORDER-BOTTOM: 1px solid
+}
+.button:hover {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: none; BORDER-LEFT: 1px solid; CURSOR: pointer; COLOR: #fff; BORDER-BOTTOM: 1px solid
+}
+.button:focus {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: none; BORDER-LEFT: 1px solid; CURSOR: pointer; COLOR: #fff; BORDER-BOTTOM: 1px solid
+}
+.buttonOn:focus {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND-IMAGE: none; BORDER-LEFT: 1px solid; CURSOR: pointer; COLOR: #fff; BORDER-BOTTOM: 1px solid
+}
+.tabDetailView .button IMG {
+	MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px
+}
+#listViewPaginationButtons .button {
+	WIDTH: 25px
+}
+INPUT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+SELECT {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+INPUT:focus {
+	
+}
+TEXTAREA:focus {
+	
+}
+SELECT:focus {
+	
+}
+TEXTAREA {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 12px; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif
+}
+.checkbox {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.radio {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: transparent
+}
+.contentBox {
+	PADDING-RIGHT: 10px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid
+}
+.teamNoticeBox {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: 1px solid
+}
+A.body:link {
+	TEXT-DECORATION: underline
+}
+A.body:visited {
+	TEXT-DECORATION: underline
+}
+A.body:hover {
+	TEXT-DECORATION: underline
+}
+.tabRow {
+	BACKGROUND-POSITION: 50% top; BORDER-BOTTOM: 2px solid; BACKGROUND-REPEAT: repeat-x
+}
+.currentTab {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: center top; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 8px; BORDER-BOTTOM: 2px solid
+}
+.currentTabOff {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: center top; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 8px; BORDER-BOTTOM: 2px solid
+}
+.currentTabLeft {
+	BACKGROUND-POSITION: left top; BORDER-BOTTOM: 2px solid
+}
+.otherTabLeft {
+	BACKGROUND-POSITION: left top; BORDER-BOTTOM: 2px solid
+}
+.currentTabOffLeft {
+	BACKGROUND-POSITION: left top; BORDER-BOTTOM: 2px solid
+}
+.currentTabRight {
+	BACKGROUND-POSITION: right top; BORDER-BOTTOM: 2px solid
+}
+.otherTabRight {
+	BACKGROUND-POSITION: right top; BORDER-BOTTOM: 2px solid
+}
+.currentTabOffRight {
+	BACKGROUND-POSITION: right top; BORDER-BOTTOM: 2px solid
+}
+A.currentTabLink:link {
+	TEXT-DECORATION: none
+}
+A.currentTabLink:visited {
+	TEXT-DECORATION: none
+}
+A.currentTabLink:hover {
+	TEXT-DECORATION: none
+}
+.otherTab {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: center top; PADDING-LEFT: 5px;  PADDING-BOTTOM: 3px; COLOR: #444; PADDING-TOP: 8px; BORDER-BOTTOM: 2px solid
+}
+.fontMenu {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px;
+}
+
+.otherTabRight {
+	BORDER-BOTTOM: 2px solid
+}
+.otherTabLeft {
+	BORDER-BOTTOM: 2px solid
+}
+.otherTab {
+	BORDER-BOTTOM: 2px solid
+}
+A.otherTabLink:link {
+	PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.otherTabLink:visited {
+	PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A.otherTabLink:hover {
+	TEXT-DECORATION: none
+}
+#groupTabs {
+	MARGIN-TOP: 20px
+}
+.moreHandle {
+	BACKGROUND: url(images/more.gif) no-repeat left bottom; COLOR: #444
+}
+.subMenu {
+	PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; FONT: 12px Arial, Verdana, Helvetica, sans-serif; WIDTH: 100%; COLOR: #000; PADDING-TOP: 0px
+}
+UL.subMenu LI {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 1px solid; LIST-STYLE-TYPE: none
+}
+UL.subMenu LI A {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; BORDER-LEFT: 0px; COLOR: #444; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+UL.subMenu LI A:hover {
+	BACKGROUND: #cedce9; COLOR: #000
+}
+UL.subMenu LI SPAN {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; BORDER-LEFT: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+UL.subMenu LI SPAN:hover {
+	COLOR: #000
+}
+TABLE.leftColumnModuleHead TH {
+	PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; PADDING-TOP: 8px; TEXT-ALIGN: left
+}
+.subMenuLink {
+	PADDING-LEFT: 0px; CURSOR: pointer; BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+A.subMenuLink:hover {
+	BORDER-BOTTOM: 0px; TEXT-DECORATION: none
+}
+.moduleTitle {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px
+}
+.logo {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; VERTICAL-ALIGN: bottom; PADDING-TOP: 10px; HEIGHT: 60px
+}
+.welcome {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px; HEIGHT: 23px
+}
+.searchField {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 11px; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+.search {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#subtabs {
+	
+}
+UL.subTabs {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; MARGIN: 0px; FONT: 12px Arial, Verdana, Helvetica, sans-serif; BORDER-LEFT: medium none; PADDING-TOP: 4px; BORDER-BOTTOM: medium none
+}
+UL.subTabs LI {
+	DISPLAY: inline; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+.activeSubTab {
+	FONT-WEIGHT: bold
+}
+UL.subTabs LI A.activeSubTab:link {
+	FONT-WEIGHT: bold
+}
+UL.subTabs LI A.activeSubTab:visited {
+	FONT-WEIGHT: bold
+}
+UL.subTabs LI A.activeSubTab:hover {
+	FONT-WEIGHT: bold
+}
+UL.subTabs LI A {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.subTabs LI A:link {
+	TEXT-DECORATION: none
+}
+UL.subTabs LI A:visited {
+	TEXT-DECORATION: none
+}
+UL.subTabs LI A:hover {
+	
+}
+.subTabMore {
+	FONT-SIZE: 11px; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+.date {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BORDER-BOTTOM: 1px solid
+}
+.lastView {
+	BORDER-TOP: 2px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; PADDING-TOP: 5px; BORDER-BOTTOM: 2px solid
+}
+A.lastViewLink:link {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.lastViewLink:visited {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+.lastViewLink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.lastViewLink:hover {
+	TEXT-DECORATION: underline
+}
+.leftColumn {
+	BORDER-RIGHT: #dddddd 2px solid; PADDING-RIGHT: 8px
+}
+.leftColumnModuleName {
+	PADDING-LEFT: 3px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.leftColumnModuleS3 {
+	PADDING-RIGHT: 8px; BACKGROUND-POSITION: 50% bottom; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 8px; BORDER-BOTTOM: 1px solid; BACKGROUND-REPEAT: repeat-x
+}
+.leftColumnModuleS3 INPUT {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 4px
+}
+.leftColumnModuleS3 SELECT {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 4px
+}
+TD.leftColumnModuleS3 .button {
+	FONT-SIZE: 11px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px
+}
+TD.leftColumnModuleS3 .dataLabel {
+	PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: bottom; PADDING-TOP: 3px
+}
+TD.leftColumnModuleS3 .dataField {
+	PADDING-BOTTOM: 3px
+}
+.leftColumnModuleS3 #jscal_trigger {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 4px; VERTICAL-ALIGN: bottom
+}
+A.leftColumnModuleS3Link:link {
+	PADDING-LEFT: 0px; FONT-SIZE: 11px; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+A.leftColumnModuleS3Link:visited {
+	PADDING-LEFT: 0px; FONT-SIZE: 11px; BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+A.leftColumnModuleS3Link:hover {
+	BORDER-BOTTOM: 0px; TEXT-DECORATION: underline
+}
+.listView {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+TABLE.listView TH {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #ebebed; PADDING-BOTTOM: 4px; BORDER-LEFT: medium none; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: left
+}
+.listViewThS1 {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 5px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: #ebebed; PADDING-BOTTOM: 4px; BORDER-LEFT: medium none; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: left
+}
+.listViewSubHeadS1 {
+	
+}
+TABLE.listview TH A:link {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+TABLE.listview TH A:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.listViewThLinkS1:link {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.listViewThLinkS1:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+TABLE.listview TH A:hover {
+	TEXT-DECORATION: underline
+}
+A.listViewThLinkS1:hover {
+	TEXT-DECORATION: underline
+}
+A.listViewTdLinkS1:link {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.listViewTdLinkS1:visited {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A.listViewTdLinkS1:hover {
+	
+}
+A.listViewTdToolsS1:link {
+	
+}
+A.listViewTdToolsS1:visited {
+	
+}
+A.listViewTdToolsS1:hover {
+	
+}
+.evenListRowS1 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.oddListRowS1 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.listViewHRS1 {
+	
+}
+.pageNumbers {
+	
+}
+.listViewPaginationTdS1 {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 5px; BACKGROUND: #fafafa; PADDING-BOTTOM: 3px; COLOR: #666; PADDING-TOP: 3px
+}
+A.listViewPaginationLinkS1:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.listViewPaginationLinkS1:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.listViewPaginationLinkS1:hover {
+	TEXT-DECORATION: underline
+}
+.tabDetailView .listViewPaginationTdS1 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 8px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 2px solid
+}
+TABLE#tabFormPagination TD {
+	MARGIN-BOTTOM: 0px; BORDER-BOTTOM: medium none
+}
+#tabFormPagination {
+	MARGIN-BOTTOM: 0px; BORDER-BOTTOM: medium none
+}
+.tabDetailView A.listViewPaginationLinkS1:link {
+	TEXT-DECORATION: underline
+}
+.tabDetailView A.listViewPaginationLinkS1:visited {
+	TEXT-DECORATION: underline
+}
+A.listViewCheckLink:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.listViewCheckLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.listViewCheckLink:hover {
+	
+}
+A.utilsLink:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; TEXT-DECORATION: underline
+}
+A.utilsLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; TEXT-DECORATION: underline
+}
+A.utilsLink:hover {
+	
+}
+.listViewCalCurrentAppt {
+	BACKGROUND-COLOR: #75af4f
+}
+.listViewCalOtherAppt {
+	BACKGROUND-COLOR: #4d5eaa
+}
+.listViewCalConflictAppt {
+	BACKGROUND-COLOR: #aa4d4d
+}
+.listViewCalCurrentApptLgnd {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #75af4f
+}
+.listViewCalOtherApptLgnd {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #4d5eaa
+}
+.listViewCalConflictApptLgnd {
+	BORDER-RIGHT: #444444 1px solid; BORDER-TOP: #444444 1px solid; BORDER-LEFT: #444444 1px solid; BORDER-BOTTOM: #444444 1px solid; BACKGROUND-COLOR: #aa4d4d
+}
+.chartBox {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid
+}
+A.chartToolsLink:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.chartToolsLink:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.chartToolsLink:hover {
+	TEXT-DECORATION: none
+}
+TABLE.chartForm {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid
+}
+TABLE.chartForm TD {
+	
+}
+.tabForm {
+	PADDING-RIGHT: 6px; BORDER-TOP: 2px solid; PADDING-LEFT: 10px; FONT-SIZE: 12px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 12px; PADDING-TOP: 10px; BORDER-BOTTOM: 1px solid
+}
+.subpanelTabForm {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+TABLE.subpanelTabForm TD .listViewButtons {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #fff
+}
+.subpanelTabForm P {
+	MARGIN-BOTTOM: 0px
+}
+.subpanelTabForm H3 {
+	PADDING-LEFT: 3px
+}
+.subpanelTabForm .h3Row {
+	BORDER-TOP: #dddddd 1px solid; MARGIN-TOP: 0px; BACKGROUND-IMAGE: none; PADDING-BOTTOM: 4px; PADDING-TOP: 2px
+}
+.subpanelTabForm .listView {
+	MARGIN-BOTTOM: 10px
+}
+TABLE.tabForm TD {
+	
+}
+H5.dataLabel {
+	MARGIN-TOP: 1px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 15px; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+TD.dataLabel {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.dataLabel {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+.dataField {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px
+}
+.tabFormAddDel {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; VERTICAL-ALIGN: middle; TEXT-ALIGN: center
+}
+A.tabFormAdvLink:link {
+	FONT-SIZE: 11px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 2px; TEXT-DECORATION: none
+}
+A.tabFormAdvLink:visited {
+	FONT-SIZE: 11px; LINE-HEIGHT: 20px; MARGIN-RIGHT: 2px; TEXT-DECORATION: none
+}
+A.tabFormAdvLink:hover {
+	TEXT-DECORATION: none
+}
+.tabDetailView {
+	BORDER-TOP: 2px solid; MARGIN-TOP: 2px; MARGIN-BOTTOM: 10px; BORDER-BOTTOM: 2px solid
+}
+.tabDetailView .listViewPaginationTdS1 .tabDetailViewDL {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; BORDER-LEFT: medium none; PADDING-TOP: 5px; BORDER-BOTTOM: medium none
+}
+TABLE.monthHeader TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; BORDER-LEFT: medium none; PADDING-TOP: 5px; BORDER-BOTTOM: medium none
+}
+.tabDetailViewDL {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right
+}
+H4.tabDetailViewDL {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: medium none; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+TABLE.tabDetailView TH.tabDetailViewDL {
+	BACKGROUND: #fff; BORDER-BOTTOM: 2px solid
+}
+.tabDetailViewDF {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 8px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid
+}
+A.tabDetailViewDFLink:link {
+	TEXT-DECORATION: underline
+}
+A.tabDetailViewDFLink:visited {
+	TEXT-DECORATION: underline
+}
+A.tabDetailViewDFLink:hover {
+	
+}
+.tabDetailView2 {
+	BORDER-TOP: 1px solid; MARGIN-BOTTOM: 20px; BORDER-BOTTOM: 2px solid
+}
+.tabDetailViewDL2 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.tabDetailViewDF2 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px
+}
+A.tabDetailViewDL2Link:link {
+	FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+A.tabDetailViewDL2Link:visited {
+	FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+A.tabDetailViewDL2Link:hover {
+	
+}
+.monthBox {
+	FONT-SIZE: 12px
+}
+.monthFooterPrev {
+	PADDING-RIGHT: 7px; BORDER-TOP: 1px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; PADDING-TOP: 3px; BORDER-BOTTOM: 2px solid
+}
+.monthFooterNext {
+	PADDING-RIGHT: 7px; BORDER-TOP: 1px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; PADDING-TOP: 3px; BORDER-BOTTOM: 2px solid
+}
+.monthCalBody {
+	
+}
+.monthHeader {
+	
+}
+.monthHeaderPrevTd {
+	PADDING-LEFT: 5px
+}
+.monthHeaderNextTd {
+	PADDING-RIGHT: 5px
+}
+A.NextPrevLink:link {
+	TEXT-DECORATION: underline
+}
+A.NextPrevLink:visited {
+	TEXT-DECORATION: underline
+}
+.monthCalBodyTHWeek {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid
+}
+.monthCalBodyTHDay {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: 1px solid
+}
+.monthCalBodyWeek {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+A.monthCalBodyWeekLink:link {
+	FONT-SIZE: 11px
+}
+A.monthCalBodyWeekLink:visited {
+	FONT-SIZE: 11px
+}
+.monthCalBodyTodayWeekDay {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right
+}
+.monthCalBodyTodayWeekEnd {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: 1px solid; TEXT-ALIGN: right
+}
+.monthCalBodyTodayWeekDay A.monthCalBodyWeekDayDateLink:link {
+	FONT-WEIGHT: bold
+}
+.monthCalBodyTodayWeekDay A.monthCalBodyWeekDayDateLink:visited {
+	FONT-WEIGHT: bold
+}
+.monthCalBodyTodayWeekEnd A.monthCalBodyWeekDayDateLink:link {
+	FONT-WEIGHT: bold
+}
+.monthCalBodyTodayWeekEnd A.monthCalBodyWeekDayDateLink:visited {
+	FONT-WEIGHT: bold
+}
+.monthCalBodyWeekDay {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-ALIGN: right
+}
+.monthCalBodyWeekEnd {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-ALIGN: right
+}
+A.monthCalBodyWeekDayDateLink:link {
+	FONT-SIZE: 12px
+}
+A.monthCalBodyWeekDayDateLink:visited {
+	FONT-SIZE: 12px
+}
+A.monthCalBodyWeekDayDateLink:hover {
+	
+}
+A.monthCalBodyWeekEndDateLink:hover {
+	
+}
+A.monthCalBodyDayItemLink:link {
+	FONT-SIZE: 10px
+}
+A.monthCalBodyDayItemLink:visited {
+	FONT-SIZE: 10px
+}
+A.monthCalBodyDayItemLink:hover {
+	FONT-SIZE: 10px
+}
+.monthCalBodyDayItem {
+	PADDING-RIGHT: 0px; BORDER-TOP: 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; MARGIN: 7px 0px; PADDING-TOP: 5px
+}
+.monthCalBodyDayIconTd {
+	PADDING-RIGHT: 3px; VERTICAL-ALIGN: top
+}
+.monthCalBodyDayItemTd {
+	VERTICAL-ALIGN: top
+}
+.monthViewDayHeight {
+	HEIGHT: 100px
+}
+.yearViewDayHeight {
+	HEIGHT: 40px
+}
+.dailyCalBodyTime {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; VERTICAL-ALIGN: top; PADDING-TOP: 7px; HEIGHT: 20px
+}
+.dailyCalBodyItems {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+A.weekCalBodyDayLink:link {
+	
+}
+A.weekCalBodyDayLink:visited {
+	
+}
+A.weekCalBodyDayLink:hover {
+	
+}
+.yearCalBody {
+	
+}
+.yearCalBodyMonth {
+	PADDING-TOP: 5px
+}
+.yearCalBodyMonth TH {
+	
+}
+.yearCalBodyMonth #daily_cal_table {
+	BORDER-TOP: 1px solid; MARGIN-TOP: 5px
+}
+.yearCalBodyMonth #daily_cal_table .monthCalBodyTHDay {
+	BORDER-TOP: 1px solid
+}
+A.yearCalBodyMonthLink:link {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; WIDTH: 100%; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+A.yearCalBodyMonthLink:visited {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 5px; WIDTH: 100%; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+A.yearCalBodyMonthLink:hover {
+	TEXT-DECORATION: underline
+}
+.calSharedUser {
+	BORDER-TOP: 1px; MARGIN-TOP: 0px; PADDING-LEFT: 8px; FONT-SIZE: 11px; MARGIN-BOTTOM: 0px; PADDING-TOP: 5px; HEIGHT: 20px
+}
+.todaysTask {
+	COLOR: #ff7800
+}
+.overdueTask {
+	COLOR: #ff0000
+}
+.required {
+	COLOR: #ff0000
+}
+.error {
+	COLOR: #ff0000
+}
+.success {
+	COLOR: #00ee00
+}
+.rssItemDate {
+	FONT-SIZE: 11px; COLOR: #666666
+}
+.dateFormat {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-STYLE: italic
+}
+.chartFootnote {
+	FONT-SIZE: 11px
+}
+.copyRight {
+	
+}
+A.copyRightLink:link {
+	
+}
+A.copyRightLink:visited {
+	
+}
+A.copyRightLink:hover {
+	
+}
+.tm {
+	FONT-SIZE: 8px; FONT-FAMILY: Verdana
+}
+.footer {
+	PADDING-TOP: 10px
+}
+A.footerLink:link {
+	TEXT-DECORATION: none
+}
+A.footerLink:visited {
+	TEXT-DECORATION: none
+}
+A.footerLink:hover {
+	TEXT-DECORATION: underline
+}
+.footerHR {
+	
+}
+.aboveFooter {
+	
+}
+.underFooter {
+	PADDING-BOTTOM: 5px
+}
+.schedulerDiv {
+	MARGIN-TOP: 0px; FONT-SIZE: 12px; WIDTH: 100%; COLOR: #000000; BORDER-BOTTOM: #999 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #fafafa; TEXT-ALIGN: left
+}
+.schedulerTable {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+TABLE.schedulerTable TD {
+	HEIGHT: 18px
+}
+.schedulerTopRow {
+	BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 22px
+}
+.schedulerTopDeleteHeaderCell {
+	BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 22px
+}
+.schedulerDeleteHeaderCell {
+	BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 22px
+}
+.schedulerTopHeaderCell {
+	BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 22px
+}
+.schedulerAttendeeHeaderCell {
+	BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 22px
+}
+.schedulerAttendeeHeaderCell {
+	BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 22px
+}
+.schedulerTimeRow {
+	BORDER-TOP: #999 1px solid; BORDER-COLLAPSE: collapse
+}
+.schedulerTimeCell {
+	PADDING-LEFT: 4px; BORDER-LEFT: #dddddd 1px solid
+}
+.schedulerAttendeeDeleteCell {
+	PADDING-LEFT: 4px; BORDER-LEFT: #dddddd 1px solid
+}
+.schedulerAttendeeCell {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-LEFT: 4px; OVERFLOW: hidden; WIDTH: 125px; BORDER-BOTTOM: #ddd 1px solid
+}
+.schedulerAttendeeIconCell {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #dddddd 1px solid; WIDTH: 16px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid
+}
+.schedulerSlotEmptyDiv {
+	BORDER-RIGHT: transparent 0px solid; BORDER-TOP: transparent 0px solid; BORDER-LEFT: transparent 0px solid; WIDTH: 100%; BORDER-BOTTOM: transparent 0px solid; HEIGHT: 100%
+}
+.schedulerSlotCellStartTime {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #75af4f 4px solid; WIDTH: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.schedulerSlotCellEndTime {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ff0000 4px solid; WIDTH: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.schedulerSlotCellHour {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #dddddd 1px solid; WIDTH: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+.schedulerAttendeeRow {
+	
+}
+.schedulerEvenListRow {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.schedulerOddListRow {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.myArea {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 4px; FONT: 12px Arial, Verdana, Helvetica, sans-serif; COLOR: #ccc; WHITE-SPACE: nowrap
+}
+.myAreaLink {
+	MARGIN-LEFT: 4px; COLOR: #444444; MARGIN-RIGHT: 4px
+}
+#colorpicker {
+	VERTICAL-ALIGN: middle
+}
+UL.colorpicker {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; BORDER-LEFT: medium none; PADDING-TOP: 3px; BORDER-BOTTOM: medium none
+}
+UL.colorpicker LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: pointer; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.tablist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; FONT: 12px Arial, Verdana, Helvetica, sans-serif; PADDING-TOP: 3px; BORDER-BOTTOM: 2px solid
+}
+UL.subpanelTablist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; FONT: 12px Arial, Verdana, Helvetica, sans-serif; PADDING-TOP: 3px; BORDER-BOTTOM: 2px solid
+}
+UL.tablist LI {
+	DISPLAY: inline; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+UL.subpanelTablist LI {
+	DISPLAY: inline; MARGIN: 0px; LIST-STYLE-TYPE: none
+}
+UL.tablist LI A {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: 2px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.subpanelTablist LI A {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: 2px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.subpanelTablist #addPageItem A {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.subpanelTablist #addPageItem A:hover {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; TEXT-DECORATION: none
+}
+UL.tablist LI A:link {
+	TEXT-DECORATION: none
+}
+UL.tablist LI A:visited {
+	TEXT-DECORATION: none
+}
+UL.subpanelTablist LI A:link {
+	TEXT-DECORATION: none
+}
+UL.subpanelTablist LI A:visited {
+	TEXT-DECORATION: none
+}
+UL.tablist LI A:hover {
+	BORDER-TOP: 2px solid
+}
+UL.subpanelTablist LI A:hover {
+	BORDER-TOP: 2px solid
+}
+UL.tablist LI A.current {
+	BORDER-TOP: 2px solid; FONT-WEIGHT: bold; BACKGROUND-IMAGE: none; BORDER-BOTTOM: 2px solid
+}
+UL.tablist LI A.current:hover {
+	BORDER-TOP: 2px solid; FONT-WEIGHT: bold; BACKGROUND-IMAGE: none; BORDER-BOTTOM: 2px solid
+}
+UL.subpanelTablist LI A.current {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: 2px solid; FONT-WEIGHT: bold; BORDER-BOTTOM: 2px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #fff
+}
+UL.subpanelTablist LI A.current:hover {
+	BACKGROUND-POSITION: 50% top; BORDER-TOP: 2px solid; FONT-WEIGHT: bold; BORDER-BOTTOM: 2px solid; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #fff
+}
+.sqsFloater {
+	PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 2; RIGHT: 0px; PADDING-BOTTOM: 0px; BOTTOM: 0px; PADDING-TOP: 0px; POSITION: absolute
+}
+.sqsFloater TD {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; BORDER-LEFT: 1px inset; COLOR: black; BORDER-BOTTOM: 1px inset
+}
+.sqsMatchedSmartInputItem {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px; CURSOR: hand; PADDING-TOP: 2px
+}
+.sqsSelectedSmartInputItem {
+	BACKGROUND-COLOR: #deefff
+}
+#sqsSmartInputResults {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.sqsNoMatch {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #980000; PADDING-TOP: 2px; BACKGROUND-COLOR: #eeeeee
+}
+.olFontClass {
+	
+}
+.olFontClass A {
+	
+}
+.olCapFontClass {
+	FONT-WEIGHT: bold; COLOR: #444; BACKGROUND-COLOR: #dfdfdf
+}
+.olCapFontClass A {
+	FONT-SIZE: 9px; COLOR: #dfdfdf
+}
+.olFgClass TD {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; LINE-HEIGHT: 18px; PADDING-TOP: 5px; BACKGROUND-COLOR: #fff
+}
+.olCgClass TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; PADDING-TOP: 5px; BORDER-BOTTOM: #ddd 2px solid; BACKGROUND-COLOR: #f6f6f6
+}
+.olCgClass {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+.olBgClass {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BACKGROUND-COLOR: #ddd
+}
+.olCloseFontClass {
+	PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #dfdfdf; TEXT-ALIGN: right
+}
+.aclAll {
+	FONT-WEIGHT: bold; COLOR: #008000
+}
+.aclOwner {
+	FONT-WEIGHT: bold; COLOR: #000000
+}
+.aclNone {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.aclEnabled {
+	FONT-WEIGHT: bold; COLOR: #008000
+}
+.aclDisabled {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.aclAdmin {
+	FONT-WEIGHT: bold; COLOR: #0000ff
+}
+.aclNormal {
+	FONT-WEIGHT: bold; COLOR: #008000
+}
+UL.noBullet {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; LIST-STYLE-TYPE: none
+}
+LI.noBullet {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+TABLE.tabForm TD UL LI {
+	MARGIN-BOTTOM: 10px; LIST-STYLE-TYPE: none
+}
+.helpButton {
+	FONT-WEIGHT: bold
+}
+.helpShortcut {
+	FONT-WEIGHT: bold
+}
+#sitemap .tabForm {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#sitemap A:link {
+	FONT-SIZE: 11px; COLOR: #444; TEXT-DECORATION: none
+}
+#sitemap A:visited {
+	FONT-SIZE: 11px; COLOR: #444; TEXT-DECORATION: none
+}
+#sitemap H4 A:link {
+	FONT-SIZE: 13px
+}
+#sitemap H4 A:visited {
+	FONT-SIZE: 13px
+}
+#sitemap UL.nobullet {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 5px
+}
+#sitemap .tabForm {
+	BORDER-RIGHT: 2px solid; BORDER-TOP: 2px solid; BORDER-LEFT: 2px solid; BORDER-BOTTOM: 2px solid
+}
+#sitemap A:hover {
+	TEXT-DECORATION: underline
+}
+#sitemap H4 A:hover {
+	TEXT-DECORATION: underline
+}
+#sitemap UL.nobullet LI {
+	MARGIN-BOTTOM: 5px
+}
+TABLE.days {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Arial, Verdana, Helvetica, sans-serif
+}
+TD.days {
+	BORDER-RIGHT: 0px; BORDER-TOP: #dfdfdf 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: #dfdfdf 1px solid
+}
+TD.sunday {
+	BORDER-RIGHT: 0px; BORDER-TOP: #dfdfdf 1px solid; BORDER-LEFT: #dfdfdf 1px solid; BORDER-BOTTOM: #dfdfdf 1px solid
+}
+TD.saturday {
+	BORDER-RIGHT: #dfdfdf 1px solid; BORDER-TOP: #dfdfdf 1px solid; BORDER-LEFT: 0px; BORDER-BOTTOM: #dfdfdf 1px solid
+}
+TD.date {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+TR.empty {
+	HEIGHT: 2px
+}
+DIV.completed {
+	MARGIN-TOP: 4px; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 10px; BACKGROUND-COLOR: #777777
+}
+DIV.inprogress {
+	MARGIN-TOP: 4px; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 10px; BACKGROUND-COLOR: #002e4d
+}
+DIV.inprogress_bar {
+	MARGIN-TOP: 4px; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 10px; BACKGROUND-COLOR: #ff0000
+}
+DIV.notstarted {
+	MARGIN-TOP: 4px; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 10px; BACKGROUND-COLOR: #cccccc
+}
+DIV.indent_left {
+	MARGIN-TOP: 4px; FLOAT: left; LINE-HEIGHT: 10px; BACKGROUND-COLOR: #000000
+}
+DIV.indent_bar {
+	MARGIN-TOP: 4px; FLOAT: left; BACKGROUND-COLOR: #000000
+}
+DIV.indent_right {
+	MARGIN-TOP: 4px; FLOAT: right; LINE-HEIGHT: 10px; BACKGROUND-COLOR: #000000
+}
+#horizWrapper {
+	FLOAT: left; MARGIN-LEFT: 60px; WIDTH: 218px; POSITION: relative
+}
+#horizBGDiv {
+	BACKGROUND: url(../../../127_0_0_1_files/horizBg.png) no-repeat; WIDTH: 218px; POSITION: relative; TOP: 60px; HEIGHT: 26px; zindex: 5
+}
+#horizHandleDiv {
+	LEFT: 100px; WIDTH: 18px; CURSOR: default; POSITION: absolute; TOP: 8px; HEIGHT: 18px
+}

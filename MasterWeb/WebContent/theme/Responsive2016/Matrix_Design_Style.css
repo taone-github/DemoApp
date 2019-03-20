@@ -1,0 +1,148 @@
+
+.ui-matrix-one-detail{
+	padding : 3px!important;
+	background-color: #f5dbcc;
+	min-width: 200px;
+    text-overflow: initial;
+    word-wrap: break-word;
+    
+}
+.ui-matrix-one-button{
+	padding : 3px!important;
+	background-color: #f5dbcc;
+	min-width: 200px;
+    text-overflow: initial;
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+.ui-matrix-one-header{
+	background-color: #337ab7;
+	color: white;
+}
+
+.ui-matrix-col-key-detail{
+	background-color: #ffb366;
+}
+
+.ui-matrix-col-header-detail{
+	background-color: #ffd9b3;
+	min-width: 75px;
+	white-space: pre;
+}
+
+.ui-martix-main-group{
+	background-color: #3C7CFC;
+	color: white;
+}
+
+.ui-martix-sub-group{
+	background-color: #6699ff;
+	color: white;
+	cursor: pointer;
+}
+
+.ui-martix-row-header{
+	background-color: #e6e6e6;
+	min-width: 75px;
+	white-space: pre;
+}
+
+.textinbox-boxbold-matrix{
+	height:25px;
+	padding:5px 10px;
+	font-size:12px;
+	line-height:1.5;
+	border-radius:3px;
+	color:#555555;
+	box-shadow:none;
+	border-color:#d2d6de;
+	display:block;
+	width:100%;
+	background-color:#f6f8fb;
+	background-image:none;
+	border:1px solid #ccc;
+}
+
+.textinbox-boxbold4-matrix {
+	float: left;
+	width: 20%; /*  !important; */
+	height:25px;
+	padding:5px 10px;
+	font-size:12px;
+	line-height:1.5;
+	border-radius:3px;
+	box-shadow:none;
+	border-color:#d2d6de;
+	display:block;
+	background-color:#f6f8fb;
+	background-image:none;
+	border:1px solid #ccc;
+}
+.textinbox-boxbold5-matrix {
+	height:25px;
+	padding:5px 10px;
+	font-size:12px;
+	line-height:1.5;
+	border-radius:3px;
+	box-shadow:none;
+	border-color:#d2d6de;
+	display:block;
+	background-color:#f6f8fb;
+	background-image:none;
+	border:1px solid #ccc;
+}
+.input-group-addon-matrix {
+    padding: 4px 9px;
+    color: #555;
+    line-height: 2;
+    cursor: pointer;
+    text-align: center;
+    border-radius:0;
+    border-color:#d2d6de;
+    border: 1px solid #ccc;
+    background-color:#f6f7f9;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    border-left: 0;
+}
+
+.form-control-matrix {
+    display: block;
+    height: 25px;
+    padding: 4px 9px;
+    font-size: 12px;
+    line-height: 1;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.matrix-many-button{
+	
+	text-align:right;
+	margin-right:10px;
+	overflow : hidden;
+}
+
+.ui-martix-button{
+	background-color:#C0D7EF;
+}
+
+.btn-matrix{
+	line-height:1;
+	padding:4px 8px;
+}
+
+.radioGroupTD {
+	display: block; 
+	position: relative;
+}
