@@ -6,6 +6,7 @@
 <jsp:include flush="true"
 	page="../../entity/Responsive2016/oneRelation.jsp" />
 
+<span style="color:green">* Leave Type Annual Vacation & Replacement Day cannot use in the past.</span>
 <script>
 	$('.subheading').hide();  // remove old heading
 </script>
