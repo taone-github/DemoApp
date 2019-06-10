@@ -17,9 +17,9 @@
 		<event name="CmiInventoryEvent" type="com.ibs.control.action.CmiInventoryAction"/>		
 	</event-mappings>
 	<screen-definitions>
-	  <screen zname="INDEX_SCREEN" htmlTitle="ONEWEB 4.0.0.18-1903051445" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/logon.jsp" BottomNav="/blank.jsp"> </screen>
-	  <screen zname="NEXT_SCREEN" htmlTitle="ONEWEB 4.0.0.18-1903051445" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/blank.jsp" BottomNav="/blank.jsp"> </screen>
-	  <screen zname="SEARCH_ACCESS_LOG_SCREEN" htmlTitle="ONEWEB 4.0.0.18-1903051445" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/log/accessLog.jsp" BottomNav="/blank.jsp"> </screen>
+	  <screen zname="INDEX_SCREEN" htmlTitle="ONEWEB 4.0.0.19-RC-1905271238" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/logon.jsp" BottomNav="/blank.jsp"> </screen>
+	  <screen zname="NEXT_SCREEN" htmlTitle="ONEWEB 4.0.0.19-RC-1905271238" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/blank.jsp" BottomNav="/blank.jsp"> </screen>
+	  <screen zname="SEARCH_ACCESS_LOG_SCREEN" htmlTitle="ONEWEB 4.0.0.19-RC-1905271238" topNav="/blank.jsp" subHeader="/blank.jsp"  topMenu="/blank.jsp"   htmlBody="/log/accessLog.jsp" BottomNav="/blank.jsp"> </screen>
 	</screen-definitions>
 	<initial-aval>
 		<init-jsp id="1" itemPerPage="10" />
