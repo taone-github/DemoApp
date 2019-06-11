@@ -31,7 +31,7 @@ public class LeaveDetailManual extends ProcessHelper implements ProcessAction{
 			
 			if("VAC".equals(type) || "REPLACE".equals(type)){
 				if(startDate.compareTo(today) < 0){
-					EAFManualUtil.addErrorMsg(entityForm.getMainModuleID(), "This leave type can't use in the past.", getRequest());
+					EAFManualUtil.addErrorMsg(entityForm.getMainModuleID(), "This leave type cannot use in the past.", getRequest());
 					vError.add("ERROR");
 				}
 			}
