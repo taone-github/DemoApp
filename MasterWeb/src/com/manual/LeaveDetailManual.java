@@ -29,9 +29,9 @@ public class LeaveDetailManual extends ProcessHelper implements ProcessAction{
 			logger.debug("[LeaveDetailManual] : type="+type);
 			logger.debug("[LeaveDetailManual] : startDate="+startDate);
 			
-			if("VAC".equals(type) || "REPLACE".equals(type)){
+			if("VAC".equals(type)){
 				if(startDate.compareTo(today) < 0){
-					EAFManualUtil.addErrorMsg(entityForm.getMainModuleID(), "This leave type cannot use in the past.", getRequest());
+					EAFManualUtil.addErrorMsg(entityForm.getMainModuleID(), "Annual Leave can use in the future only.", getRequest());
 					vError.add("ERROR");
 				}
 			}
