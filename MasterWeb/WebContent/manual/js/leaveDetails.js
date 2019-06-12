@@ -19,3 +19,12 @@ function checkdateFromTo(fromFieldName, toFieldName) {
 	}
 	return true;
 }
+$(document).ready( function() {
+	$('[name=REASON]').blur(function() { 
+			if($(this).val()==''){
+				return;
+			}else if($(this).val().length < 5){
+				alert('Please specify more reason.');
+			}
+	});
+});
