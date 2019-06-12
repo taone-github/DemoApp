@@ -29,7 +29,7 @@
 		</copy>
 		<copy includeemptydirs="false" todir="${temp.workspace.dir}/MasterWeb/src">
 			<fileset dir="${master.dir}/src">
-				<include name="**/AuthenObject.java" />
+				<include name="**/**.java" />
 				<include name="**/en_US/properties/**" />
 				<include name="**/th_TH/properties/**" />
 			</fileset>
