@@ -3,7 +3,7 @@
 
 	<import file="build-common.xml" />
 	
-	<target name="all" depends="init,build-front,build-master,build-ear" />
+	<target name="all" depends="init,build-front,build-master,build-master-jar,build-ear" />
 	
 	<echo message="Start building..." />
 	<echo message="workspace.dir...${workspace.dir}" />
@@ -26,6 +26,11 @@
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<target name="build-master">
 		<ant antfile="build-master.xml" dir="." />
+	</target>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build-master-jar">
+		<ant antfile="build-master-jar.xml" dir="." />
 	</target>
 	
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
