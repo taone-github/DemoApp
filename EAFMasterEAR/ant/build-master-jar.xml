@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build-core" default="all" basedir=".">
+	
+	<import file="build-common.xml"/>
+	
+	<target name="all" depends="build" />
+	
+	<echo message="Start build-master-jar version ${build.date}..." />
+	
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<target name="build">
+		<javac debug="true" destdir="${temp.build.dir}/MasterWeb" fork="yes" executable="${path.execute.dir}" compiler="${vesion.compiler}" optimize="on">
+			<src path="${temp.build.dir}/MasterWeb"/>
+			<classpath refid="classpath" />
+		</javac>
+		
+		<jar destfile="${ear.dir}/EarContent/lib/MasterWeb-${build.date}.jar">    
+			<fileset dir="${temp.build.dir}/MasterWeb" includes="**/*.class" />
+			<fileset dir="${temp.build.dir}/MasterWeb" includes="**/*.properties" />
+		</jar>
+	</target>
+	
+</project>
