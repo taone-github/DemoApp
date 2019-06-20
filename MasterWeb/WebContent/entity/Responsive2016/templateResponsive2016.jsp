@@ -54,6 +54,7 @@
 	<input type = "hidden" name="newVersionData" value="">
 	<input type = "hidden" name="conditionValue" value="">
 	<input type = "hidden" name="mfID" value="">
+	<input type = "hidden" name="commitFlag" value="">
 	<% 
 	
 	%>
