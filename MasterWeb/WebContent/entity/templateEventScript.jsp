@@ -361,6 +361,31 @@ var DEFAULT_ALERT_BOX_WIDTH = '600px';
 		document.masterForm.goEntityField.value = '';
 		ajax("<%=request.getContextPath()%>/SwitchCurrentFormServlet?entitySession=<%=entitySession%>",<%=entityID%>SaveForm); 			
 	}
+	
+	function saveEntityCommit(skipValidate) {
+		if(!skipValidate) {
+			if(!ajaxValidateProcess()) {
+				return;
+			}
+		}
+		
+		saveModuleMatrix();
+
+		$('select[id$="_R"] option').attr('selected', 'true'); //Auto select value in multi select box.
+		blockScreen();
+		
+		/*
+		* 19-02-2015
+		* CPB : Defect: ST000000000888
+		*/
+		$(".many-module-hidden-field").attr("disabled", true);
+		
+		document.masterForm.goEntity.value ='';
+		document.masterForm.goEntityKey.value = '';
+		document.masterForm.goEntityField.value = '';
+		document.masterForm.commitFlag.value = 'Y';
+		ajax("<%=request.getContextPath()%>/SwitchCurrentFormServlet?entitySession=<%=entitySession%>",<%=entityID%>SaveForm); 			
+	}
 
 	function saveEntityUnblockScreen() {
 		if(!ajaxValidateProcess()) return;
@@ -1380,26 +1405,47 @@ $.fn.maxlength = function() {};
 	
 	function updateMatrixJSON(moduleID,jsonData){		
 		//	console.log('pass jsonData data ' + jsonData);	
-			$.ajax({
-				dataType: 'html',          
-		        contentType: 'application/json',
-		        mimeType: 'application/json',
-				url: $.MasterWeb.contextPath + "/web/"+moduleID+"/updatematrixsession",
-				type: 'POST',
-				data: jsonData,  
-				async : false,
-				success: function(data){
-				    try{
-				    	refreshMatrixModule(moduleID);
-				    	}catch(e){}		
-				    try{
-				    	closePopupJson(moduleID);
-					   }catch(e){}	
-				   },
-				error: fnError
-			});
+		$.ajax({
+			dataType: 'html',          
+	        contentType: 'application/json',
+	        mimeType: 'application/json',
+			url: $.MasterWeb.contextPath + "/web/"+moduleID+"/updatematrixsession",
+			type: 'POST',
+			data: jsonData,  
+			async : false,
+			success: function(data){
+			    try{
+			    	refreshMatrixModule(moduleID);
+			    	}catch(e){}		
+			    try{
+			    	closePopupJson(moduleID);
+				   }catch(e){}	
+			   },
+			error: fnError
+		});
 
+	}
+	
+	function refreshPaintOneAjax(moduleID){		
+		var tabID = document.masterForm.currentTab.value;
+		var uri = "<%=hostPrefix%><%=request.getContextPath()%>/entity/<%=template%>/oneRelation.jsp?requestModule="+moduleID;
+		var dataString = "CURRENT_TAB=" + tabID;
+		var divIDToPaint = moduleID+"MG";
+		if("" != divIDToPaint){
+			jQuery.ajax({
+			   type: "POST",
+			   url: uri,
+			   data: dataString,
+			   success: function(data){
+			    try{
+					jQuery("#" + divIDToPaint).hide();
+					jQuery("#" + divIDToPaint).html(data);
+					jQuery("#" + divIDToPaint).fadeIn("fast");		
+					}catch(e){}													
+			   }
+			});
 		}
+	}
 	
 
 </script>
