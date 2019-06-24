@@ -19,12 +19,16 @@ function checkdateFromTo(fromFieldName, toFieldName) {
 	}
 	return true;
 }
+function hideSubmit(){
+	var decision = $('[name=DECISION]').val();
+	if(decision!=null &&decision=='Rejected'){
+		$('#119173047').hide();
+	}else{
+		$('#1191725480').hide();	
+	}
+	
+}
+
 $(document).ready( function() {
-	$('[name=REASON]').blur(function() { 
-			if($(this).val()==''){
-				return;
-			}else if($(this).val().length < 5){
-				alert('Please specify more reason.');
-			}
-	});
+	hideSubmit();
 });
