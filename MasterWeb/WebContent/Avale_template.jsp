@@ -28,7 +28,9 @@ request.setAttribute("_now", MasterCacheUtil.time);
 request.setAttribute("_googleMap", googleMap);
 %>
 
-<script>var CONTEXTPATH="${pageContext.request.contextPath}"</script>
+<script>var CONTEXTPATH="${pageContext.request.contextPath}";
+		var FRONTCONTEXT="/FrontWeb";
+</script>
 
 <jsp:include page="massage/constant-javascript.jsp" flush="true" />
 <jsp:include page="message/constant-master.jsp" flush="true" />
@@ -309,7 +311,7 @@ try {
 	});
 	
 	function checkSession() {
-		var uri = "/FrontWeb/CallSessionServlet";					 
+		var uri = FRONTCONTEXT+"/CallSessionServlet";						 
 		dataString ="";
 		jQuery.ajax({
 		   type: "POST",
