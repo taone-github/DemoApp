@@ -109,7 +109,7 @@ function logOut(noConfirm){
 
 		jQuery.ajax({
 			type : "POST",
-			url : "/MasterWeb/CloseApplicationServlet?closeApp=true",
+			url : MASTERWEB_CTX+"/CloseApplicationServlet?closeApp=true",
 			data : {},
 			async : false,
 			success : function(data) {
