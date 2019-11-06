@@ -2,7 +2,7 @@
  * FIX : 201707161311 : session timeout 
  */
 
-var logoutHref = "../FrontWeb/logout.jsp";
+var logoutHref = ".."+FRONTCONTEXT+"/logout.jsp";
 var $growlUI;
 
 function timeoutPopup() {
