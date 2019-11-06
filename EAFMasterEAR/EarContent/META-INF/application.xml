@@ -4,13 +4,13 @@
   <module>
     <web>
       <web-uri>FrontWeb.war</web-uri>
-      <context-root>FrontWeb2</context-root>
+      <context-root>FrontWeb</context-root>
     </web>
   </module>
   <module>
     <web>
       <web-uri>MasterWeb.war</web-uri>
-      <context-root>MasterWeb2</context-root>
+      <context-root>MasterWeb</context-root>
     </web>
   </module>
   <library-directory>lib</library-directory>
