@@ -64,7 +64,7 @@
 			        async: false
 			    });
 			    jQuery.ajax({
-			        url: '/MasterWeb/CloseApplicationServlet?closeApp=true',
+			         url: MASTERWEB_CTX+'/CloseApplicationServlet?closeApp=true',
 			        async: false
 			    });
 			};    
@@ -95,7 +95,7 @@ function open1() {
 		var dataString = "locale="+val;
 		$.ajax({
 		   type: "POST",
-		   url: "<%=hostPrefix%>/MasterWeb/ManualServlet?className=com.avalant.feature.SwitchLanguage",
+		   url: "<%=hostPrefix%>"+MASTERWEB_CTX+"/ManualServlet?className=com.avalant.feature.SwitchLanguage",
 		   data: dataString,
 		   async:   false,
 		   success: function(data){
