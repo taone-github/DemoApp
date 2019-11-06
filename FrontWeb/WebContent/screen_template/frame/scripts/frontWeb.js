@@ -7,6 +7,7 @@ if (typeof jQuery === "undefined") {
 }
 
 MASTERWEB_CONTEXTES = ['/MasterWeb'];
+MASTERWEB_CTX = '/MasterWeb';
 
 //customizing AdminLTE
 if($.AdminLTE) {
